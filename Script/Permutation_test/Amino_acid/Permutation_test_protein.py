@@ -3,7 +3,7 @@
 """
 Created on Tue Nov 24 23:14:46 2020
 
-@author: apple
+@author: Chong Li
 """
 import random
 import collections
