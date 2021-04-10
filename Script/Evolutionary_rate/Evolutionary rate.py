@@ -5,7 +5,7 @@ Created on Mon Dec 28 21:17:34 2020
 
 @author: Chong Li
 """
-with open("BALF_H1.csv", "r") as SNP_H1_nucleotide:
+with open("H1N1_SNV.csv", "r") as SNP_H1_nucleotide:
      VarFreq_H1=[]
      Annotate_H1=[]
      Protein_H1=[]
@@ -191,7 +191,7 @@ for i in range(0,len(H1_Protein),1):
 out_file_1.close()        
         
 # Same script applied on BALF H3 data.        
-with open("BALF_H3.csv", "r") as SNP_H3_nucleotide:
+with open("H3N2_SNV.csv", "r") as SNP_H3_nucleotide:
      VarFreq_H3=[]
      Annotate_H3=[]
      Protein_H3=[]
