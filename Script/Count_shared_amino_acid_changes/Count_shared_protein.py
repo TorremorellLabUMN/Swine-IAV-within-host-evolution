@@ -8,7 +8,7 @@ Created on Wed Nov 25 20:35:03 2020
 import collections
 from collections import Counter
 
-with open("BALF_H1_protein.csv", "r") as BALF_H1_protein:
+with open("H1N1_SNV.csv", "r") as BALF_H1_protein:
      
      Annotate_H1_protein=[]
      Mutation_H1_protein=[]
@@ -18,10 +18,10 @@ with open("BALF_H1_protein.csv", "r") as BALF_H1_protein:
      for line_H1 in BALF_H1_protein:
          line_H1=line_H1.strip()
          BALF_H1_protein=line_H1.split(sep=',')
-         Annotate_H1_protein.append(BALF_H1_protein[22])
-         Mutation_H1_protein.append(BALF_H1_protein[23])
+         Annotate_H1_protein.append(BALF_H1_protein[23])
+         Mutation_H1_protein.append(BALF_H1_protein[24])
          Treatment_H1_protein.append(BALF_H1_protein[20])
-         Protein_H1_protein.append(BALF_H1_protein[24])
+         Protein_H1_protein.append(BALF_H1_protein[22])
 Total_H1={"PB2":[], "PB1":[], "PB1-F2":[], "PA":[], "PA-X":[], "HA":[], "NP":[], "NA":[], "M1":[], "M2":[], "NS1":[], "NS2":[]}     
 LAIV_NONE_H1={"PB2":[], "PB1":[], "PB1-F2":[], "PA":[], "PA-X":[], "HA":[], "NP":[], "NA":[], "M1":[], "M2":[], "NS1":[], "NS2":[]}
 Prime_boost_H1={"PB2":[], "PB1":[], "PB1-F2":[], "PA":[], "PA-X":[], "HA":[], "NP":[], "NA":[], "M1":[], "M2":[], "NS1":[], "NS2":[]}
@@ -31,15 +31,11 @@ for index_H1, words_H1 in enumerate (Treatment_H1_protein):
     for segment in LAIV_NONE_H1.keys():   
         if Protein_H1_protein[int(index_H1)] == segment and Annotate_H1_protein[int(index_H1)] != "Synonymous":
            Total_H1[segment].append(Mutation_H1_protein[int(index_H1)][1:-1]) 
-           if words_H1 == "LAIV/NONE":
+           if words_H1 == "SINGLE LAIV":
               LAIV_NONE_H1[segment].append(Mutation_H1_protein[int(index_H1)][1:-1])
-           if words_H1 == "COM/COM":
+           if words_H1 == "PRIME BOOST":
               Prime_boost_H1[segment].append(Mutation_H1_protein[int(index_H1)][1:-1])
-           if words_H1 == "AUT/AUT":
-              Prime_boost_H1[segment].append(Mutation_H1_protein[int(index_H1)][1:-1])
-           if words_H1 == "LAIV/COM":
-              Prime_boost_H1[segment].append(Mutation_H1_protein[int(index_H1)][1:-1])
-           if words_H1 == "NO VAC/CHA":
+           if words_H1 == "NO VAC":
               NO_VAC_H1[segment].append(Mutation_H1_protein[int(index_H1)][1:-1])
 
 for gene in Total_H1:
@@ -55,7 +51,7 @@ for gene in NO_VAC_H1:
     print(gene+":"+str(Counter(NO_VAC_H1[gene])))
 #Results: 5 actual shared mutations in NO_VAC pigs.    
  
-with open("BALF_H3_protein.csv", "r") as BALF_H3_protein:
+with open("H3N2_SNV.csv", "r") as BALF_H3_protein:
      
      Annotate_H3_protein=[]
      Mutation_H3_protein=[]
@@ -65,10 +61,10 @@ with open("BALF_H3_protein.csv", "r") as BALF_H3_protein:
      for line_H3 in BALF_H3_protein:
          line_H3=line_H3.strip()
          BALF_H3_protein=line_H3.split(sep=',')
-         Annotate_H3_protein.append(BALF_H3_protein[22])
-         Mutation_H3_protein.append(BALF_H3_protein[23])
+         Annotate_H3_protein.append(BALF_H3_protein[23])
+         Mutation_H3_protein.append(BALF_H3_protein[24])
          Treatment_H3_protein.append(BALF_H3_protein[20])
-         Protein_H3_protein.append(BALF_H3_protein[24])
+         Protein_H3_protein.append(BALF_H3_protein[22])
      
 Total_H3={"PB2":[], "PB1":[], "PB1-F2":[], "PA":[], "PA-X":[], "HA":[], "NP":[], "NA":[], "M1":[], "M2":[], "NS1":[], "NS2":[]} 
 LAIV_NONE_H3={"PB2":[], "PB1":[], "PB1-F2":[], "PA":[], "PA-X":[], "HA":[], "NP":[], "NA":[], "M1":[], "M2":[], "NS1":[], "NS2":[]}
@@ -79,17 +75,11 @@ for index_H3, words_H3 in enumerate (Treatment_H3_protein):
     for segment in LAIV_NONE_H3.keys():
         if Protein_H3_protein[int(index_H3)] == segment and Annotate_H3_protein[int(index_H3)] != "Synonymous":
            Total_H3[segment].append(Mutation_H3_protein[int(index_H3)][1:-1])
-           if words_H3 == "LAIV/NONE":
+           if words_H3 == "SINGLE LAIV":
               LAIV_NONE_H3[segment].append(Mutation_H3_protein[int(index_H3)][1:-1])
-           if words_H3 == "COM/COM":
-              Prime_boost_H3[segment].append(Mutation_H3_protein[int(index_H3)][1:-1])
-           if words_H3 == "AUT/AUT":
-              Prime_boost_H3[segment].append(Mutation_H3_protein[int(index_H3)][1:-1])
-           if words_H3 == "LAIV/COM":
-              Prime_boost_H3[segment].append(Mutation_H3_protein[int(index_H3)][1:-1])
-           if words_H3 == "NO VAC/CHA":
+           if words_H3 == "NO VAC":
               NO_VAC_H3[segment].append(Mutation_H3_protein[int(index_H3)][1:-1])
-           if words_H3 == "COM/AUT":
+           if words_H3 == "PRIME BOOST":
               Prime_boost_H3[segment].append(Mutation_H3_protein[int(index_H3)][1:-1])
 
 for gene in Total_H3:
