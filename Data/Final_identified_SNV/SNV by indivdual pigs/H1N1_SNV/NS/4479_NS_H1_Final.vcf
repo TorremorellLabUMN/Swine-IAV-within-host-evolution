@@ -1,0 +1,4 @@
+Chrom	Position	Ref	Cons	Reads1	Reads2	VarFreq	Strands1	Strands2	Qual1	Qual2	Pvalue	MapQual1	MapQual2	Reads1Plus	Reads1Minus	Reads2Plus	Reads2Minus	VarAllele
+452_NS_length_890_cov_3719.261519_pilon	7	T	Y	453	15	3.2%	2	2	32	33	0.98	1	1	450	3	14	1	C
+452_NS_length_890_cov_3719.261519_pilon	573	G	R	5686	85	1.47%	2	2	38	41	0.98	1	1	2747	2939	45	40	A
+452_NS_length_890_cov_3719.261519_pilon	643	C	Y	5112	76	1.46%	2	2	41	39	0.98	1	1	1710	3402	21	55	T

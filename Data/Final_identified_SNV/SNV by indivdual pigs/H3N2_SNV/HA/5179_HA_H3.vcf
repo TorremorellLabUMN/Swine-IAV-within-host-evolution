@@ -1,0 +1,2 @@
+Chrom	Position	Ref	Cons	Reads1	Reads2	VarFreq	Strands1	Strands2	Qual1	Qual2	Pvalue	MapQual1	MapQual2	Reads1Plus	Reads1Minus	Reads2Plus	Reads2Minus	VarAllele
+458_H3_length_1762_cov_1314.391948_pilon	1266	T	Y	2212	100	4.33%	2	2	38	34	0.98	1	1	954	1258	60	40	C
