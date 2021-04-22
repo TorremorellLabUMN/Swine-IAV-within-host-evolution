@@ -1,0 +1,395 @@
+#NEXUS
+begin taxa;
+	dimensions ntax=293;
+	taxlabels
+	4469-1_PB1[&!color=#00ff00]
+	4471-1_PB1[&!color=#00ff00]
+	4471-2_PB1[&!color=#00ff00]
+	4471-3_PB1[&!color=#00ff00]
+	4479-10_PB1[&!color=#ff0000]
+	4479-14_PB1[&!color=#00ff00]
+	4479-15_PB1[&!color=#ff0000]
+	4479-16_PB1[&!color=#ff0000]
+	4479-17_PB1[&!color=#00ff00]
+	4479-18_PB1[&!color=#00ff00]
+	4479-19_PB1[&!color=#ff0000]
+	4479-20_PB1[&!color=#ff0000]
+	4479-21_PB1[&!color=#00ff00]
+	4479-2_PB1[&!color=#ff0000]
+	4479-3_PB1[&!color=#00ff00]
+	4479-4_PB1[&!color=#00ff00]
+	4479-5_PB1[&!color=#00ff00]
+	4479-6_PB1[&!color=#00ff00]
+	4479-7_PB1[&!color=#00ff00]
+	4479-8_PB1[&!color=#ff0000]
+	4479-9_PB1[&!color=#ff0000]
+	4484-10_PB1[&!color=#00ff00]
+	4484-11_PB1[&!color=#00ff00]
+	4484-12_PB1[&!color=#00ff00]
+	4484-13_PB1[&!color=#00ff00]
+	4484-14_PB1[&!color=#00ff00]
+	4484-15_PB1[&!color=#00ff00]
+	4484-16_PB1[&!color=#00ff00]
+	4484-17_PB1[&!color=#00ff00]
+	4484-1_PB1[&!color=#00ff00]
+	4484-2_PB1[&!color=#00ff00]
+	4484-3_PB1[&!color=#00ff00]
+	4484-4_PB1[&!color=#00ff00]
+	4484-5_PB1[&!color=#00ff00]
+	4484-6_PB1[&!color=#00ff00]
+	4484-7_PB1[&!color=#00ff00]
+	4484-8_PB1[&!color=#00ff00]
+	4484-9_PB1[&!color=#00ff00]
+	4490-10_PB1[&!color=#00ff00]
+	4490-11_PB1[&!color=#00ff00]
+	4490-12_PB1[&!color=#00ff00]
+	4490-13_PB1[&!color=#00ff00]
+	4490-1_PB1[&!color=#ff0000]
+	4490-24_PB1[&!color=#ff0000]
+	4490-25_PB1[&!color=#ff0000]
+	4490-26_PB1[&!color=#ff0000]
+	4490-27_PB1[&!color=#ff0000]
+	4490-28_PB1[&!color=#ff0000]
+	4490-29_PB1[&!color=#ff0000]
+	4490-2_PB1[&!color=#00ff00]
+	4490-30_PB1[&!color=#ff0000]
+	4490-31_PB1[&!color=#ff0000]
+	4490-32_PB1[&!color=#ff0000]
+	4490-33_PB1[&!color=#ff0000]
+	4490-34_PB1[&!color=#ff0000]
+	4490-35_PB1[&!color=#ff0000]
+	4490-3_PB1[&!color=#00ff00]
+	4490-4_PB1[&!color=#00ff00]
+	4490-5_PB1[&!color=#ff0000]
+	4490-6_PB1[&!color=#00ff00]
+	4490-7_PB1[&!color=#ff0000]
+	4490-8_PB1[&!color=#00ff00]
+	4551-10_PB1[&!color=#00ff00]
+	4551-11_PB1[&!color=#00ff00]
+	4551-12_PB1[&!color=#00ff00]
+	4551-13_PB1[&!color=#00ff00]
+	4551-14_PB1[&!color=#00ff00]
+	4551-15_PB1[&!color=#00ff00]
+	4551-16_PB1[&!color=#00ff00]
+	4551-17_PB1[&!color=#00ff00]
+	4551-18_PB1[&!color=#00ff00]
+	4551-19_PB1[&!color=#00ff00]
+	4551-1_PB1[&!color=#00ff00]
+	4551-20_PB1[&!color=#00ff00]
+	4551-21_PB1[&!color=#00ff00]
+	4551-2_PB1[&!color=#00ff00]
+	4551-4_PB1[&!color=#00ff00]
+	4551-5_PB1[&!color=#00ff00]
+	4551-6_PB1[&!color=#00ff00]
+	4551-7_PB1[&!color=#00ff00]
+	4551-8_PB1[&!color=#00ff00]
+	4551-9_PB1[&!color=#00ff00]
+	4933-11_PB1[&!color=#00ff00]
+	4933-13_PB1[&!color=#00ff00]
+	4933-16_PB1[&!color=#00ff00]
+	4933-1_PB1[&!color=#00ff00]
+	4933-20_PB1[&!color=#00ff00]
+	4933-21_PB1[&!color=#00ff00]
+	4933-24_PB1[&!color=#00ff00]
+	4933-25_PB1[&!color=#00ff00]
+	4933-26_PB1[&!color=#00ff00]
+	4933-27_PB1[&!color=#00ff00]
+	4933-28_PB1[&!color=#00ff00]
+	4933-29_PB1[&!color=#00ff00]
+	4933-2_PB1[&!color=#00ff00]
+	4933-30_PB1[&!color=#00ff00]
+	4933-31_PB1[&!color=#00ff00]
+	4933-32_PB1[&!color=#00ff00]
+	4933-33_PB1[&!color=#00ff00]
+	4933-34_PB1[&!color=#00ff00]
+	4933-35_PB1[&!color=#00ff00]
+	4933-37_PB1[&!color=#00ff00]
+	4933-38_PB1[&!color=#00ff00]
+	4933-39_PB1[&!color=#00ff00]
+	4933-3_PB1[&!color=#00ff00]
+	4933-4_PB1[&!color=#00ff00]
+	4933-5_PB1[&!color=#00ff00]
+	4933-6_PB1[&!color=#00ff00]
+	4933-7_PB1[&!color=#00ff00]
+	4933-8_PB1[&!color=#00ff00]
+	4933-9_PB1[&!color=#00ff00]
+	4945-1_PB1[&!color=#00ff00]
+	4945-2_PB1[&!color=#00ff00]
+	5166-11_PB1[&!color=#00ff00]
+	5166-12_PB1[&!color=#00ff00]
+	5166-15_PB1[&!color=#00ff00]
+	5166-16_PB1[&!color=#00ff00]
+	5166-17_PB1[&!color=#00ff00]
+	5166-18_PB1[&!color=#00ff00]
+	5166-19_PB1[&!color=#00ff00]
+	5166-1_PB1[&!color=#00ff00]
+	5166-20_PB1[&!color=#00ff00]
+	5166-21_PB1[&!color=#00ff00]
+	5166-22_PB1[&!color=#00ff00]
+	5166-24_PB1[&!color=#00ff00]
+	5166-4_PB1[&!color=#00ff00]
+	5166-5_PB1[&!color=#00ff00]
+	5166-7_PB1[&!color=#00ff00]
+	5166-8_PB1[&!color=#00ff00]
+	5167-10_PB1[&!color=#00ff00]
+	5167-11_PB1[&!color=#00ff00]
+	5167-12_PB1[&!color=#00ff00]
+	5167-13_PB1[&!color=#00ff00]
+	5167-1_PB1[&!color=#00ff00]
+	5167-2_PB1[&!color=#00ff00]
+	5167-3_PB1[&!color=#00ff00]
+	5167-4_PB1[&!color=#00ff00]
+	5167-5_PB1[&!color=#00ff00]
+	5167-6_PB1[&!color=#00ff00]
+	5167-7_PB1[&!color=#00ff00]
+	5167-8_PB1[&!color=#00ff00]
+	5167-9_PB1[&!color=#00ff00]
+	5174-10_PB1[&!color=#00ff00]
+	5174-11_PB1[&!color=#00ff00]
+	5174-12_PB1[&!color=#00ff00]
+	5174-13_PB1[&!color=#00ff00]
+	5174-15_PB1[&!color=#00ff00]
+	5174-17_PB1[&!color=#00ff00]
+	5174-25_PB1[&!color=#ff0000]
+	5174-26_PB1[&!color=#ff0000]
+	5174-27_PB1[&!color=#ff0000]
+	5174-28_PB1[&!color=#ff0000]
+	5174-29_PB1[&!color=#ff0000]
+	5174-2_PB1[&!color=#00ff00]
+	5174-30_PB1[&!color=#ff0000]
+	5174-31_PB1[&!color=#ff0000]
+	5174-32_PB1[&!color=#ff0000]
+	5174-33_PB1[&!color=#ff0000]
+	5174-34_PB1[&!color=#ff0000]
+	5174-35_PB1[&!color=#ff0000]
+	5174-36_PB1[&!color=#ff0000]
+	5174-3_PB1[&!color=#00ff00]
+	5174-6_PB1[&!color=#00ff00]
+	5174-7_PB1[&!color=#ff0000]
+	5174-9_PB1[&!color=#00ff00]
+	5179-10_PB1[&!color=#00ff00]
+	5179-11_PB1[&!color=#00ff00]
+	5179-12_PB1[&!color=#00ff00]
+	5179-13_PB1[&!color=#ff0000]
+	5179-14_PB1[&!color=#00ff00]
+	5179-1_PB1[&!color=#00ff00]
+	5179-2_PB1[&!color=#00ff00]
+	5179-3_PB1[&!color=#ff0000]
+	5179-4_PB1[&!color=#00ff00]
+	5179-5_PB1[&!color=#00ff00]
+	5179-6_PB1[&!color=#00ff00]
+	5179-7_PB1[&!color=#00ff00]
+	5179-8_PB1[&!color=#00ff00]
+	5179-9_PB1[&!color=#00ff00]
+	5184-10_PB1[&!color=#00ff00]
+	5184-12_PB1[&!color=#00ff00]
+	5184-13_PB1[&!color=#00ff00]
+	5184-14_PB1[&!color=#00ff00]
+	5184-15_PB1[&!color=#00ff00]
+	5184-16_PB1[&!color=#00ff00]
+	5184-17_PB1[&!color=#00ff00]
+	5184-18_PB1[&!color=#00ff00]
+	5184-19_PB1[&!color=#ff0000]
+	5184-1_PB1[&!color=#00ff00]
+	5184-20_PB1[&!color=#00ff00]
+	5184-21_PB1[&!color=#00ff00]
+	5184-22_PB1[&!color=#00ff00]
+	5184-23_PB1[&!color=#00ff00]
+	5184-24_PB1[&!color=#00ff00]
+	5184-2_PB1[&!color=#ff0000]
+	5184-3_PB1[&!color=#00ff00]
+	5184-4_PB1[&!color=#00ff00]
+	5184-5_PB1[&!color=#00ff00]
+	5184-6_PB1[&!color=#00ff00]
+	5184-7_PB1[&!color=#00ff00]
+	5184-8_PB1[&!color=#ff0000]
+	5184-9_PB1[&!color=#00ff00]
+	A_Sw_MN_PAH618_2011_H1N1_CHALLENGE_PB1[&!color=#ff00ff]
+	A_Swine_Minnesota_080470_2015_H3N2_CHALLENGE_PB1[&!color=#ff00ff]
+	'LAIV_CY095673_A_swine_Texas_4199_2_1998_H3N2_PB1_USA_Texas_3.1990.1_1998'
+	'TRIG_CY098514_A_swine_North_Carolina_18161_2002_H1N1_PB1_USA_North_Carolina_1A.3.3_2002'
+	'TRIG_CY099067_A_swine_Minnesota_00709_2005_H3N2_PB1_USA_Minnesota_3.1990.4_8_18_05'
+	'TRIG_CY099173_A_swine_Minnesota_01358_2006_H1N1_PB1_USA_Minnesota_1A.2_11_16_06'
+	'TRIG_CY131203_A_swine_Ohio_11SW103_2011_H3N2_PB1_USA_Ohio_3.1990.4.1_8_5_11'
+	'TRIG_CY131551_A_swine_Ohio_11SW174_2011_H1N2_PB1_USA_Ohio_1B.2.2.2_8_8_11'
+	'TRIG_CY157701_A_swine_Colorado_SG1185_2004_H1N1_PB1_USA_Colorado_1A.1.1_4_7_04'
+	'TRIG_CY157861_A_swine_Minnesota_SG1236_2005_H3N2_PB1_USA_Minnesota_3.1990.4_4_22_05'
+	'TRIG_CY158247_A_swine_Illinois_02166_2008_H1N1_PB1_USA_Illinois_1A.3.3.3_5_1_08'
+	'TRIG_CY158847_A_swine_North_Carolina_SG1202_2004_H1N1_PB1_USA_North_Carolina_1A.3.3.3_4_15_04'
+	'TRIG_CY159689_A_swine_North_Carolina_SG1199_2004_H3N2_PB1_USA_North_Carolina_3.1990.4_12_2_04'
+	'TRIG_CY159844_A_swine_Oklahoma_01452_2007_H1N2_PB1_USA_Oklahoma_1A.3.3.3_1_26_07'
+	'TRIG_CY195269_A_swine_Manitoba_D0342_2014_H1N2_PB1_Canada_Manitoba_1A.1.1_6_18_14'
+	'TRIG_CY245951_A_swine_Manitoba_D0431_2015_H3N2_PB1_Canada_Manitoba_3.1990.4.2-3_10_8_15'
+	'TRIG_CY246143_A_swine_Manitoba_SD0151_2016_H3N2_PB1_Canada_Manitoba_3.1990.4_2_25_16'
+	'TRIG_CY246233_A_swine_Alberta_SD0164_2016_H1N2_PB1_Canada_Alberta_1A.1.1_4_13_16'
+	'TRIG_CY246482_A_swine_Alberta_SD0181_2016_H3N2_PB1_Canada_Alberta_3.1990.4_8_30_16'
+	'TRIG_CY246753_A_swine_Manitoba_SD0209_2016_H1N2_PB1_Canada_Manitoba_1A.1.1_12_18_16'
+	'TRIG_DQ145544_A_swine_Minnesota_00395_2004_H3N1_PB1_USA_Minnesota_3.1990.4_2004'
+	'TRIG_DQ150423_A_swine_MI_PU243_04_H3N1_PB1_USA_Michigan_3.1990.4_2004'
+	'TRIG_EU409945_A_swine_Ohio_24366_07_H1N1_PB1_USA_Ohio_1A.3.3.3_2007'
+	'TRIG_GU135916_A_swine_Iowa_H03HB4_2003_H3N2_PB1_USA_Iowa_3.1990.4_3-Feb'
+	'TRIG_HQ840336_A_swine_South_Dakota_152B_2009_H1N2_PB1_USA_South_Dakota_1B.2.1_9_4_09'
+	'TRIG_JQ365132_A_swine_Texas_A01049556_2011_H3N2_PB1_USA_Texas_3.1990.4.7_2_14_11'
+	'TRIG_JX045974_A_swine_Indiana_A01049964_2011_H1N2_PB1_USA_Indiana_1B.2.2.2_5_11_11'
+	'TRIG_JX239980_A_swine_Illinois_A01240575_2011_H3N2_PB1_USA_Illinois_3.1990.4.7_12_20_11'
+	'TRIG_KF026641_A_swine_South_Dakota_A01279746_2012_H1N2_PB1_USA_South_Dakota_1B.2.2.1_12_6_12'
+	'TRIG_KF026671_A_swine_North_Carolina_A01270394_2012_H3N2_PB1_USA_North_Carolina_3.1990.4.1_5_31_12'
+	'TRIG_KF386769_A_swine_Indiana_A01260254_2013_H3N2_PB1_USA_Indiana_3.1990.4.1_3_20_13'
+	'TRIG_KJ130210_A_swine_South_Dakota_SJ1319788_2013_H1N1_PB1_USA_South_Dakota_1A.3.3.3_11_13_13'
+	'TRIG_KM361355_A_swine_Ohio_13TOSU1560_2013_mixed_PB1_USA_Ohio_1A.3.3.3_8_31_13'
+	'TRIG_KR047999_A_swine_Iowa_A01049949_2011_H1N1_PB1_USA_Iowa_1A.3.3.3_5_9_11'[&!color=#000000]
+	'TRIG_KT374232_A_swine_Indiana_A01260926_2015_H3N2_PB1_USA_Indiana_3.1990.4.1_6_29_15'
+	'TRIG_KT449748_A_swine_Michigan_A01104086_2015_mixed_PB1_USA_Michigan_1B.2.2.1_3_23_15'
+	'TRIG_KX618880_A_swine_Ilinois_A02090968_2015_H3N2_PB1_USA_Unknown_3.1990.4.6_10_9_15'
+	'TRIG_KX670633_A_swine_Ohio_A01847657_2015_H1N1_PB1_USA_Ohio_1A.3.3.3_4_20_15'
+	'TRIG_KX670704_A_swine_North_Carolina_A01377460_2014_H1N2_PB1_USA_North_Carolina_1B.2.1_12_4_14'
+	'TRIG_KY115409_A_swine_North_Carolina_A01731857_2016_H1N2_PB1_USA_North_Carolina_1B.2.1_2_11_16'
+	'TRIG_KY115424_A_swine_Minnesota_A01774384_2016_H1N1_PB1_USA_Minnesota_1A.3.3.3_4_29_16'
+	'TRIG_KY401787_A_swine_Iowa_A01944136_2015_H3N2_PB1_USA_Iowa_3.2010.1_9_28_15'
+	'TRIG_KY401852_A_swine_South_Dakota_A01678175_2016_H1N2_PB1_USA_South_Dakota_1B.2.2.2_6_7_16'
+	'TRIG_KY401874_A_swine_Minnesota_A01943420_2016_H3N2_PB1_USA_Minnesota_3.2010.1_5_5_16'
+	'TRIG_KY401971_A_swine_Missouri_A01775853_2016_H3N2_PB1_USA_Missouri_3.1990.4.1_5_24_16'
+	'TRIG_KY938572_A_swine_Minnesota_A01668936_2016_H3N2_PB1_USA_Minnesota_3.1990.4.2-3_11_23_16'
+	'TRIG_KY964004_A_swine_Ohio_16TOSU0255_2016_mixed_PB1_USA_Ohio_1B.2.2.1_2_1_16'
+	'TRIG_MF045184_A_swine_South_Carolina_A01782474_2016_H1N2_PB1_USA_South_Carolina_1B.2.1_10_18_16'
+	'TRIG_MF045214_A_swine_Iowa_A01781046_2016_H1N1_PB1_USA_Iowa_1A.3.3.3_9_2_16'
+	'TRIG_MF373245_A_swine_Michigan_A01672424_2017_H3N2_PB1_USA_Michigan_3.1990.4.2-3_1_20_17'
+	'TRIG_MF801549_A_swine_Iowa_A02214654_2017_H1N2_PB1_USA_Iowa_1B.2.2.2_3_28_17'
+	'TRIG_MF973285_A_swine_Oklahoma_A02214419_2017_H1N1_PB1_USA_Oklahoma_1B.2.2.2_4_3_17'
+	'TRIG_MF973297_A_swine_Minnesota_A02214704_2017_H3N2_PB1_USA_Minnesota_3.1990.4_4_11_17'
+	'TRIG_MG193788_A_swine_Missouri_A02216048_2017_H1N1_PB1_USA_Missouri_1A.3.3.3_5_16_17'
+	'TRIG_MG521025_A_swine_Nebraska_A02216645_2017_H1N1_PB1_USA_Nebraska_1A.3.3.2_6_6_17'
+	'TRIG_MG521031_A_swine_Indiana_A02216644_2017_H1N1_PB1_USA_Indiana_1A.3.3.3_6_9_17'
+	'TRIG_MG784635_A_swine_Oklahoma_A02219505_2017_H1N2_PB1_USA_Oklahoma_1B.2.2.2_8_14_17'
+	'TRIG_MG784677_A_swine_South_Dakota_A01678503_2017_H1N2_PB1_USA_South_Dakota_1B.2.2.2_8_28_17'
+	'TRIG_MG982513_A_swine_Ohio_OH_17_26330_2017_H3N2_PB1_USA_Ohio_3.2010.1_11_22_17'[&!color=#000000]
+	'TRIG_MH187748_A_swine_Missouri_A02136832_2017_H3N2_PB1_USA_Missouri_3.1990.4.2-3_11_22_17'
+	'TRIG_MH187802_A_swine_Missouri_A02136836_2017_H1N1_PB1_USA_Missouri_1A.3.3.3_11_22_17'
+	'TRIG_MH187844_A_swine_Minnesota_A02135748_2017_H1N1_PB1_USA_Minnesota_1A.3.3.2_11_3_17'
+	'TRIG_MH234405_A_swine_Ohio_OH_18_5253_2018_H3N2_PB1_USA_Ohio_3.2010.1_3_9_18'
+	'TRIG_MH234437_A_swine_Ohio_OH_18_7963_2018_H1N1_PB1_USA_Ohio_1A.3.3.3_4_6_18'
+	classicalSwine_CY009306_A_swine_Colorado_1_1977_H3N2_PB1_USA_Colorado_Other-human-1970_1977
+	'classicalSwine_CY022051_A_swine_Tennessee_15_1976_H1N1_PB1_USA_Tennessee_1A.1-like_1976'
+	'classicalSwine_CY022323_A_swine_Iowa_1_1985_H1N1_PB1_USA_Iowa_1A.1_1985'
+	'classicalSwine_CY022419_A_swine_Wisconsin_1_1971_H1N1_PB1_USA_Wisconsin_1A.1_1971'
+	'classicalSwine_CY023000_A_swine_Wisconsin_629_1980_H1N1_PB1_USA_Wisconsin_1A.1-like_1980'
+	'classicalSwine_CY024948_A_swine_Tennessee_61_1977_H1N1_PB1_USA_Tennessee_1A.1-like_1977'
+	'classicalSwine_CY026297_A_swine_Wisconsin_1_1967_H1N1_PB1_USA_Wisconsin_1A.1-like_1967'
+	'classicalSwine_CY026305_A_swine_Wisconsin_2_1966_H1N1_PB1_USA_Wisconsin_1A.1-like_1966'
+	'classicalSwine_CY026425_A_swine_Tennessee_23_1976_H1N1_PB1_USA_Tennessee_1A.1-like_1976'
+	'classicalSwine_CY035076_A_swine_Memphis_1_1990_H1N1_PB1_USA_Tennessee_1A.1_1990'
+	'humanSeasonal_KX571174_A_swine_Quebec_1626561_2014_H3N2_PB1_Canada_Quebec_3.1990.4_7_2_14'
+	humanSeasonal_MG928429_A_swine_Florida_UF_1_2017_H3N2_PB1_USA_Florida_Other-human-2010_10_30_17
+	'pdm_CY158263_A_swine_Arkansas_SG1321_2009_H1N1_PB1_USA_Arkansas_1A.3.3.2_12_28_09'
+	'pdm_CY158999_A_swine_Minnesota_02976_2010_H1N1_PB1_USA_Minnesota_1A.3.3.2_1_12_10'
+	'pdm_CY246562_A_swine_Alberta_SD0183_2016_H3N2_PB1_Canada_Alberta_3.1990.4_10_19_16'
+	'pdm_CY246769_A_swine_Saskatchewan_SD0205_2016_H1N1_PB1_Canada_Saskatchewan_1A.3.3.2_12_13_16'
+	'pdm_FJ966080_A_California_04_2009_H1N1_PB1_USA_California_1A.3.3.2_2009'
+	'pdm_GQ150326_A_swine_Alberta_OTH_33_8_2009_H1N1_PB1_Canada_Alberta_1A.3.3.2_2009'
+	'pdm_JF714042_A_swine_MB_25_3_2009_H1N1_PB1_Canada_Manitoba_1A.3.3.2_8_31_09'
+	'pdm_JN617973_A_swine_Alberta_25_2009_H1N1_PB1_Canada_Alberta_1A.3.3.2_2009'
+	'pdm_KF836371_A_swine_Illinois_A01227424_2013_H1N1_PB1_USA_Illinois_1A.3.3.3_9_6_13'
+	'pdm_KP019635_A_swine_Illinois_A01492501_2014_H1N1_PB1_USA_Illinois_1A.3.3.2_2_12_14'
+	'pdm_KR047930_A_swine_Iowa_A01202099_2011_H1N1_PB1_USA_Iowa_1A.3.3.2_6_21_11'
+	'pdm_KR701655_A_swine_North_Carolina_A01076198_2010_H1N1_PB1_USA_North_Carolina_1A.3.3.2_3_14_10'
+	'pdm_KY239052_A_swine_Illinois_A01749913_2016_H1N1_PB1_USA_Illinois_1A.3.3.2_4_18_16'
+	'pdm_MF116356_A_swine_Kansas_A01378027_2017_H1N1_PB1_USA_Kansas_1A.3.3.2_4_19_17'
+	'pdm_MF522039_A_swine_Missouri_A01932424_2017_H1N1_PB1_USA_Missouri_1A.3.2_2_22_17'
+;
+end;
+
+begin trees;
+	tree tree_1 = [&R] ('classicalSwine_CY026425_A_swine_Tennessee_23_1976_H1N1_PB1_USA_Tennessee_1A.1-like_1976':0.039905,('classicalSwine_CY024948_A_swine_Tennessee_61_1977_H1N1_PB1_USA_Tennessee_1A.1-like_1977':0.024832,(((('classicalSwine_CY022323_A_swine_Iowa_1_1985_H1N1_PB1_USA_Iowa_1A.1_1985':4.0E-4,'classicalSwine_CY035076_A_swine_Memphis_1_1990_H1N1_PB1_USA_Tennessee_1A.1_1990':0.015221)[&label=100]:0.017297,'classicalSwine_CY023000_A_swine_Wisconsin_629_1980_H1N1_PB1_USA_Wisconsin_1A.1-like_1980':0.003823)[&label=100]:0.012282,'classicalSwine_CY022051_A_swine_Tennessee_15_1976_H1N1_PB1_USA_Tennessee_1A.1-like_1976':5.02E-4)[&label=100]:0.016002,'classicalSwine_CY022419_A_swine_Wisconsin_1_1971_H1N1_PB1_USA_Wisconsin_1A.1_1971':0.004079)[&label=100]:0.005813)[&label=100]:0.008463,(('classicalSwine_CY026297_A_swine_Wisconsin_1_1967_H1N1_PB1_USA_Wisconsin_1A.1-like_1967':0.00522,(classicalSwine_CY009306_A_swine_Colorado_1_1977_H3N2_PB1_USA_Colorado_Other-human-1970_1977:0.016979,(('humanSeasonal_KX571174_A_swine_Quebec_1626561_2014_H3N2_PB1_Canada_Quebec_3.1990.4_7_2_14':0.008271,humanSeasonal_MG928429_A_swine_Florida_UF_1_2017_H3N2_PB1_USA_Florida_Other-human-2010_10_30_17:0.022337)[&label=100]:0.028428,(((('TRIG_MG784677_A_swine_South_Dakota_A01678503_2017_H1N2_PB1_USA_South_Dakota_1B.2.2.2_8_28_17':0.044144,((((((((((((('TRIG_MH187844_A_swine_Minnesota_A02135748_2017_H1N1_PB1_USA_Minnesota_1A.3.3.2_11_3_17':0.016075,'TRIG_MG521025_A_swine_Nebraska_A02216645_2017_H1N1_PB1_USA_Nebraska_1A.3.3.2_6_6_17':0.009815)[&label=99]:0.001519,'TRIG_MF373245_A_swine_Michigan_A01672424_2017_H3N2_PB1_USA_Michigan_3.1990.4.2-3_1_20_17':0.012327)[&label=100]:0.018455,'TRIG_CY246753_A_swine_Manitoba_SD0209_2016_H1N2_PB1_Canada_Manitoba_1A.1.1_12_18_16':0.037874)[&label=86]:0.002456,'TRIG_MF045184_A_swine_South_Carolina_A01782474_2016_H1N2_PB1_USA_South_Carolina_1B.2.1_10_18_16':0.033017)[&label=44]:4.82E-4,'TRIG_CY099173_A_swine_Minnesota_01358_2006_H1N1_PB1_USA_Minnesota_1A.2_11_16_06':0.004165)[&label=47]:7.45E-4,'TRIG_CY246482_A_swine_Alberta_SD0181_2016_H3N2_PB1_Canada_Alberta_3.1990.4_8_30_16':0.040819)[&label=5]:2.0E-6,'TRIG_CY157861_A_swine_Minnesota_SG1236_2005_H3N2_PB1_USA_Minnesota_3.1990.4_4_22_05':4.41E-4)[&label=3]:2.0E-6,('TRIG_CY246143_A_swine_Manitoba_SD0151_2016_H3N2_PB1_Canada_Manitoba_3.1990.4_2_25_16':0.033982,('TRIG_CY195269_A_swine_Manitoba_D0342_2014_H1N2_PB1_Canada_Manitoba_1A.1.1_6_18_14':0.023847,'TRIG_CY245951_A_swine_Manitoba_D0431_2015_H3N2_PB1_Canada_Manitoba_3.1990.4.2-3_10_8_15':0.023164)[&label=100]:0.009274)[&label=47]:0.001974)[&label=89]:5.19E-4,('TRIG_CY246233_A_swine_Alberta_SD0164_2016_H1N2_PB1_Canada_Alberta_1A.1.1_4_13_16':0.041054,'TRIG_MF973297_A_swine_Minnesota_A02214704_2017_H3N2_PB1_USA_Minnesota_3.1990.4_4_11_17':0.034021)[&label=76]:0.003653)[&label=93]:7.99E-4,'TRIG_CY099067_A_swine_Minnesota_00709_2005_H3N2_PB1_USA_Minnesota_3.1990.4_8_18_05':0.002281)[&label=94]:0.002178,('TRIG_CY159689_A_swine_North_Carolina_SG1199_2004_H3N2_PB1_USA_North_Carolina_3.1990.4_12_2_04':0.003507,((((('TRIG_MG193788_A_swine_Missouri_A02216048_2017_H1N1_PB1_USA_Missouri_1A.3.3.3_5_16_17'[&!color=#000000]:0.016125,'TRIG_KJ130210_A_swine_South_Dakota_SJ1319788_2013_H1N1_PB1_USA_South_Dakota_1A.3.3.3_11_13_13'[&!color=#000000]:0.004203)[&label=97,!color=#000000]:5.88E-4,(('TRIG_MH234437_A_swine_Ohio_OH_18_7963_2018_H1N1_PB1_USA_Ohio_1A.3.3.3_4_6_18'[&!color=#000000]:0.015111,(('TRIG_MG982513_A_swine_Ohio_OH_17_26330_2017_H3N2_PB1_USA_Ohio_3.2010.1_11_22_17'[&!color=#000000]:0.006334,(((((((((((((((((((4490-13_PB1[&!color=#00ff00]:0.004017,4490-3_PB1[&!color=#00ff00]:2.0E-6)[&label=73,!color=#00ff00]:0.001748,4484-6_PB1[&!color=#00ff00]:3.0E-6)[&label=65,!color=#00ff00]:2.0E-6,4484-2_PB1[&!color=#00ff00]:3.0E-6)[&label=35,!color=#00ff00]:2.0E-6,4933-1_PB1[&!color=#00ff00]:2.0E-6)[&label=53,!color=#00ff00]:3.0E-6,4933-28_PB1[&!color=#00ff00]:3.0E-6)[&label=58,!color=#00ff00]:3.0E-6,4933-7_PB1[&!color=#00ff00]:3.0E-6)[&label=42,!color=#00ff00]:2.0E-6,4484-9_PB1[&!color=#00ff00]:5.59E-4)[&label=59,!color=#00ff00]:2.0E-6,5174-3_PB1[&!color=#00ff00]:3.0E-6)[&label=71,!color=#00ff00]:2.0E-6,4471-1_PB1[&!color=#00ff00]:3.0E-6)[&label=73,!color=#00ff00]:2.0E-6,4945-1_PB1[&!color=#00ff00]:3.0E-6)[&label=73,!color=#00ff00]:2.0E-6,5166-19_PB1[&!color=#00ff00]:3.0E-6)[&label=48,!color=#00ff00]:2.0E-6,5174-2_PB1[&!color=#00ff00]:3.0E-6)[&label=48,!color=#00ff00]:2.0E-6,4933-37_PB1[&!color=#00ff00]:3.0E-6)[&label=71,!color=#00ff00]:3.0E-6,5174-17_PB1[&!color=#00ff00]:3.0E-6)[&label=72,!color=#00ff00]:2.0E-6,5179-11_PB1[&!color=#00ff00]:3.0E-6)[&label=66,!color=#00ff00]:2.0E-6,5167-6_PB1[&!color=#00ff00]:4.42E-4)[&label=2,!color=#00ff00]:2.0E-6,(((((((((((((4490-2_PB1[&!color=#00ff00]:3.0E-6,(4933-9_PB1[&!color=#00ff00]:3.0E-6,4933-2_PB1[&!color=#00ff00]:3.0E-6)[&label=100,!color=#00ff00]:4.53E-4)[&label=74,!color=#00ff00]:1.0E-6,(((((((((5166-1_PB1[&!color=#00ff00]:3.0E-6,5174-6_PB1[&!color=#00ff00]:3.0E-6)[&label=78,!color=#00ff00]:3.0E-6,4484-7_PB1[&!color=#00ff00]:3.0E-6)[&label=79,!color=#00ff00]:3.0E-6,4933-38_PB1[&!color=#00ff00]:3.0E-6)[&label=78,!color=#00ff00]:3.0E-6,5174-12_PB1[&!color=#00ff00]:3.0E-6)[&label=76,!color=#00ff00]:3.0E-6,5179-14_PB1[&!color=#00ff00]:3.0E-6)[&label=75,!color=#00ff00]:3.0E-6,4490-11_PB1[&!color=#00ff00]:3.0E-6)[&label=63,!color=#00ff00]:3.0E-6,(((((((((4933-4_PB1[&!color=#00ff00]:3.0E-6,4933-24_PB1[&!color=#00ff00]:3.0E-6)[&label=31,!color=#00ff00]:3.0E-6,(4933-20_PB1[&!color=#00ff00]:3.0E-6,4471-2_PB1[&!color=#00ff00]:3.0E-6)[&label=31,!color=#00ff00]:3.0E-6)[&label=58,!color=#00ff00]:3.0E-6,4484-15_PB1[&!color=#00ff00]:3.0E-6)[&label=57,!color=#00ff00]:3.0E-6,4479-17_PB1[&!color=#00ff00]:3.0E-6)[&label=46,!color=#00ff00]:3.0E-6,5184-9_PB1[&!color=#00ff00]:3.0E-6)[&label=45,!color=#00ff00]:3.0E-6,4933-31_PB1[&!color=#00ff00]:3.0E-6)[&label=62,!color=#00ff00]:3.0E-6,5184-20_PB1[&!color=#00ff00]:3.0E-6)[&label=61,!color=#00ff00]:3.0E-6,4484-16_PB1[&!color=#00ff00]:3.0E-6)[&label=61,!color=#00ff00]:3.0E-6,5174-13_PB1[&!color=#00ff00]:3.0E-6)[&label=60,!color=#00ff00]:3.0E-6)[&label=61,!color=#00ff00]:3.0E-6,5184-18_PB1[&!color=#00ff00]:3.0E-6)[&label=60,!color=#00ff00]:2.0E-6,4933-11_PB1[&!color=#00ff00]:3.0E-6)[&label=58,!color=#00ff00]:2.0E-6)[&label=41,!color=#00ff00]:3.0E-6,5174-10_PB1[&!color=#00ff00]:3.0E-6)[&label=19,!color=#00ff00]:3.0E-6,4484-14_PB1[&!color=#00ff00]:3.0E-6)[&label=60,!color=#00ff00]:3.0E-6,5167-10_PB1[&!color=#00ff00]:3.0E-6)[&label=20,!color=#00ff00]:3.0E-6,4469-1_PB1[&!color=#00ff00]:3.0E-6)[&label=67,!color=#00ff00]:3.0E-6,4933-16_PB1[&!color=#00ff00]:3.0E-6)[&label=43,!color=#00ff00]:3.0E-6,5167-13_PB1[&!color=#00ff00]:3.0E-6)[&label=42,!color=#00ff00]:3.0E-6,5184-10_PB1[&!color=#00ff00]:3.0E-6)[&label=43,!color=#00ff00]:3.0E-6,5184-13_PB1[&!color=#00ff00]:3.0E-6)[&label=67,!color=#00ff00]:3.0E-6,5184-1_PB1[&!color=#00ff00]:3.0E-6)[&label=64,!color=#00ff00]:3.0E-6,5179-7_PB1[&!color=#00ff00]:3.0E-6)[&label=8,!color=#00ff00]:3.0E-6,((((((((4479-3_PB1[&!color=#00ff00]:4.47E-4,4479-14_PB1[&!color=#00ff00]:3.0E-6)[&label=47,!color=#00ff00]:2.0E-6,4479-4_PB1[&!color=#00ff00]:3.0E-6)[&label=72,!color=#00ff00]:1.0E-6,((((((((((((((((((((((((5166-22_PB1[&!color=#00ff00]:4.54E-4,4933-32_PB1[&!color=#00ff00]:3.0E-6)[&label=41,!color=#00ff00]:2.0E-6,4479-5_PB1[&!color=#00ff00]:3.0E-6)[&label=60,!color=#00ff00]:1.0E-6,5166-16_PB1[&!color=#00ff00]:3.0E-6)[&label=19,!color=#00ff00]:3.0E-6,4484-3_PB1[&!color=#00ff00]:5.01E-4)[&label=23,!color=#00ff00]:2.0E-6,5166-18_PB1[&!color=#00ff00]:3.0E-6)[&label=14,!color=#00ff00]:2.0E-6,4933-5_PB1[&!color=#00ff00]:3.0E-6)[&label=18,!color=#00ff00]:1.0E-6,4484-1_PB1[&!color=#00ff00]:3.0E-6)[&label=19,!color=#00ff00]:1.0E-6,4933-6_PB1[&!color=#00ff00]:3.0E-6)[&label=51,!color=#00ff00]:1.0E-6,4933-3_PB1[&!color=#00ff00]:3.0E-6)[&label=54,!color=#00ff00]:2.0E-6,5166-8_PB1[&!color=#00ff00]:3.0E-6)[&label=18,!color=#00ff00]:3.0E-6,4933-34_PB1[&!color=#00ff00]:3.0E-6)[&label=17,!color=#00ff00]:2.0E-6,4933-21_PB1[&!color=#00ff00]:3.0E-6)[&label=17,!color=#00ff00]:2.0E-6,(5184-6_PB1[&!color=#00ff00]:3.0E-6,((5179-6_PB1[&!color=#00ff00]:3.0E-6,4933-8_PB1[&!color=#00ff00]:3.0E-6)[&label=66,!color=#00ff00]:3.0E-6,4933-26_PB1[&!color=#00ff00]:3.0E-6)[&label=56,!color=#00ff00]:3.0E-6)[&label=56,!color=#00ff00]:3.0E-6)[&label=17,!color=#00ff00]:2.0E-6,((5166-5_PB1[&!color=#00ff00]:3.0E-6,5166-21_PB1[&!color=#00ff00]:3.0E-6)[&label=17,!color=#00ff00]:3.0E-6,4479-18_PB1[&!color=#00ff00]:3.0E-6)[&label=17,!color=#00ff00]:3.0E-6)[&label=66,!color=#00ff00]:3.0E-6,5166-4_PB1[&!color=#00ff00]:3.0E-6)[&label=66,!color=#00ff00]:3.0E-6,(4933-30_PB1[&!color=#00ff00]:3.0E-6,5166-17_PB1[&!color=#00ff00]:3.0E-6)[&label=9,!color=#00ff00]:1.0E-6)[&label=10,!color=#00ff00]:3.0E-6,(4933-29_PB1[&!color=#00ff00]:4.22E-4,5184-21_PB1[&!color=#00ff00]:3.0E-6)[&label=69,!color=#00ff00]:3.6E-5)[&label=10,!color=#00ff00]:3.0E-6,5184-14_PB1[&!color=#00ff00]:3.0E-6)[&label=10,!color=#00ff00]:3.0E-6,(5166-20_PB1[&!color=#00ff00]:3.0E-6,4933-25_PB1[&!color=#00ff00]:0.004659)[&label=65,!color=#00ff00]:3.0E-6)[&label=59,!color=#00ff00]:3.0E-6,4484-11_PB1[&!color=#00ff00]:3.0E-6)[&label=60,!color=#00ff00]:3.0E-6,4490-4_PB1[&!color=#00ff00]:3.0E-6)[&label=62,!color=#00ff00]:3.0E-6,5184-4_PB1[&!color=#00ff00]:3.0E-6)[&label=24,!color=#00ff00]:3.0E-6,5174-15_PB1[&!color=#00ff00]:3.0E-6)[&label=57,!color=#00ff00]:3.0E-6,5166-11_PB1[&!color=#00ff00]:3.0E-6)[&label=43,!color=#00ff00]:2.0E-6)[&label=68,!color=#00ff00]:3.0E-6,4479-21_PB1[&!color=#00ff00]:3.0E-6)[&label=67,!color=#00ff00]:3.0E-6,5184-17_PB1[&!color=#00ff00]:3.0E-6)[&label=67,!color=#00ff00]:3.0E-6,4933-39_PB1[&!color=#00ff00]:3.0E-6)[&label=66,!color=#00ff00]:3.0E-6,5184-15_PB1[&!color=#00ff00]:3.0E-6)[&label=57,!color=#00ff00]:3.0E-6,((((((((((((((((((((((((((((((((((((((((((((((5167-5_PB1[&!color=#00ff00]:0.0,5167-2_PB1[&!color=#00ff00]:0.0)[&!color=#00ff00]:0.0,5166-7_PB1[&!color=#00ff00]:0.0)[&!color=#00ff00]:0.0,A_Swine_Minnesota_080470_2015_H3N2_CHALLENGE_PB1[&!color=#00ff00]:0.0)[&!color=#00ff00]:0.0,5184-24_PB1[&!color=#00ff00]:0.0)[&!color=#00ff00]:0.0,5184-12_PB1[&!color=#00ff00]:0.0)[&!color=#00ff00]:0.0,5166-12_PB1[&!color=#00ff00]:0.0)[&!color=#00ff00]:0.0,4471-3_PB1[&!color=#00ff00]:0.0)[&!color=#00ff00]:0.0,4933-13_PB1[&!color=#00ff00]:0.0)[&!color=#00ff00]:0.0,4490-12_PB1[&!color=#00ff00]:0.0)[&!color=#00ff00]:0.0,5184-5_PB1[&!color=#00ff00]:0.0)[&!color=#00ff00]:0.0,5166-15_PB1[&!color=#00ff00]:0.0)[&!color=#00ff00]:0.0,5184-22_PB1[&!color=#00ff00]:0.0)[&!color=#00ff00]:0.0,4484-10_PB1[&!color=#00ff00]:0.0)[&!color=#00ff00]:0.0,4490-8_PB1[&!color=#00ff00]:0.0)[&!color=#00ff00]:0.0,4479-6_PB1[&!color=#00ff00]:0.0)[&!color=#00ff00]:0.0,5166-24_PB1[&!color=#00ff00]:0.0)[&!color=#00ff00]:0.0,4484-8_PB1[&!color=#00ff00]:0.0)[&!color=#00ff00]:0.0,5179-10_PB1[&!color=#00ff00]:0.0)[&!color=#00ff00]:0.0,5184-16_PB1[&!color=#00ff00]:0.0)[&!color=#00ff00]:0.0,4490-10_PB1[&!color=#00ff00]:0.0)[&!color=#00ff00]:0.0,5174-11_PB1[&!color=#00ff00]:0.0)[&!color=#00ff00]:0.0,5184-3_PB1[&!color=#00ff00]:0.0)[&!color=#00ff00]:0.0,5167-7_PB1[&!color=#00ff00]:0.0)[&!color=#00ff00]:0.0,4479-7_PB1[&!color=#00ff00]:0.0)[&!color=#00ff00]:0.0,4484-5_PB1[&!color=#00ff00]:0.0)[&!color=#00ff00]:0.0,5167-8_PB1[&!color=#00ff00]:0.0)[&!color=#00ff00]:0.0,5167-1_PB1[&!color=#00ff00]:0.0)[&!color=#00ff00]:0.0,5167-12_PB1[&!color=#00ff00]:0.0)[&!color=#00ff00]:0.0,4933-35_PB1[&!color=#00ff00]:0.0)[&!color=#00ff00]:0.0,5167-9_PB1[&!color=#00ff00]:0.0)[&!color=#00ff00]:0.0,5167-3_PB1[&!color=#00ff00]:0.0)[&!color=#00ff00]:0.0,5179-8_PB1[&!color=#00ff00]:0.0)[&!color=#00ff00]:0.0,5179-5_PB1[&!color=#00ff00]:0.0)[&!color=#00ff00]:0.0,4933-33_PB1[&!color=#00ff00]:0.0)[&!color=#00ff00]:0.0,4945-2_PB1[&!color=#00ff00]:0.0)[&!color=#00ff00]:0.0,5179-2_PB1[&!color=#00ff00]:0.0)[&!color=#00ff00]:0.0,5179-9_PB1[&!color=#00ff00]:0.0)[&!color=#00ff00]:0.0,5179-12_PB1[&!color=#00ff00]:0.0)[&!color=#00ff00]:0.0,4484-4_PB1[&!color=#00ff00]:0.0)[&!color=#00ff00]:0.0,4490-6_PB1[&!color=#00ff00]:0.0)[&!color=#00ff00]:0.0,5167-11_PB1[&!color=#00ff00]:0.0)[&!color=#00ff00]:0.0,5179-1_PB1[&!color=#00ff00]:0.0)[&!color=#00ff00]:0.0,5174-9_PB1[&!color=#00ff00]:0.0)[&!color=#00ff00]:0.0,5179-4_PB1[&!color=#00ff00]:0.0)[&!color=#00ff00]:0.0,5167-4_PB1[&!color=#00ff00]:0.0)[&!color=#00ff00]:0.0,5184-23_PB1[&!color=#00ff00]:0.0)[&!color=#00ff00]:3.0E-6)[&label=4,!color=#00ff00]:3.0E-6)[&label=3,!color=#00ff00]:2.0E-6)[&label=1,!color=#00ff00]:3.0E-6,(5184-7_PB1[&!color=#00ff00]:4.42E-4,4484-12_PB1[&!color=#00ff00]:4.42E-4)[&label=48,!color=#00ff00]:2.0E-6)[&label=7,!color=#00ff00]:3.0E-6,(((((((((((((((((((4551-6_PB1[&!color=#00ff00]:0.0,4551-4_PB1[&!color=#00ff00]:0.0)[&!color=#00ff00]:0.0,4551-14_PB1[&!color=#00ff00]:0.0)[&!color=#00ff00]:0.0,4551-17_PB1[&!color=#00ff00]:0.0)[&!color=#00ff00]:0.0,4551-15_PB1[&!color=#00ff00]:0.0)[&!color=#00ff00]:0.0,4551-11_PB1[&!color=#00ff00]:0.0)[&!color=#00ff00]:0.0,4551-21_PB1[&!color=#00ff00]:0.0)[&!color=#00ff00]:0.0,4551-18_PB1[&!color=#00ff00]:0.0)[&!color=#00ff00]:0.0,4551-7_PB1[&!color=#00ff00]:0.0)[&!color=#00ff00]:0.0,4551-8_PB1[&!color=#00ff00]:0.0)[&!color=#00ff00]:0.0,4551-10_PB1[&!color=#00ff00]:0.0)[&!color=#00ff00]:0.0,4551-19_PB1[&!color=#00ff00]:0.0)[&!color=#00ff00]:0.0,4551-2_PB1[&!color=#00ff00]:0.0)[&!color=#00ff00]:0.0,4551-1_PB1[&!color=#00ff00]:0.0)[&!color=#00ff00]:0.0,4551-12_PB1[&!color=#00ff00]:0.0)[&!color=#00ff00]:3.0E-6,(4551-13_PB1[&!color=#00ff00]:3.0E-6,4551-16_PB1[&!color=#00ff00]:2.0E-6)[&label=31,!color=#00ff00]:1.0E-6)[&label=50,!color=#00ff00]:3.0E-6,(4551-20_PB1[&!color=#00ff00]:3.0E-6,(4551-9_PB1[&!color=#00ff00]:3.0E-6,4551-5_PB1[&!color=#00ff00]:3.0E-6)[&label=89,!color=#00ff00]:3.0E-6)[&label=80,!color=#00ff00]:3.0E-6)[&label=95,!color=#00ff00]:2.04E-4,4933-27_PB1[&!color=#00ff00]:3.0E-6)[&label=33,!color=#00ff00]:1.0E-6,4484-17_PB1[&!color=#00ff00]:3.0E-6)[&label=27,!color=#00ff00]:2.0E-6,4484-13_PB1[&!color=#00ff00]:3.0E-6)[&label=33,!color=#00ff00]:2.35E-4)[&label=88,!color=#00ff00]:0.002684)[&label=100,!color=#000000]:0.004631,'TRIG_KY401787_A_swine_Iowa_A01944136_2015_H3N2_PB1_USA_Iowa_3.2010.1_9_28_15'[&!color=#000000]:0.004982)[&label=77,!color=#000000]:3.94E-4)[&label=98,!color=#000000]:0.001576,'TRIG_KY115424_A_swine_Minnesota_A01774384_2016_H1N1_PB1_USA_Minnesota_1A.3.3.3_4_29_16'[&!color=#000000]:0.006145)[&label=100,!color=#000000]:0.003998)[&label=100,!color=#000000]:0.003022,((((5174-7_PB1[&!color=#ff0000]:2.0E-6,5184-19_PB1[&!color=#ff0000]:8.24E-4)[&label=98,!color=#ff0000]:0.001732,4490-1_PB1[&!color=#ff0000]:0.00158)[&label=96,!color=#ff0000]:0.002231,(((((((((4479-10_PB1[&!color=#ff0000]:5.75E-4,(4490-33_PB1[&!color=#ff0000]:2.0E-6,4490-26_PB1[&!color=#ff0000]:3.0E-6)[&label=100,!color=#ff0000]:3.0E-6)[&label=88,!color=#ff0000]:4.39E-4,((((((4490-35_PB1[&!color=#ff0000]:0.0,5179-13_PB1[&!color=#ff0000]:0.0)[&!color=#ff0000]:0.0,4490-5_PB1[&!color=#ff0000]:0.0)[&!color=#ff0000]:0.0,4490-7_PB1[&!color=#ff0000]:0.0)[&!color=#ff0000]:0.0,5179-3_PB1[&!color=#ff0000]:0.0)[&!color=#ff0000]:2.0E-6,4479-8_PB1[&!color=#ff0000]:3.0E-6)[&label=81,!color=#ff0000]:2.0E-6,4479-19_PB1[&!color=#ff0000]:2.0E-6)[&label=62,!color=#ff0000]:2.0E-6)[&label=97,!color=#ff0000]:4.42E-4,(((((5174-31_PB1[&!color=#ff0000]:0.0,5174-32_PB1[&!color=#ff0000]:0.0)[&!color=#ff0000]:0.0,5174-36_PB1[&!color=#ff0000]:0.0)[&!color=#ff0000]:0.0,5174-29_PB1[&!color=#ff0000]:0.0)[&!color=#ff0000]:3.0E-6,5174-25_PB1[&!color=#ff0000]:3.0E-6)[&label=61,!color=#ff0000]:3.0E-6,((5174-35_PB1[&!color=#ff0000]:3.0E-6,(5174-26_PB1[&!color=#ff0000]:3.0E-6,5174-28_PB1[&!color=#ff0000]:3.0E-6)[&label=92,!color=#ff0000]:3.0E-6)[&label=87,!color=#ff0000]:3.0E-6,5174-27_PB1[&!color=#ff0000]:3.0E-6)[&label=89,!color=#ff0000]:3.0E-6)[&label=99,!color=#ff0000]:4.42E-4)[&label=19,!color=#ff0000]:3.0E-6,(((4490-34_PB1[&!color=#ff0000]:4.42E-4,(((4490-28_PB1[&!color=#ff0000]:3.0E-6,4479-2_PB1[&!color=#ff0000]:3.0E-6)[&label=50,!color=#ff0000]:3.0E-6,(5184-8_PB1[&!color=#ff0000]:3.0E-6,4479-20_PB1[&!color=#ff0000]:3.0E-6)[&label=48,!color=#ff0000]:3.0E-6)[&label=64,!color=#ff0000]:3.0E-6,5184-2_PB1[&!color=#ff0000]:3.0E-6)[&label=64,!color=#ff0000]:2.0E-6)[&label=9,!color=#ff0000]:3.0E-6,(((((((4490-30_PB1[&!color=#ff0000]:0.0,4490-25_PB1[&!color=#ff0000]:0.0)[&!color=#ff0000]:0.0,4490-32_PB1[&!color=#ff0000]:0.0)[&!color=#ff0000]:0.0,A_Sw_MN_PAH618_2011_H1N1_CHALLENGE_PB1[&!color=#ff0000]:0.0)[&!color=#ff0000]:0.0,5174-30_PB1[&!color=#ff0000]:0.0)[&!color=#ff0000]:0.0,4490-27_PB1[&!color=#ff0000]:0.0)[&!color=#ff0000]:0.0,4490-31_PB1[&!color=#ff0000]:0.0)[&!color=#ff0000]:0.0,5174-33_PB1[&!color=#ff0000]:0.0)[&!color=#ff0000]:3.0E-6)[&label=6,!color=#ff0000]:3.0E-6,5174-34_PB1[&!color=#ff0000]:3.0E-6)[&label=5,!color=#ff0000]:2.0E-6)[&label=33,!color=#ff0000]:2.0E-6,4490-29_PB1[&!color=#ff0000]:3.0E-6)[&label=53,!color=#ff0000]:2.0E-6,4490-24_PB1[&!color=#ff0000]:3.0E-6)[&label=57,!color=#ff0000]:2.0E-6,4479-16_PB1[&!color=#ff0000]:3.0E-6)[&label=39,!color=#ff0000]:2.0E-6,4479-9_PB1[&!color=#ff0000]:2.0E-6)[&label=38,!color=#ff0000]:3.0E-6,4479-15_PB1[&!color=#ff0000]:3.0E-6)[&label=96,!color=#ff0000]:6.44E-4)[&label=57,!color=#ff0000]:6.78E-4,'TRIG_KR047999_A_swine_Iowa_A01049949_2011_H1N1_PB1_USA_Iowa_1A.3.3.3_5_9_11'[&!color=#000000]:2.0E-6)[&label=88,!color=#ff0000]:8.5E-4)[&label=100]:0.016906,((('TRIG_KY401852_A_swine_South_Dakota_A01678175_2016_H1N2_PB1_USA_South_Dakota_1B.2.2.2_6_7_16':0.022165,'TRIG_JQ365132_A_swine_Texas_A01049556_2011_H3N2_PB1_USA_Texas_3.1990.4.7_2_14_11':0.001386)[&label=99]:0.003235,'TRIG_KY964004_A_swine_Ohio_16TOSU0255_2016_mixed_PB1_USA_Ohio_1B.2.2.1_2_1_16':0.018316)[&label=100]:0.013302,'TRIG_CY159844_A_swine_Oklahoma_01452_2007_H1N2_PB1_USA_Oklahoma_1A.3.3.3_1_26_07':0.001179)[&label=100]:0.006191)[&label=66]:0.00163,'TRIG_DQ150423_A_swine_MI_PU243_04_H3N1_PB1_USA_Michigan_3.1990.4_2004':0.003111)[&label=36]:2.0E-6)[&label=43]:2.0E-6)[&label=53]:4.28E-4,'TRIG_MG784635_A_swine_Oklahoma_A02219505_2017_H1N2_PB1_USA_Oklahoma_1B.2.2.2_8_14_17':0.043234)[&label=71]:4.18E-4,(((('TRIG_KX618880_A_swine_Ilinois_A02090968_2015_H3N2_PB1_USA_Unknown_3.1990.4.6_10_9_15':0.031429,((((((('TRIG_MH187748_A_swine_Missouri_A02136832_2017_H3N2_PB1_USA_Missouri_3.1990.4.2-3_11_22_17':0.018978,'TRIG_CY131551_A_swine_Ohio_11SW174_2011_H1N2_PB1_USA_Ohio_1B.2.2.2_8_8_11':2.0E-6)[&label=99]:4.42E-4,'TRIG_CY131203_A_swine_Ohio_11SW103_2011_H3N2_PB1_USA_Ohio_3.1990.4.1_8_5_11':4.41E-4)[&label=98]:8.84E-4,((((('TRIG_MF973285_A_swine_Oklahoma_A02214419_2017_H1N1_PB1_USA_Oklahoma_1B.2.2.2_4_3_17':0.01595,'TRIG_MF801549_A_swine_Iowa_A02214654_2017_H1N2_PB1_USA_Iowa_1B.2.2.2_3_28_17':0.016032)[&label=91]:0.001091,'TRIG_KX670704_A_swine_North_Carolina_A01377460_2014_H1N2_PB1_USA_North_Carolina_1B.2.1_12_4_14':0.005883)[&label=79]:3.88E-4,'TRIG_KY401971_A_swine_Missouri_A01775853_2016_H3N2_PB1_USA_Missouri_3.1990.4.1_5_24_16':0.016053)[&label=97]:3.0E-6,((((((('TRIG_MH187802_A_swine_Missouri_A02136836_2017_H1N1_PB1_USA_Missouri_1A.3.3.3_11_22_17':0.009988,('TRIG_KY938572_A_swine_Minnesota_A01668936_2016_H3N2_PB1_USA_Minnesota_3.1990.4.2-3_11_23_16':0.010456,(('TRIG_MH234405_A_swine_Ohio_OH_18_5253_2018_H3N2_PB1_USA_Ohio_3.2010.1_3_9_18':0.00863,'TRIG_MF045214_A_swine_Iowa_A01781046_2016_H1N1_PB1_USA_Iowa_1A.3.3.3_9_2_16':0.004075)[&label=100]:3.77E-4,'TRIG_KT449748_A_swine_Michigan_A01104086_2015_mixed_PB1_USA_Michigan_1B.2.2.1_3_23_15':2.0E-6)[&label=100]:0.001827)[&label=100]:3.66E-4)[&label=100]:0.001396,'TRIG_KY115409_A_swine_North_Carolina_A01731857_2016_H1N2_PB1_USA_North_Carolina_1B.2.1_2_11_16':0.00721)[&label=100]:3.99E-4,'TRIG_KT374232_A_swine_Indiana_A01260926_2015_H3N2_PB1_USA_Indiana_3.1990.4.1_6_29_15':0.004461)[&label=99]:8.97E-4,'TRIG_MG521031_A_swine_Indiana_A02216644_2017_H1N1_PB1_USA_Indiana_1A.3.3.3_6_9_17':0.009508)[&label=100]:4.29E-4,'TRIG_KF386769_A_swine_Indiana_A01260254_2013_H3N2_PB1_USA_Indiana_3.1990.4.1_3_20_13':4.42E-4)[&label=100]:0.001335,'TRIG_KY401874_A_swine_Minnesota_A01943420_2016_H3N2_PB1_USA_Minnesota_3.2010.1_5_5_16':0.01043)[&label=99]:8.81E-4,'TRIG_KF026671_A_swine_North_Carolina_A01270394_2012_H3N2_PB1_USA_North_Carolina_3.1990.4.1_5_31_12':4.41E-4)[&label=99]:8.82E-4)[&label=100]:0.002659,'TRIG_JX045974_A_swine_Indiana_A01049964_2011_H1N2_PB1_USA_Indiana_1B.2.2.2_5_11_11':2.0E-6)[&label=99]:0.001325)[&label=100]:0.002742,'TRIG_KM361355_A_swine_Ohio_13TOSU1560_2013_mixed_PB1_USA_Ohio_1A.3.3.3_8_31_13':0.005805)[&label=100]:0.005889,'TRIG_JX239980_A_swine_Illinois_A01240575_2011_H3N2_PB1_USA_Illinois_3.1990.4.7_12_20_11':5.38E-4)[&label=100]:0.00258,'TRIG_HQ840336_A_swine_South_Dakota_152B_2009_H1N2_PB1_USA_South_Dakota_1B.2.1_9_4_09':0.005373)[&label=100]:0.001782,'TRIG_EU409945_A_swine_Ohio_24366_07_H1N1_PB1_USA_Ohio_1A.3.3.3_2007':4.42E-4)[&label=98]:2.0E-6)[&label=51]:4.44E-4,'TRIG_KX670633_A_swine_Ohio_A01847657_2015_H1N1_PB1_USA_Ohio_1A.3.3.3_4_20_15':0.021927)[&label=48]:1.0E-6,'TRIG_CY158247_A_swine_Illinois_02166_2008_H1N1_PB1_USA_Illinois_1A.3.3.3_5_1_08':0.002658)[&label=49]:8.14E-4,'TRIG_KF026641_A_swine_South_Dakota_A01279746_2012_H1N2_PB1_USA_South_Dakota_1B.2.2.1_12_6_12':0.015239)[&label=100]:0.005499)[&label=94]:0.001223)[&label=100]:0.012632,'LAIV_CY095673_A_swine_Texas_4199_2_1998_H3N2_PB1_USA_Texas_3.1990.1_1998':0.002223)[&label=98]:0.001333,((((((((('pdm_MF522039_A_swine_Missouri_A01932424_2017_H1N1_PB1_USA_Missouri_1A.3.2_2_22_17':0.024368,('pdm_CY246769_A_swine_Saskatchewan_SD0205_2016_H1N1_PB1_Canada_Saskatchewan_1A.3.3.2_12_13_16':0.020429,'pdm_KF836371_A_swine_Illinois_A01227424_2013_H1N1_PB1_USA_Illinois_1A.3.3.3_9_6_13':0.010385)[&label=67]:3.0E-6)[&label=85]:2.0E-6,'pdm_CY158999_A_swine_Minnesota_02976_2010_H1N1_PB1_USA_Minnesota_1A.3.3.2_1_12_10':4.41E-4)[&label=88]:4.41E-4,'pdm_GQ150326_A_swine_Alberta_OTH_33_8_2009_H1N1_PB1_Canada_Alberta_1A.3.3.2_2009':0.003119)[&label=14]:3.0E-6,((('pdm_KR701655_A_swine_North_Carolina_A01076198_2010_H1N1_PB1_USA_North_Carolina_1A.3.3.2_3_14_10':0.002663,'pdm_CY158263_A_swine_Arkansas_SG1321_2009_H1N1_PB1_USA_Arkansas_1A.3.3.2_12_28_09':0.001326)[&label=19]:3.0E-6,'pdm_FJ966080_A_California_04_2009_H1N1_PB1_USA_California_1A.3.3.2_2009':4.41E-4)[&label=15]:3.0E-6,'pdm_JN617973_A_swine_Alberta_25_2009_H1N1_PB1_Canada_Alberta_1A.3.3.2_2009':3.0E-6)[&label=15]:2.0E-6)[&label=9]:3.0E-6,'pdm_JF714042_A_swine_MB_25_3_2009_H1N1_PB1_Canada_Manitoba_1A.3.3.2_8_31_09':0.003109)[&label=59]:2.0E-6,('pdm_CY246562_A_swine_Alberta_SD0183_2016_H3N2_PB1_Canada_Alberta_3.1990.4_10_19_16':0.013652,('pdm_KP019635_A_swine_Illinois_A01492501_2014_H1N1_PB1_USA_Illinois_1A.3.3.2_2_12_14':0.003733,('pdm_KY239052_A_swine_Illinois_A01749913_2016_H1N1_PB1_USA_Illinois_1A.3.3.2_4_18_16':0.001776,'pdm_MF116356_A_swine_Kansas_A01378027_2017_H1N1_PB1_USA_Kansas_1A.3.3.2_4_19_17':0.003147)[&label=100]:0.006804)[&label=99]:0.001859)[&label=100]:0.007938)[&label=89]:0.001592,'pdm_KR047930_A_swine_Iowa_A01202099_2011_H1N1_PB1_USA_Iowa_1A.3.3.2_6_21_11':0.004688)[&label=100]:0.029835,('TRIG_CY158847_A_swine_North_Carolina_SG1202_2004_H1N1_PB1_USA_North_Carolina_1A.3.3.3_4_15_04':0.012636,'TRIG_CY157701_A_swine_Colorado_SG1185_2004_H1N1_PB1_USA_Colorado_1A.1.1_4_7_04':0.012314)[&label=100]:0.006419)[&label=60]:0.001155,('TRIG_GU135916_A_swine_Iowa_H03HB4_2003_H3N2_PB1_USA_Iowa_3.1990.4_3-Feb':0.019674,'TRIG_DQ145544_A_swine_Minnesota_00395_2004_H3N1_PB1_USA_Minnesota_3.1990.4_2004':0.012085)[&label=86]:0.001417)[&label=56]:5.53E-4)[&label=59]:0.001353,'TRIG_CY098514_A_swine_North_Carolina_18161_2002_H1N1_PB1_USA_North_Carolina_1A.3.3_2002':0.012889)[&label=100]:0.018836)[&label=98]:0.04381)[&label=100]:0.370537)[&label=91]:0.002782,'classicalSwine_CY026305_A_swine_Wisconsin_2_1966_H1N1_PB1_USA_Wisconsin_1A.1-like_1966':0.004189)[&label=100]:0.00313);
+end;
+
+begin figtree;
+	set appearance.backgroundColorAttribute="Default";
+	set appearance.backgroundColour=#ffffff;
+	set appearance.branchColorAttribute="User selection";
+	set appearance.branchColorGradient=false;
+	set appearance.branchLineWidth=1.0;
+	set appearance.branchMinLineWidth=0.0;
+	set appearance.branchWidthAttribute="Fixed";
+	set appearance.foregroundColour=#000000;
+	set appearance.hilightingGradient=false;
+	set appearance.selectionColour=#2d3680;
+	set branchLabels.colorAttribute="User selection";
+	set branchLabels.displayAttribute="Branch times";
+	set branchLabels.fontName="sansserif";
+	set branchLabels.fontSize=8;
+	set branchLabels.fontStyle=0;
+	set branchLabels.isShown=false;
+	set branchLabels.significantDigits=4;
+	set layout.expansion=337;
+	set layout.layoutType="RECTILINEAR";
+	set layout.zoom=0;
+	set legend.attribute="label";
+	set legend.fontSize=10.0;
+	set legend.isShown=false;
+	set legend.significantDigits=4;
+	set nodeBars.barWidth=4.0;
+	set nodeBars.displayAttribute=null;
+	set nodeBars.isShown=false;
+	set nodeLabels.colorAttribute="User selection";
+	set nodeLabels.displayAttribute="Node ages";
+	set nodeLabels.fontName="sansserif";
+	set nodeLabels.fontSize=8;
+	set nodeLabels.fontStyle=0;
+	set nodeLabels.isShown=false;
+	set nodeLabels.significantDigits=4;
+	set nodeShapeExternal.colourAttribute="User selection";
+	set nodeShapeExternal.isShown=false;
+	set nodeShapeExternal.minSize=10.0;
+	set nodeShapeExternal.scaleType=Width;
+	set nodeShapeExternal.shapeType=Circle;
+	set nodeShapeExternal.size=4.0;
+	set nodeShapeExternal.sizeAttribute="Fixed";
+	set nodeShapeInternal.colourAttribute="User selection";
+	set nodeShapeInternal.isShown=true;
+	set nodeShapeInternal.minSize=0.0;
+	set nodeShapeInternal.scaleType=Width;
+	set nodeShapeInternal.shapeType=Circle;
+	set nodeShapeInternal.size=5.0;
+	set nodeShapeInternal.sizeAttribute="label";
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=0;
+	set polarLayout.rootLength=100;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=false;
+	set rectilinearLayout.curvature=0;
+	set rectilinearLayout.rootLength=100;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=8.0;
+	set scaleAxis.isShown=false;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=1.0;
+	set scaleAxis.minorTicks=0.5;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=false;
+	set scaleAxis.showGrid=true;
+	set scaleBar.automaticScale=true;
+	set scaleBar.fontSize=10.0;
+	set scaleBar.isShown=true;
+	set scaleBar.lineWidth=1.0;
+	set scaleBar.scaleRange=0.0;
+	set tipLabels.colorAttribute="User selection";
+	set tipLabels.displayAttribute="Names";
+	set tipLabels.fontName="sansserif";
+	set tipLabels.fontSize=8;
+	set tipLabels.fontStyle=0;
+	set tipLabels.isShown=true;
+	set tipLabels.significantDigits=4;
+	set trees.order=false;
+	set trees.orderType="increasing";
+	set trees.rooting=true;
+	set trees.rootingType="User Selection";
+	set trees.transform=false;
+	set trees.transformType="cladogram";
+end;
+

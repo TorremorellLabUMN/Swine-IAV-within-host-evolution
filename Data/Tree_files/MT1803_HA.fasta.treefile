@@ -1,0 +1,593 @@
+#NEXUS
+begin taxa;
+	dimensions ntax=491;
+	taxlabels
+	'1A.3.1_KU976560_A_swine_Mexico_AVX40_2012_H1N1_H1_Mexico_NA_1A.3.1_11_15_12'
+	'1A.3.1_KU976565_A_swine_Mexico_AVX63_2014_H1N1_H1_Mexico_NA_1A.3.1_4_25_14'
+	'1A.3.1_KU976624_A_swine_Mexico_AVX9_2010_H1N1_H1_Mexico_NA_1A.3.1_3_25_10'
+	'2010-human_like_CY219747_A_swine_Ohio_16TOSU3220_2016_H3N2_H3_USA_Ohio_3.2010.1_6_25_16'
+	'2010-human_like_CY243128_A_swine_Indiana_16TOSU7773_2016_H3N2_H3_USA_Indiana_3.2010.1_8_1_16'
+	'2010-human_like_KP137714_A_swine_Iowa_A01476471_2014_H3N1_H3_USA_Iowa_3.2010.1_1_15_14'
+	'2010-human_like_KP137750_A_swine_Missouri_A01476458_2013_H3N1_H3_USA_Missouri_3.2010.1_9_25_13'
+	'2010-human_like_KP137795_A_swine_Missouri_A01476459_2012_H3N2_H3_USA_Missouri_3.2010.1_11_15_12'
+	'2010-human_like_KP341405_A_swine_Iowa_A01555108_2014_H3N1_H3_USA_Iowa_3.2010.1_11_19_14'
+	'2010-human_like_KR780639_A_swine_Missouri_A01847626_2015_H3N2_H3_USA_Missouri_3.2010.1_4_20_15'
+	'2010-human_like_KT164893_A_swine_Iowa_A02077646_2015_H3N2_H3_USA_Iowa_3.2010.1_5_19_15'
+	'2010-human_like_KT595718_A_swine_Missouri_A01770005_2015_H3N2_H3_USA_Missouri_3.2010.1_8_3_15'
+	'2010-human_like_KU229918_A_swine_Missouri_A01795668_2015_H3N2_H3_USA_Missouri_3.2010.1_10_26_15'
+	'2010-human_like_KU942609_A_swine_Iowa_A01732489_2016_H3N2_H3_USA_Iowa_3.2010.1_2_25_16'
+	'2010-human_like_KX670532_A_swine_Minnesota_A01943862_2016_H3N2_H3_USA_Minnesota_3.2010.1_5_24_16'[&!color=#000000]
+	'2010-human_like_KY174896_A_swine_South_Dakota_A01678473_2016_H3N2_H3_USA_South_Dakota_3.2010.1_11_4_16'
+	'2010-human_like_KY465585_A_swine_Missouri_A01671485_2016_H3N2_H3_USA_Missouri_3.2010.1_12_15_16'
+	'2010-human_like_KY802126_A_swine_Iowa_A01932252_2017_H3N2_H3_USA_Iowa_3.2010.1_2_14_17'
+	'2010-human_like_MF092727_A_swine_Iowa_A02214652_2017_H3N2_H3_USA_Iowa_3.2010.1_3_23_17'
+	'2010-human_like_MF375247_A_swine_Iowa_A02216455_2017_H3N2_H3_USA_Iowa_3.2010.1_5_24_17'
+	'2010-human_like_MF784417_A_swine_Ohio_A02218759_2017_H3N2_H3_USA_Ohio_3.2010.1_7_25_17'
+	'2010-human_like_MF801569_A_swine_Ohio_A01354299_2017_H3N2_H3_USA_Ohio_3.2010.1_7_14_17'
+	'2010-human_like_MG917052_A_swine_Iowa_A02139353_2018_H3N2_H3_USA_Iowa_3.2010.1_1_4_18'
+	'2016-human_like_MF471676_A_swine_Oklahoma_A02218159_2017_H3N2_H3_USA_Oklahoma_3.2010.2_6_12_17'
+	'2016-human_like_MF471685_A_swine_Oklahoma_A02218157_2017_H3N2_H3_USA_Oklahoma_3.2010.2_5_31_17'
+	'2016-human_like_MG754502_A_swine_Arkansas_A01678528_2017_H3N2_H3_USA_Arkansas_3.2010.2_12_14_17'
+	4469-1_HA[&!color=#00ff00]
+	4471-1_HA[&!color=#00ff00]
+	4471-2_HA[&!color=#00ff00]
+	4471-3_HA[&!color=#00ff00]
+	4479-10_HA[&!color=#00ff00]
+	4479-14_HA[&!color=#00ff00]
+	4479-15_HA[&!color=#00ff00]
+	4479-16_HA[&!color=#00ff00]
+	4479-17_HA[&!color=#00ff00]
+	4479-18_HA[&!color=#00ff00]
+	4479-19_HA[&!color=#00ff00]
+	4479-20_HA[&!color=#00ff00]
+	4479-21_HA[&!color=#00ff00]
+	4479-2_HA[&!color=#00ff00]
+	4479-3_HA[&!color=#00ff00]
+	4479-4_HA[&!color=#00ff00]
+	4479-5_HA[&!color=#00ff00]
+	4479-6_HA[&!color=#00ff00]
+	4479-7_HA[&!color=#00ff00]
+	4479-8_HA[&!color=#00ff00]
+	4479_9_HA[&!color=#00ff00]
+	4484-10_HA[&!color=#00ff00]
+	4484-11_HA[&!color=#00ff00]
+	4484-12_HA[&!color=#00ff00]
+	4484-13_HA[&!color=#00ff00]
+	4484-14_HA[&!color=#00ff00]
+	4484-15_HA[&!color=#00ff00]
+	4484-16_HA[&!color=#00ff00]
+	4484-17_HA[&!color=#00ff00]
+	4484-1_HA[&!color=#00ff00]
+	4484-2_HA[&!color=#00ff00]
+	4484-3_HA[&!color=#00ff00]
+	4484-4_HA[&!color=#00ff00]
+	4484-5_HA[&!color=#00ff00]
+	4484-6_HA[&!color=#00ff00]
+	4484-7_HA[&!color=#00ff00]
+	4484-8_HA[&!color=#00ff00]
+	4484-9_HA[&!color=#00ff00]
+	4490-10_HA[&!color=#00ff00]
+	4490-11_HA[&!color=#00ff00]
+	4490-12_HA[&!color=#0000ff]
+	'4490-12_HA.'[&!color=#0000ff]
+	4490-13_HA[&!color=#00ff00]
+	4490-1_HA[&!color=#0000ff]
+	'4490-1_HA.'[&!color=#0000ff]
+	4490-24_HA[&!color=#ff0000]
+	4490-25_HA[&!color=#ff0000]
+	4490-26_HA[&!color=#ff0000]
+	4490-27_HA[&!color=#ff0000]
+	4490-28_HA[&!color=#ff0000]
+	4490-29_HA[&!color=#ff0000]
+	4490-2_HA[&!color=#0000ff]
+	'4490-2_HA.'[&!color=#0000ff]
+	4490-30_HA[&!color=#ff0000]
+	4490-31_HA[&!color=#ff0000]
+	4490-32_HA[&!color=#ff0000]
+	4490-33_HA[&!color=#ff0000]
+	4490-34_HA[&!color=#ff0000]
+	4490-35_HA[&!color=#ff0000]
+	'4490-3_HA.'[&!color=#00ff00]
+	4490-4_HA[&!color=#00ff00]
+	4490-5_HA[&!color=#00ff00]
+	4490-6_HA[&!color=#00ff00]
+	4490-7_HA[&!color=#0000ff]
+	'4490-7_HA.'[&!color=#0000ff]
+	4490-8_HA[&!color=#00ff00]
+	4551-10_HA[&!color=#00ff00]
+	4551-11_HA[&!color=#00ff00]
+	4551-12_HA[&!color=#00ff00]
+	4551-13_HA[&!color=#00ff00]
+	4551-14_HA[&!color=#00ff00]
+	4551-15_HA[&!color=#00ff00]
+	4551-16_HA[&!color=#00ff00]
+	4551-17_HA[&!color=#00ff00]
+	4551-18_HA[&!color=#00ff00]
+	4551-19_HA[&!color=#00ff00]
+	4551-1_HA[&!color=#00ff00]
+	4551-20_HA[&!color=#00ff00]
+	4551-21_HA[&!color=#00ff00]
+	4551-2_HA[&!color=#00ff00]
+	4551-4_HA[&!color=#00ff00]
+	4551-5_HA[&!color=#00ff00]
+	4551-6_HA[&!color=#00ff00]
+	4551-7_HA[&!color=#00ff00]
+	4551-8_HA[&!color=#00ff00]
+	4551-9_HA[&!color=#00ff00]
+	4933-11_HA[&!color=#00ff00]
+	4933-13_HA[&!color=#00ff00]
+	4933-16_HA[&!color=#00ff00]
+	4933-1_HA[&!color=#00ff00]
+	4933-20_HA[&!color=#00ff00]
+	4933-21_HA[&!color=#00ff00]
+	4933-24_HA[&!color=#00ff00]
+	4933-25_HA[&!color=#00ff00]
+	4933-26_HA[&!color=#00ff00]
+	4933-27_HA[&!color=#00ff00]
+	4933-28_HA[&!color=#00ff00]
+	4933-29_HA[&!color=#00ff00]
+	4933-2_HA[&!color=#00ff00]
+	4933-30_HA[&!color=#00ff00]
+	4933-31_HA[&!color=#00ff00]
+	4933-32_HA[&!color=#00ff00]
+	4933-33_HA[&!color=#00ff00]
+	4933-34_HA[&!color=#00ff00]
+	4933-35_HA[&!color=#00ff00]
+	4933-37_HA[&!color=#00ff00]
+	4933-38_HA[&!color=#00ff00]
+	4933-39_HA[&!color=#00ff00]
+	4933-3_HA[&!color=#00ff00]
+	4933-4_HA[&!color=#00ff00]
+	4933-5_HA[&!color=#00ff00]
+	4933-6_HA[&!color=#00ff00]
+	4933-7_HA[&!color=#00ff00]
+	4933-8_HA[&!color=#00ff00]
+	4933-9_HA[&!color=#00ff00]
+	4945-1_HA[&!color=#00ff00]
+	4945-2_HA[&!color=#00ff00]
+	5166-11_HA[&!color=#00ff00]
+	5166-12_HA[&!color=#00ff00]
+	5166-15_HA[&!color=#00ff00]
+	5166-16_HA[&!color=#00ff00]
+	5166-17_HA[&!color=#00ff00]
+	5166-18_HA[&!color=#00ff00]
+	5166-19_HA[&!color=#00ff00]
+	5166-1_HA[&!color=#00ff00]
+	5166-20_HA[&!color=#00ff00]
+	5166-21_HA[&!color=#00ff00]
+	5166-22_HA[&!color=#00ff00]
+	5166-24_HA[&!color=#00ff00]
+	5166-4_HA[&!color=#00ff00]
+	5166-5_HA[&!color=#00ff00]
+	5166-7_HA[&!color=#00ff00]
+	5166-8_HA[&!color=#00ff00]
+	5167-10_HA[&!color=#00ff00]
+	5167-11_HA[&!color=#00ff00]
+	5167-12_HA[&!color=#00ff00]
+	5167-13_HA[&!color=#00ff00]
+	5167-1_HA[&!color=#00ff00]
+	5167-2_HA[&!color=#00ff00]
+	5167-3_HA[&!color=#00ff00]
+	5167-4_HA[&!color=#00ff00]
+	5167-5_HA[&!color=#00ff00]
+	5167-6_HA[&!color=#00ff00]
+	5167-7_HA[&!color=#00ff00]
+	5167-8_HA[&!color=#00ff00]
+	5167-9_HA[&!color=#00ff00]
+	5174-10_HA[&!color=#00ff00]
+	5174-11_HA[&!color=#00ff00]
+	5174-12_HA[&!color=#00ff00]
+	5174-13_HA[&!color=#00ff00]
+	5174-15_HA[&!color=#00ff00]
+	5174-17_HA[&!color=#0000ff]
+	'5174-17_HA.'[&!color=#0000ff]
+	5174-25_HA[&!color=#ff0000]
+	5174-26_HA[&!color=#ff0000]
+	5174-27_HA[&!color=#ff0000]
+	5174-28_HA[&!color=#ff0000]
+	5174-29_HA[&!color=#ff0000]
+	5174-2_HA[&!color=#00ff00]
+	5174-30_HA[&!color=#ff0000]
+	5174-31_HA[&!color=#ff0000]
+	5174-32_HA[&!color=#ff0000]
+	5174-33_HA[&!color=#ff0000]
+	5174-34_HA[&!color=#ff0000]
+	5174-35_HA[&!color=#ff0000]
+	5174-36_HA[&!color=#ff0000]
+	5174-3_HA[&!color=#00ff00]
+	5174-6_HA[&!color=#00ff00]
+	5174-7_HA[&!color=#0000ff]
+	'5174-7_HA.'[&!color=#0000ff]
+	5174-9_HA[&!color=#00ff00]
+	5179-10_HA[&!color=#00ff00]
+	5179-11_HA[&!color=#00ff00]
+	5179-12_HA[&!color=#00ff00]
+	5179-13_HA[&!color=#00ff00]
+	5179-14_HA[&!color=#00ff00]
+	5179-1_HA[&!color=#00ff00]
+	5179-2_HA[&!color=#00ff00]
+	5179-3_HA[&!color=#00ff00]
+	5179-4_HA[&!color=#00ff00]
+	5179-5_HA[&!color=#00ff00]
+	5179-6_HA[&!color=#00ff00]
+	5179-7_HA[&!color=#00ff00]
+	5179-8_HA[&!color=#00ff00]
+	5179-9_HA[&!color=#00ff00]
+	5184-10_HA[&!color=#00ff00]
+	5184-12_HA[&!color=#00ff00]
+	5184-13_HA[&!color=#00ff00]
+	5184-14_HA[&!color=#00ff00]
+	5184-15_HA[&!color=#00ff00]
+	5184-16_HA[&!color=#00ff00]
+	5184-17_HA[&!color=#00ff00]
+	5184-18_HA[&!color=#00ff00]
+	5184-19_HA[&!color=#00ff00]
+	5184-1_HA[&!color=#00ff00]
+	5184-20_HA[&!color=#00ff00]
+	5184-21_HA[&!color=#00ff00]
+	5184-22_HA[&!color=#00ff00]
+	5184-23_HA[&!color=#00ff00]
+	5184-24_HA[&!color=#00ff00]
+	5184-2_HA[&!color=#00ff00]
+	5184-3_HA[&!color=#00ff00]
+	5184-4_HA[&!color=#00ff00]
+	5184-5_HA[&!color=#00ff00]
+	5184-6_HA[&!color=#00ff00]
+	5184-7_HA[&!color=#00ff00]
+	5184-8_HA[&!color=#00ff00]
+	5184-9_HA[&!color=#00ff00]
+	A_Sw_MN_PAH618_2011_H1N1_CHALLENGE_HA[&!color=#ff00ff]
+	A_Swine_Minnesota_080470_2015_H3N2_CHALLENGE_HA[&!color=#ff00ff]
+	'C_IVA_CY219553_A_swine_Iowa_16TOSU2464_2016_H3N2_H3_USA_Iowa_3.1990.4.1_6_9_16'
+	'C_IVA_FJ519977_A_swine_Minnesota_7931_2007_H3N2_H3_USA_Minnesota_3.1990.4.1_2_28_07'
+	'C_IVA_JN652492_A_swine_Indiana_A01049745_2011_H3N2_H3_USA_Indiana_3.1990.4.1_3_23_11'
+	'C_IVA_JX092561_A_swine_Ohio_A01203186_2012_H3N2_H3_USA_Ohio_3.1990.4.1_1_24_12'
+	'C_IVA_JX442056_A_swine_Michigan_A01259000_2012_H3N2_H3_USA_Michigan_3.1990.4.1_6_19_12'
+	'C_IVA_JX534982_A_swine_Indiana_A00968373_2012_H3N2_H3_USA_Indiana_3.1990.4.1_7_13_12'
+	'C_IVA_KC261859_A_swine_Iowa_A01244302_2012_H3N2_H3_USA_Iowa_3.1990.4.1_2012'
+	'C_IVA_KC735170_A_swine_Ohio_A01280883_2013_H3N2_H3_USA_Ohio_3.1990.4.1_2_15_13'
+	'C_IVA_KC813155_A_swine_Iowa_321160_2012_H3N2_H3_USA_Iowa_3.1990.4.1_8_23_12'
+	'C_IVA_KC841842_A_swine_North_Carolina_A01432566_2013_H3N2_H3_USA_North_Carolina_3.1990.4.1_2013'
+	'C_IVA_KF008000_A_swine_Ohio_10SW130_2010_H3N2_H3_USA_Ohio_3.1990.4.1_2010'
+	'C_IVA_KF179107_A_swine_Indiana_A01260254_2013_H3N2_H3_USA_Indiana_3.1990.4.1_3_20_13'
+	'C_IVA_KF715136_A_swine_Minnesota_A01392079_2013_H3N2_H3_USA_Minnesota_3.1990.4.1_9_18_13'
+	'C_IVA_KJ640443_A_swine_Ohio_13TOSU2052_2013_H3N2_H3_USA_Ohio_3.1990.4.1_8_1_13'
+	'C_IVA_KM821588_A_swine_Iowa_A01476267_2014_H3N2_H3_USA_Iowa_3.1990.4.1_8_22_14'
+	'C_IVA_KP461633_A_swine_Iowa_A01840226_2014_H3N2_H3_USA_Iowa_3.1990.4.1_12_19_14'
+	'C_IVA_KR074115_A_swine_Nebraska_A01489819_2015_H3N2_H3_USA_Nebraska_3.1990.4.1_3_19_15'
+	'C_IVA_KT767606_A_swine_Michigan_A02025547_2015_H3N2_H3_USA_Michigan_3.1990.4.1_8_13_15'
+	'C_IVA_KT995486_A_swine_North_Carolina_A01945452_2015_H3N2_H3_USA_North_Carolina_3.1990.4.1_10_6_15'
+	'C_IVA_KX694530_A_swine_Iowa_A01777893_2016_H3N2_H3_USA_Iowa_3.1990.4.1_7_21_16'
+	'C_IVA_KY454581_A_swine_Michigan_A01671226_2016_H3N2_H3_USA_Michigan_3.1990.4.1_12_6_16'
+	'C_IVA_KY800913_A_swine_South_Dakota_A01678486_2017_H3N2_H3_USA_South_Dakota_3.1990.4.1_3_8_17'
+	'C_IVA_MF144700_A_swine_Nebraska_A02215046_2017_H3N2_H3_USA_Nebraska_3.1990.4.1_4_26_17'
+	'C_IVA_MG663067_A_swine_North_Carolina_A02135886_2017_H3N2_H3_USA_North_Carolina_3.1990.4.1_11_7_17'
+	'C_IVB_CY158681_A_swine_Manitoba_01782_2007_H3N2_H3_Canada_Manitoba_3.1990.4.2-3_10_3_07'
+	'C_IVB_CY194245_A_swine_Manitoba_D0092_2012_H3N2_H3_Canada_Manitoba_3.1990.4.2-3_3_22_12'
+	'C_IVB_CY194269_A_swine_Manitoba_D0095_2012_H3N2_H3_Canada_Manitoba_3.1990.4.2-3_4_26_12'
+	'C_IVB_CY194317_A_swine_Manitoba_D0098_2012_H3N2_H3_Canada_Manitoba_3.1990.4.2-3_9_26_12'
+	'C_IVB_CY194477_A_swine_Manitoba_D0191_2013_H3N2_H3_Canada_Manitoba_3.1990.4.2-3_1_30_13'
+	'C_IVB_CY194629_A_swine_Manitoba_D0229_2013_H3N2_H3_Canada_Manitoba_3.1990.4.2-3_5_9_13'
+	'C_IVB_CY194741_A_swine_Manitoba_D0262_2013_H3N2_H3_Canada_Manitoba_3.1990.4.2-3_8_15_13'
+	'C_IVB_CY246121_A_swine_Manitoba_SD0141_2016_H3N2_H3_Canada_Manitoba_3.1990.4.2-3_2_10_16'
+	'C_IVB_CY246332_A_swine_Manitoba_D0444_2016_H3N2_H3_Canada_Manitoba_3.1990.4.2-3_5_26_16'
+	'C_IVB_HM217202_A_swine_Minnesota_03008_2010_H3N2_H3_USA_Minnesota_3.1990.4.2-3_4_22_10'
+	'C_IVB_JN162053_A_swine_Iowa_A01049317_2010_H3N2_H3_USA_Iowa_3.1990.4.2-3_12_22_10'
+	'C_IVB_JN162054_A_swine_Minnesota_A01049346_2010_H3N2_H3_USA_Minnesota_3.1990.4.2-3_12_29_10'
+	'C_IVB_JQ783071_A_swine_Minnesota_A01116195_2011_H3N2_H3_USA_Minnesota_3.1990.4.2-3_8_29_11'
+	'C_IVB_JX080531_A_swine_Iowa_A01203304_2012_H3N2_H3_USA_Iowa_3.1990.4.2-3_2_27_12'
+	'C_IVB_JX163264_A_swine_Iowa_A01203492_2012_H3N2_H3_USA_Iowa_3.1990.4.2-3_5_4_12'
+	'C_IVB_JX422431_A_swine_Minnesota_A01125992_2012_H3N2_H3_USA_Minnesota_3.1990.4.2-3_3_8_12'
+	'C_IVB_KC134399_A_swine_Iowa_A01203943_2012_H3N2_H3_USA_Iowa_3.1990.4.2-3_12-Oct'
+	'C_IVB_KF282731_A_swine_Illinois_A01271617_2012_H3N2_H3_USA_Illinois_3.1990.4.2-3_10_30_12'
+	'C_IVB_KT164908_A_swine_Illinois_A01554952_2015_H3N2_H3_USA_Illinois_3.1990.4.2-3_5_14_15'
+	'C_IVB_KU679964_A_swine_Minnesota_A01675363_2016_H3N2_H3_USA_Minnesota_3.1990.4.2-3_1_25_16'
+	'C_IVB_KY327668_A_swine_Kentucky_15TOSU1895_2015_H3N2_H3_USA_Kentucky_3.1990.4.2-3_11_8_15'
+	'C_IVB_KY465581_A_swine_North_Carolina_A01671018_2016_H3N2_H3_USA_North_Carolina_3.1990.4.2-3_12_5_16'
+	'C_IVC_CY159073_A_swine_Saskatchewan_SD0001_2011_H3N2_H3_Canada_Saskatchewan_3.1990.4.4_12_1_11'
+	'C_IVC_CY246404_A_swine_Alberta_SD0172_2016_H3N2_H3_Canada_Alberta_3.1990.4.4_6_28_16'
+	'C_IVC_JN706700_A_turkey_Ontario_FAV-10_2011_H3N2_H3_Canada_Ontario_3.1990.4.4_7_21_11'
+	'C_IVC_JX092535_A_swine_Indiana_A01202866_2011_H3N2_H3_USA_Indiana_3.1990.4.4_11_16_11'
+	'C_IVC_KC534987_A_swine_Michigan_A01432375_2013_H3N2_H3_USA_Michigan_3.1990.4.4_13-Jan'
+	'C_IVC_KC676308_A_swine_Indiana_A01260185_2013_H3N2_H3_USA_Indiana_3.1990.4.4_1_3_13'
+	'C_IVC_KJ413897_A_swine_Ontario_104_25_2012_H3N2_H3_Canada_Ontario_3.1990.4.4_1_13_12'
+	'C_IVC_KX264751_A_swine_Saskatchewan_G8_2014_H3N2_H3_Canada_Saskatchewan_3.1990.4.4_9_24_14'
+	'C_IVD_CY107066_A_swine_Illinois_A01201606_2011_H3N2_H3_USA_Illinois_3.1990.4.5_6_1_11'
+	'C_IVD_JX092307_A_swine_Iowa_A01202613_2011_H3N2_H3_USA_Iowa_3.1990.4.5_9_27_11'
+	'C_IVD_JX658776_A_swine_Iowa_A01203751_2012_H3N2_H3_USA_Iowa_3.1990.4.5_8_15_12'
+	'C_IVD_KC751551_A_swine_Kansas_12_165022_2012_H3N2_H3_USA_Kansas_3.1990.4.5_12_31_12'
+	'C_IVD_KP186097_A_swine_South_Dakota_A01483717_2014_H3N2_H3_USA_South_Dakota_3.1990.4.5_11_6_14'
+	'C_IVE_CY086920_A_swine_Minnesota_239105_2009_H3N2_H3_USA_Minnesota_3.1990.4.6_11_24_09'
+	'C_IVE_CY195086_A_swine_Saskatchewan_SD0012_2013_H3N2_H3_Canada_Saskatchewan_3.1990.4.6_11_27_13'
+	'C_IVE_CY195599_A_swine_Saskatchewan_SD0059_2014_H3N2_H3_Canada_Saskatchewan_3.1990.4.6_12_16_14'
+	'C_IVE_CY245745_A_swine_Saskatchewan_SD0083_2015_H3N2_H3_Canada_Saskatchewan_3.1990.4.6_3_25_15'
+	'C_IVE_CY245801_A_swine_Alberta_SD0101_2015_H3N2_H3_Canada_Alberta_3.1990.4.6_5_7_15'
+	'C_IVE_JX422311_A_swine_Illinois_A01327868_2012_H3N2_H3_USA_Illinois_3.1990.4.6_5_3_12'
+	'C_IVE_JX657826_A_swine_Illinois_A01240774_2012_H3N2_H3_USA_Illinois_3.1990.4.6_1_9_12'
+	'C_IVE_KJ667970_A_swine_Illinois_A01493218_2014_H3N2_H3_USA_Illinois_3.1990.4.6_3_19_14'
+	'C_IVE_KP341372_A_swine_Illinois_A01478357_2014_H3N2_H3_USA_Illinois_3.1990.4.6_12_8_14'
+	'C_IVE_KX150756_A_swine_Illinois_A01894510_2016_H3N2_H3_USA_Illinois_3.1990.4.6_3_29_16'
+	'C_IVF_JN409415_A_swine_Kansas_11_104467_2011_H3N2_H3_USA_Kansas_3.1990.4.7_2_16_11'
+	'C_IVF_JN652493_A_swine_Iowa_A01049750_2011_H3N2_H3_USA_Iowa_3.1990.4.7_3_28_11'
+	'C_IVF_JX565710_A_swine_Minnesota_17_2012_H3N2_H3_USA_Minnesota_3.1990.4.7_8_10_12'
+	'C_IVF_KC222305_A_swine_Nebraska_A01271549_2012_H3N2_H3_USA_Nebraska_3.1990.4.7_10_29_12'
+	'C_IVF_KF922744_A_swine_Minnesota_A01290747_2013_H3N2_H3_USA_Minnesota_3.1990.4.7_2013'
+	'C_IVF_KR859577_A_swine_Oklahoma_01033_2006_H3N2_H3_USA_Oklahoma_3.1990.4.7_2006'
+	'C_IV_AF268123_A_swine_Oklahoma_18717_99_H3N2_H3_USA_Oklahoma_3.1990.4_1999'
+	'C_IV_AF268126_A_swine_Wisconsin_14094_99_H3N2_H3_USA_Wisconsin_3.1990.4_1999'
+	'C_IV_CY045575_A_swine_Oklahoma_011506_2007_H3N2_H3_USA_Oklahoma_3.1990.4_2007'
+	'C_IV_CY099035_A_swine_Minnesota_01146_2006_H3N2_H3_USA_Minnesota_3.1990.4_5_25_06'
+	'C_IV_CY099061_A_swine_Minnesota_00709_2005_H3N2_H3_USA_Minnesota_3.1990.4_8_18_05'
+	'C_IV_CY099103_A_swine_Minnesota_02782_2009_H3N2_H3_USA_Minnesota_3.1990.4_5_7_09'
+	'C_IV_CY107020_A_swine_Indiana_A01076191_2010_H3N2_H3_USA_Indiana_3.1990.4_2_7_10'
+	'C_IV_CY130709_A_swine_Ohio_09SW63_2009_H3N2_H3_USA_Ohio_3.1990.4_8_8_09'
+	'C_IV_CY157679_A_swine_Nebraska_SG1178_2003_H3N2_H3_USA_Nebraska_3.1990.4_8_6_03'
+	'C_IV_CY158097_A_swine_Nebraska_01711_2007_H3N2_H3_USA_Nebraska_3.1990.4_7_31_07'
+	'C_IV_CY158633_A_swine_Quebec_01001_2006_H3N2_H3_Canada_Quebec_3.1990.4_2_23_06'
+	'C_IV_CY158697_A_swine_Saskatchewan_01834_2007_H3N2_H3_Canada_Saskatchewan_3.1990.4_10_29_07'
+	'C_IV_CY158721_A_swine_Manitoba_SG1432_2008_H3N2_H3_Canada_Manitoba_3.1990.4_6_17_08'
+	'C_IV_CY158753_A_swine_Manitoba_02946_2010_H3N2_H3_Canada_Manitoba_3.1990.4_1_20_10'
+	'C_IV_CY159025_A_swine_Manitoba_00446_2005_H3N2_H3_Canada_Manitoba_3.1990.4_1_25_05'
+	'C_IV_CY159097_A_swine_Iowa_00186_2003_H3N2_H3_USA_Iowa_3.1990.4_10_2_03'
+	'C_IV_CY159241_A_swine_Iowa_SG1469_2004_H3N2_H3_USA_Iowa_3.1990.4_10_14_04'
+	'C_IV_CY194653_A_swine_Manitoba_D0231_2013_H3N2_H3_Canada_Manitoba_3.1990.4_5_23_13'
+	'C_IV_CY194958_A_swine_Manitoba_D0288_2013_H3N2_H3_Canada_Manitoba_3.1990.4_11_7_13'
+	'C_IV_CY245641_A_swine_Alberta_SD0194_2016_H3N2_H3_Canada_Alberta_3.1990.4_11_23_16'
+	'C_IV_CY245761_A_swine_Saskatchewan_SD0096_2015_H3N2_H3_Canada_Saskatchewan_3.1990.4_4_3_15'
+	'C_IV_CY245785_A_swine_Saskatchewan_SD0100_2015_H3N2_H3_Canada_Saskatchewan_3.1990.4_4_22_15'
+	'C_IV_CY245881_A_swine_Manitoba_SD0112_2015_H3N2_H3_Canada_Manitoba_3.1990.4_7_15_15'
+	'C_IV_CY245993_A_swine_Saskatchewan_SD0126_2015_H3N2_H3_Canada_Saskatchewan_3.1990.4_11_12_15'
+	'C_IV_CY246524_A_swine_Manitoba_D0459_2016_H3N2_H3_Canada_Manitoba_3.1990.4_10_6_16'
+	'C_IV_EF551053_A_swine_North_Carolina_2003_H3N2_H3_USA_North_Carolina_3.1990.4_2003'
+	'C_IV_EU735818_A_turkey_Ohio_313053_2004_H3N2_H3_USA_Ohio_3.1990.4_6_26_05'
+	'C_IV_FJ519972_A_swine_Minnesota_66853_2006_H3N2_H3_USA_Minnesota_3.1990.4_12_26_06'
+	'C_IV_FJ519975_A_swine_Minnesota_761_2007_H3N2_H3_USA_Minnesota_3.1990.4_2007'
+	'C_IV_GU289666_A_swine_Wisconsin_R7c_2001_H3N2_H3_USA_Wisconsin_3.1990.4_2001'
+	'C_IV_HQ825218_A_swine_QC_1698_1_2009_H3N2_H3_Canada_Quebec_3.1990.4_5_15_09'
+	'C_IV_HQ825243_A_swine_QC_2108_2_2009_H3N2_H3_Canada_Quebec_3.1990.4_4_3_09'
+	'C_IV_JF263535_A_swine_Pennsylvania_A01076777_2010_H3N2_H3_USA_Pennsylvania_3.1990.4_10_25_10'
+	'C_IV_JF316643_A_swine_Pennsylvania_057108_1_2010_H3N2_H3_USA_Pennsylvania_3.1990.4_9_20_10'
+	'C_IV_JF833336_A_swine_Indiana_A01049124_2010_H3N2_H3_USA_Indiana_3.1990.4_11_19_10'
+	'C_IV_JQ398784_A_swine_North_Carolina_A01202766_2011_H3N2_H3_USA_North_Carolina_3.1990.4_10_20_11'
+	'C_IV_JX092415_A_swine_Michigan_A01202655_2011_H3N2_H3_USA_Michigan_3.1990.4_10_5_11'
+	'C_IV_JX422383_A_swine_Oklahoma_A01327676_2012_H3N2_H3_USA_Oklahoma_3.1990.4_4_19_12'
+	'C_IV_JX422500_A_swine_Minnesota_A01327769_2012_H3N2_H3_USA_Minnesota_3.1990.4_4_23_12'
+	'C_IV_KF007985_A_swine_Nebraska_9330_2006_H3N2_H3_USA_Nebraska_3.1990.4_2006'
+	'C_IV_KF739390_A_swine_Illinois_02907_2009_H3N2_H3_USA_Illinois_3.1990.4_10_21_09'
+	'C_IV_KJ847671_A_swine_Canada_AHL_18_2012_H3N2_H3_Canada_NA_3.1990.4_11_1_12'
+	'C_IV_KM277924_A_swine_Canada_AHL8_2012_H3N2_H3_Canada_NA_3.1990.4_12_10_12'
+	'C_IV_KP270886_A_swine_Kansas_10_83533_2010_H3N2_H3_USA_Kansas_3.1990.4_4_18_10'
+	'C_IV_KU925698_A_swine_Iowa_A01731968_2016_H3N2_H3_USA_Iowa_3.1990.4_2_16_16'
+	'C_IV_KU976715_A_swine_Mexico_AVX28_2012_H3N2_H3_Mexico_NA_3.1990.4_9_6_12'
+	'C_IV_KU976725_A_swine_Mexico_AVX33_2012_H3N2_H3_Mexico_NA_3.1990.4_10_29_12'
+	'C_IV_KU976778_A_swine_Mexico_AVX37_2012_H3N2_H3_Mexico_NA_3.1990.4_11_8_12'
+	'C_IV_KX264753_A_swine_Ontario_G10_2014_H3N2_H3_Canada_Ontario_3.1990.4_9_4_14'
+	'C_IV_KY941161_A_swine_Iowa_A01667095_2017_H3N2_H3_USA_Iowa_3.1990.4_3_13_17'
+	'C_IV_MF194234_A_swine_South_Dakota_MT_12_07_1554_2012_H3N2_H3_USA_South_Dakota_3.1990.4_10_31_12'
+	'C_IV_MF194374_A_swine_South_Dakota_MT_12_07_1566_2012_H3N2_H3_USA_South_Dakota_3.1990.4_10_31_12'
+	'C_IV_MG832877_A_swine_Minnesota_A02139250_2017_H3N2_H3_USA_Minnesota_3.1990.4_12_27_17'
+	'C_IV_MG836803_A_swine_Mexico_847061253020_2014_H3N2_H3_Mexico_NA_3.1990.4_4_10_14'
+	'C_I_AF251403_A_Swine_Nebraska_209_98_H3N2_H3_USA_Nebraska_3.1990.1_1998'
+	'Eurasian_avian-like_KU976737_A_swine_Mexico_AVX47_2013_H1N1_H1_Mexico_NA_1C.2_1_8_13'
+	'LAIV_C-I_CY095675_A_swine_Texas_4199_2_1998_H3N2_H3_USA_Texas_3.1990.1_1998'
+	'LAIV_gamma2-beta-like_EU139827_A_swine_Minnesota_37866_1999_H1N1_H1_USA_Minnesota_1A.2-3-like_1999'
+	'alpha_CY022325_A_swine_Iowa_3_1985_H1N1_H1_USA_Iowa_1A.1_1985'
+	'alpha_CY022333_A_swine_Iowa_17672_1988_H1N1_H1_USA_Iowa_1A.1_1988'
+	'alpha_CY022389_A_swine_Ontario_7_1981_H1N1_H1_Canada_Ontario_1A.1_1981'
+	'alpha_CY022461_A_swine_Wisconsin_8_1980_H1N1_H1_USA_Wisconsin_1A.1_1980'
+	'alpha_CY027307_A_swine_Tennessee_2_1978_H1N1_H1_USA_Tennessee_1A.1_1978'
+	'alpha_CY027515_A_swine_Tennessee_5_1978_H1N1_H1_USA_Tennessee_1A.1_1978'
+	'alpha_CY096883_A_swine_Iowa_2_1986_H1N1_H1_USA_Iowa_1A.1_1986'
+	'alpha_CY159057_A_swine_Manitoba_SG1433_2009_H1N1_H1_Canada_Manitoba_1A.1.1_6_17_09'
+	'alpha_CY194765_A_swine_Manitoba_D0265_2013_H1N2_H1_Canada_Manitoba_1A.1.1_8_22_13'
+	'alpha_CY194966_A_swine_Manitoba_D0289_2013_H1N2_H1_Canada_Manitoba_1A.1.1_11_7_13'
+	'alpha_CY195006_A_swine_Manitoba_D0294_2013_H1N2_H1_Canada_Manitoba_1A.1.1_11_20_13'
+	'alpha_CY195102_A_swine_Manitoba_D0303_2014_H1N2_H1_Canada_Manitoba_1A.1.1_1_7_14'
+	'alpha_CY195215_A_swine_Manitoba_D0336_2014_H1N2_H1_Canada_Manitoba_1A.1.1_6_4_14'
+	'alpha_CY246169_A_swine_Saskatchewan_D0410_2016_H1N2_H1_Canada_Saskatchewan_1A.1.1_3_11_16'
+	'alpha_CY246227_A_swine_Alberta_SD0164_2016_H1N2_H1_Canada_Alberta_1A.1.1_4_13_16'
+	'alpha_DQ280250_A_swine_Ontario_11112_04_H1N1_H1_Canada_Ontario_1A.1.1_2004'
+	'alpha_EU139823_A_swine_Iowa_15_1930_H1N1_H1_USA_Iowa_1A.1_1930'
+	'alpha_EU139824_A_swine_Iowa_1945_H1N1_H1_USA_Iowa_1A.1_1945'
+	'alpha_EU139825_A_swine_Wisconsin_1_1968_H1N1_H1_USA_Wisconsin_1A.1_1968'
+	'alpha_KU362711_A_swine_South_Dakota_A01747624_2015_H1N2_H1_USA_South_Dakota_1A.1.1_12_4_15'
+	'alpha_KX928680_A_swine_Minnesota_A01781045_2016_H1N2_H1_USA_Minnesota_1A.1.1_8_30_16'
+	'alpha_MF582522_A_swine_North_Carolina_A02217275_2017_H1N2_H1_USA_North_Carolina_1A.1.1_6_15_17'
+	'alpha_MG494742_A_swine_South_Dakota_A02223247_2017_H1N2_H1_USA_South_Dakota_1A.1.1_10_4_17'
+	'alpha_MG669449_A_swine_Texas_A02135700_2017_H1N2_H1_USA_Texas_1A.1.1_11_1_17'
+	'beta_AF455678_A_Swine_Minnesota_55551_00_H1N2_H1_USA_Minnesota_1A.2_2000'
+	'beta_AF455679_A_Swine_Iowa_930_01_H1N2_H1_USA_Iowa_1A.2_2001'
+	'beta_CY157975_A_swine_Minnesota_00991_2006_H1N1_H1_USA_Minnesota_1A.2_2_7_06'
+	'beta_KF712459_A_swine_Nebraska_A01399642_2013_H1N1_H1_USA_Nebraska_1A.2_9_10_13'
+	'beta_KM078053_A_swine_Minnesota_A01475770_2014_H1N1_H1_USA_Minnesota_1A.2_6_9_14'
+	'beta_KR074351_A_swine_Missouri_01553_2007_H1N1_H1_USA_Missouri_1A.2_4_12_07'
+	'beta_KY855501_A_swine_Nebraska_A01785251_2017_H1N2_H1_USA_Nebraska_1A.2_3_7_17'
+	'beta_MF092751_A_swine_Texas_A02214607_2017_H1N1_H1_USA_Texas_1A.2_4_11_17'
+	'delta-like_KU976586_A_swine_Mexico_AVX17_2012_H1N2_H1_Mexico_NA_Other-Human-1B.2_3_18_12'
+	'delta-like_KU976601_A_swine_Mexico_AVX16_2012_H1N2_H1_Mexico_NA_Other-Human-1B.2_4_3_12'
+	'delta-like_KU976748_A_swine_Mexico_AVX49_2013_H1N2_H1_Mexico_NA_Other-Human-1B.2_3_25_13'
+	'delta1_CY045623_A_swine_Oklahoma_011289_9_2008_H1N2_H1_USA_Oklahoma_1B.2.2.2_2008'
+	'delta1_CY158039_A_swine_Oklahoma_01741_2007_H1N2_H1_USA_Oklahoma_1B.2.2_8_23_07'
+	'delta1_CY158457_A_swine_Minnesota_3128_2010_H1N2_H1_USA_Minnesota_1B.2.2.2_9_24_10'
+	'delta1_CY159329_A_swine_Oklahoma_01139_2006_H1N1_H1_USA_Oklahoma_1B.2.2_5_17_06'
+	'delta1_DQ280227_A_swine_Ontario_52156_03_H1N2_H1_Canada_Ontario_1B.2.2_2003'
+	'delta1_FJ638314_A_swine_IL_07003243_2007_H1N2_H1_USA_Illinois_1B.2.2_2007'
+	'delta1_HM461802_A_swine_Minnesota_02011_2008_H1N2_H1_USA_Minnesota_1B.2.2_2008'
+	'delta1_HQ896639_A_swine_Minnesota_0913_1_2009_H1N2_H1_USA_Minnesota_1B.2.2.2_9_16_09'
+	'delta1_HQ896660_A_swine_Minnesota_5470_1_2010_H1N2_H1_USA_Minnesota_1B.2.2.2_3_3_10'
+	'delta1_JQ906866_A_swine_Minnesota_A01047913_2010_H1N2_H1_USA_Minnesota_1B.2.2.1_12_2_10'
+	'delta1_JQ922323_A_swine_Minnesota_A01134339_2010_H1N2_H1_USA_Minnesota_1B.2.2.2_11_18_10'
+	'delta1_JX092435_A_swine_Iowa_A01202786_2011_H1N2_H1_USA_Iowa_1B.2.2.1_11_1_11'
+	'delta1_JX657805_A_swine_Minnesota_A01076183_2009_H1N2_H1_USA_Minnesota_1B.2.2.1_12_28_09'
+	'delta1_KC562218_A_swine_Missouri_A01444664_2013_H1N2_H1_USA_Missouri_1B.2.2.2_1_15_13'
+	'delta1_KC844209_A_swine_South_Dakota_A01349341_2013_H1N2_H1_USA_South_Dakota_1B.2.2.2_3_13_13'
+	'delta1_KT164868_A_swine_Iowa_A02077681_2015_H1N2_H1_USA_Iowa_1B.2.2.1_5_21_15'
+	'delta1_KU695699_A_swine_Illinois_A01729946_2016_H1N2_H1_USA_Illinois_1B.2.2.1_1_20_16'
+	'delta1_KX150710_A_swine_Nebraska_A01894200_2016_H1N2_H1_USA_Nebraska_1B.2.2.2_3_23_16'
+	'delta1_KX150762_A_swine_Illinois_A01894756_2016_H1N2_H1_USA_Illinois_1B.2.2.1_4_1_16'
+	'delta1_KX150765_A_swine_Nebraska_A01894513_2016_H1N2_H1_USA_Nebraska_1B.2.2.1_3_30_16'
+	'delta1_KX356673_A_swine_Minnesota_A01943452_2016_H1N2_H1_USA_Minnesota_1B.2.2.2_5_9_16'
+	'delta1_KY290619_A_swine_Illinois_3120_2010_H1N2_H1_USA_Illinois_1B.2.2.2_9_3_10'
+	'delta1_KY328185_A_swine_Ohio_A01668213_2016_H1N2_H1_USA_Ohio_1B.2.2.1_11_9_16'
+	'delta1_KY941157_A_swine_Nebraska_A01933901_2017_H1N2_H1_USA_Nebraska_1B.2.2.1_3_20_17'
+	'delta1_MF973232_A_swine_Kansas_A01785288_2017_H1N2_H1_USA_Kansas_1B.2.2.1_9_5_17'
+	'delta1_MG663073_A_swine_Illinois_A02135885_2017_H1N2_H1_USA_Illinois_1B.2.2.1_11_9_17'
+	'delta1_MG720203_A_swine_Iowa_A02136755_2017_H1N1_H1_USA_Iowa_1B.2.2.2_11_14_17'
+	'delta2_CY098509_A_swine_North_Carolina_38448_1_2005_H1N1_H1_USA_North_Carolina_1B.2.1_2005'
+	'delta2_CY159999_A_swine_North_Carolina_SG1359_2010_H1N2_H1_USA_North_Carolina_1B.2.1_2_19_10'
+	'delta2_CY242806_A_swine_Indiana_16TOSU4367_2016_H1N2_H1_USA_Indiana_1B.2.1_7_1_16'
+	'delta2_FJ611898_A_swine_Minnesota_07002083_2007_H1N1_H1_USA_Minnesota_1B.2.1_2007'
+	'delta2_JQ906871_A_swine_Minnesota_A01076626_2010_H1N2_H1_USA_Minnesota_1B.2.1_10_12_10'
+	'delta2_JX952152_A_swine_North_Carolina_A01270393_2011_H1N2_H1_USA_North_Carolina_1B.2.1_12_8_11'
+	'delta2_KM821564_A_swine_North_Carolina_A01476339_2014_H1N2_H1_USA_North_Carolina_1B.2.1_9_3_14'
+	'delta2_KM879434_A_swine_North_Carolina_A01476420_2014_H1N2_H1_USA_North_Carolina_1B.2.1_9_16_14'
+	'delta2_KP461657_A_swine_Iowa_A01840164_2014_H1N2_H1_USA_Iowa_1B.2.1_12_12_14'
+	'delta2_KX351171_A_swine_North_Carolina_A01774164_2016_H1N2_H1_USA_North_Carolina_1B.2.1_4_22_16'
+	'delta2_MF996848_A_swine_Iowa_A02219790_2017_H1N2_H1_USA_Iowa_1B.2.1_8_17_17'
+	'delta2_MG870280_A_swine_Iowa_A02136711_2017_H1N2_H1_USA_Iowa_1B.2.1_11_21_17'
+	'gamma2_CY122357_A_swine_Mexico_Mex52_2010_H1N1_H1_Mexico_NA_1A.3.2_2010'
+	'gamma2_CY157631_A_swine_Texas_00195_2003_H1N1_H1_USA_Texas_1A.3.2_10_15_03'
+	'gamma2_CY159137_A_swine_Texas_00244_2004_H1N1_H1_USA_Texas_1A.3.2_2_4_04'
+	'gamma2_JQ809750_A_swine_Oklahoma_A01134906_2011_H1N1_H1_USA_Oklahoma_1A.3.2_3_24_11'
+	'gamma2_KY859939_A_swine_Missouri_A01932424_2017_H1N1_H1_USA_Missouri_1A.3.2_2_22_17'
+	'gamma_AF250124_A_Swine_Indiana_9K035_99_H1N2_H1_USA_Indiana_1A.3.3.3_1999'
+	'gamma_CY089407_A_swine_South_Dakota_7_2011_H1N1_H1_USA_South_Dakota_1A.3.3.3_2_28_11'
+	'gamma_CY099295_A_swine_Illinois_01917_2007_H1N1_H1_USA_Illinois_1A.3.3.3_12_7_07'
+	'gamma_CY116627_A_swine_Nebraska_A01240635_2011_H1N1_H1_USA_Nebraska_1A.3.3.3_12_13_11'
+	'gamma_CY159674_A_swine_North_Carolina_00396_2004_H1N1_H1_USA_North_Carolina_1A.3.3.3_8_27_04'
+	'gamma_CY159777_A_swine_North_Carolina_SG1229_2005_H1N1_H1_USA_North_Carolina_1A.3.3.3_12_6_05'
+	'gamma_JN652419_A_swine_Iowa_A01049719_2011_H1N1_H1_USA_Iowa_1A.3.3.3_3_21_11'
+	'gamma_JN652425_A_swine_Iowa_A01049775_2011_H1N1_H1_USA_Iowa_1A.3.3.3_3_28_11'
+	'gamma_JX080637_A_swine_Illinois_A01049981_2011_H1N1_H1_USA_Illinois_1A.3.3.3_5_17_11'
+	'gamma_JX401340_A_swine_South_Dakota_13_2012_H1N1_H1_USA_South_Dakota_1A.3.3.3_7_3_12'
+	'gamma_JX656964_A_swine_Minnesota_A01301275_2012_H1N1_H1_USA_Minnesota_1A.3.3.3_8_9_12'
+	'gamma_JX656970_A_swine_Minnesota_A01300441_2012_H1N1_H1_USA_Minnesota_1A.3.3.3_7_5_12'
+	'gamma_KF922789_A_swine_Illinois_A01290673_2013_H1N1_H1_USA_Illinois_1A.3.3.3_13-Oct'
+	'gamma_KJ526093_A_swine_Minnesota_A01491955_2014_H1N1_H1_USA_Minnesota_1A.3.3.3_2_6_14'
+	'gamma_KJ739416_A_swine_North_Carolina_A01475255_2014_H1N1_H1_USA_North_Carolina_1A.3.3.3_14-Mar'
+	'gamma_KR057379_A_swine_Minnesota_01082_2006_H1N2_H1_USA_Minnesota_1A.3.3.3_4_10_06'
+	'gamma_KR066406_A_swine_Illinois_A01489875_2014_H1N1_H1_USA_Illinois_1A.3.3.3_12_30_14'
+	'gamma_KR780630_A_swine_Ohio_A01847657_2015_H1N1_H1_USA_Ohio_1A.3.3.3_4_20_15'
+	'gamma_KU942618_A_swine_North_Carolina_A01732371_2016_H1N1_H1_USA_North_Carolina_1A.3.3.3_2_17_16'
+	'gamma_KX960190_A_swine_Iowa_A01778877_2016_H1N1_H1_USA_Iowa_1A.3.3.3_8_22_16'
+	'gamma_KY290622_A_swine_Illinois_3134_2010_H1N2_H1_USA_Illinois_1A.3.3.3_9_28_10'
+	'gamma_MF194258_A_swine_South_Dakota_MT_12_07_2005_2012_H1N1_H1_USA_South_Dakota_1A.3.3.3_3_14_12'
+	'gamma_MF348031_A_swine_Missouri_A02216048_2017_H1N1_H1_USA_Missouri_1A.3.3.3_5_16_17'
+	'gamma_MF582536_A_swine_Arkansas_A02218161_2017_H1N1_H1_USA_Arkansas_1A.3.3.3_7_5_17'
+	'gamma_MF765791_A_swine_Missouri_A02218334_2017_H1N1_H1_USA_Missouri_1A.3.3.3_7_17_17'
+	'gamma_MG198965_A_swine_Nebraska_A02221502_2017_H1N1_H1_USA_Nebraska_1A.3.3.3_9_5_17'
+	'gamma_MG663071_A_swine_Indiana_A02135797_2017_H1N1_H1_USA_Indiana_1A.3.3.3_11_8_17'
+	'gamma_MG763243_A_swine_Indiana_A02137146_2017_H1N1_H1_USA_Indiana_1A.3.3.3_11_30_17'
+	'gamma_MG822906_A_swine_North_Carolina_A02138714_2017_H1N1_H1_USA_North_Carolina_1A.3.3.3_12_13_17'
+	'gamma_MG825099_A_swine_Ilinois_A01644329_2018_H1N1_H1_USA_Unknown_1A.3.3.3_1_3_18'
+	'gamma_MG832869_A_swine_Nebraska_A02139134_2017_H1N1_H1_USA_Nebraska_1A.3.3.3_12_19_17'
+	'gamma_MG870268_A_swine_Missouri_A02139358_2018_H1N1_H1_USA_Missouri_1A.3.3.3_1_4_18'
+	humanVaccine_AY661190_A_Wuhan_359_1995_H3N2_H3_China_NA_humanVaccine_1995
+	'pdm_CY246364_A_swine_Manitoba_SD0169_2016_H1N1_H1_Canada_Manitoba_1A.3.3.2_6_3_16'
+	'pdm_GU480922_A_swine_IL_32974_2009_H1N1_H1_USA_Illinois_1A.3.3.2_11_11_09'
+	'pdm_GU984390_A_swine_IL_35572_2009_H1N1_H1_USA_Illinois_1A.3.3.2_12_16_09'
+	'pdm_JX092299_A_swine_Iowa_A01202554_2011_H1N1_H1_USA_Iowa_1A.3.3.2_8_30_11'
+	'pdm_JX092560_A_swine_Missouri_A01203163_2012_H1N1_H1_USA_Missouri_1A.3.3.2_1_17_12'
+	'pdm_KF611813_A_swine_Illinois_A01398628_2013_H1N1_H1_USA_Illinois_1A.3.3.2_8_9_13'
+	'pdm_KT240386_A_swine_South_Dakota_A01823076_2015_H1N1_H1_USA_South_Dakota_1A.3.3.2_5_4_15'
+	'pdm_KY290627_A_swine_Indiana_03053_2010_H1N2_H1_USA_Indiana_1A.3.3.2_7_14_10'
+	'pdm_MG832871_A_swine_Missouri_A02139233_2018_H1N1_H1_USA_Missouri_1A.3.3.2_1_3_18'
+	'pdm_MG870266_A_swine_Utah_A02139205_2018_H1N1_H1_USA_Utah_1A.3.3.2_1_2_18'
+;
+end;
+
+begin trees;
+	tree tree_1 = [&R] ('C_IV_AF268123_A_swine_Oklahoma_18717_99_H3N2_H3_USA_Oklahoma_3.1990.4_1999':9.89E-4,'C_IV_AF268126_A_swine_Wisconsin_14094_99_H3N2_H3_USA_Wisconsin_3.1990.4_1999':0.002034,(((((('2016-human_like_MF471676_A_swine_Oklahoma_A02218159_2017_H3N2_H3_USA_Oklahoma_3.2010.2_6_12_17':0.002924,'2016-human_like_MG754502_A_swine_Arkansas_A01678528_2017_H3N2_H3_USA_Arkansas_3.2010.2_12_14_17':0.002342)[&label=100]:7.46E-4,'2016-human_like_MF471685_A_swine_Oklahoma_A02218157_2017_H3N2_H3_USA_Oklahoma_3.2010.2_5_31_17':0.001008)[&label=100]:0.026457,('2010-human_like_KP137795_A_swine_Missouri_A01476459_2012_H3N2_H3_USA_Missouri_3.2010.1_11_15_12':0.004227,(((((((('2010-human_like_MG917052_A_swine_Iowa_A02139353_2018_H3N2_H3_USA_Iowa_3.2010.1_1_4_18':0.012459,('2010-human_like_MF801569_A_swine_Ohio_A01354299_2017_H3N2_H3_USA_Ohio_3.2010.1_7_14_17':0.002324,'2010-human_like_MF784417_A_swine_Ohio_A02218759_2017_H3N2_H3_USA_Ohio_3.2010.1_7_25_17':0.005322)[&label=100]:0.006515)[&label=80]:0.00117,(((('2010-human_like_MF375247_A_swine_Iowa_A02216455_2017_H3N2_H3_USA_Iowa_3.2010.1_5_24_17':0.005889,'2010-human_like_KY174896_A_swine_South_Dakota_A01678473_2016_H3N2_H3_USA_South_Dakota_3.2010.1_11_4_16':0.004714)[&label=95]:0.001735,'2010-human_like_KU942609_A_swine_Iowa_A01732489_2016_H3N2_H3_USA_Iowa_3.2010.1_2_25_16':0.005265)[&label=70]:2.0E-6,(('2010-human_like_KY465585_A_swine_Missouri_A01671485_2016_H3N2_H3_USA_Missouri_3.2010.1_12_15_16':0.002916,(('2010-human_like_CY219747_A_swine_Ohio_16TOSU3220_2016_H3N2_H3_USA_Ohio_3.2010.1_6_25_16':5.81E-4,'2010-human_like_MF092727_A_swine_Iowa_A02214652_2017_H3N2_H3_USA_Iowa_3.2010.1_3_23_17':0.001164)[&label=54]:2.0E-6,'2010-human_like_KY802126_A_swine_Iowa_A01932252_2017_H3N2_H3_USA_Iowa_3.2010.1_2_14_17':5.81E-4)[&label=63]:2.0E-6)[&label=100]:5.79E-4,'2010-human_like_CY243128_A_swine_Indiana_16TOSU7773_2016_H3N2_H3_USA_Indiana_3.2010.1_8_1_16':5.81E-4)[&label=92]:3.0E-6)[&label=42]:2.0E-6,((((((((((((5166-22_HA[&!color=#00ff00]:0.001326,((((((((5166-1_HA[&!color=#00ff00]:0.0,5166-17_HA[&!color=#00ff00]:0.0)[&!color=#00ff00]:0.0,5166-15_HA[&!color=#00ff00]:0.0)[&!color=#00ff00]:0.0,5184-22_HA[&!color=#00ff00]:0.0)[&!color=#00ff00]:0.0,5166-18_HA[&!color=#00ff00]:0.0)[&!color=#00ff00]:0.0,5166-5_HA[&!color=#00ff00]:0.0)[&!color=#00ff00]:0.0,5166-21_HA[&!color=#00ff00]:0.0)[&!color=#00ff00]:0.0,5166-20_HA[&!color=#00ff00]:0.0)[&!color=#00ff00]:2.0E-6,5166-11_HA[&!color=#00ff00]:2.0E-6)[&label=100,!color=#00ff00]:4.65E-4)[&label=10,!color=#00ff00]:4.0E-6,5166-19_HA[&!color=#00ff00]:2.0E-6)[&label=6,!color=#00ff00]:2.0E-6,5166-12_HA[&!color=#00ff00]:2.0E-6)[&label=7,!color=#00ff00]:9.2E-5,4933-33_HA[&!color=#00ff00]:2.0E-6)[&label=9,!color=#00ff00]:2.0E-6,5184-16_HA[&!color=#00ff00]:2.0E-6)[&label=29,!color=#00ff00]:1.6E-5,5167-8_HA[&!color=#00ff00]:5.81E-4)[&label=3,!color=#00ff00]:2.0E-6,((5174-17_HA[&!color=#00ff00]:5.81E-4,4484-4_HA[&!color=#00ff00]:0.001749)[&label=44,!color=#00ff00]:2.0E-6,5184-18_HA[&!color=#00ff00]:5.81E-4)[&label=9,!color=#00ff00]:2.0E-6)[&label=5,!color=#00ff00]:2.0E-6,((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((4479-17_HA[&!color=#00ff00]:0.0,4933-3_HA[&!color=#00ff00]:0.0)[&!color=#00ff00]:0.0,4484-1_HA[&!color=#00ff00]:0.0)[&!color=#00ff00]:0.0,4933-2_HA[&!color=#00ff00]:0.0)[&!color=#00ff00]:0.0,4479-6_HA[&!color=#00ff00]:0.0)[&!color=#00ff00]:0.0,5184-2_HA[&!color=#00ff00]:0.0)[&!color=#00ff00]:0.0,4551-19_HA[&!color=#00ff00]:0.0)[&!color=#00ff00]:0.0,4933-34_HA[&!color=#00ff00]:0.0)[&!color=#00ff00]:0.0,5174-11_HA[&!color=#00ff00]:0.0)[&!color=#00ff00]:0.0,5179-7_HA[&!color=#00ff00]:0.0)[&!color=#00ff00]:0.0,5167-2_HA[&!color=#00ff00]:0.0)[&!color=#00ff00]:0.0,4484-7_HA[&!color=#00ff00]:0.0)[&!color=#00ff00]:0.0,5184-14_HA[&!color=#00ff00]:0.0)[&!color=#00ff00]:0.0,4490-10_HA[&!color=#00ff00]:0.0)[&!color=#00ff00]:0.0,4484-14_HA[&!color=#00ff00]:0.0)[&!color=#00ff00]:0.0,4551-8_HA[&!color=#00ff00]:0.0)[&!color=#00ff00]:0.0,4479-5_HA[&!color=#00ff00]:0.0)[&!color=#00ff00]:0.0,4551-2_HA[&!color=#00ff00]:0.0)[&!color=#00ff00]:0.0,5167-9_HA[&!color=#00ff00]:0.0)[&!color=#00ff00]:0.0,5184-1_HA[&!color=#00ff00]:0.0)[&!color=#00ff00]:0.0,4551-4_HA[&!color=#00ff00]:0.0)[&!color=#00ff00]:0.0,4484-13_HA[&!color=#00ff00]:0.0)[&!color=#00ff00]:0.0,5174-9_HA[&!color=#00ff00]:0.0)[&!color=#00ff00]:0.0,5167-1_HA[&!color=#00ff00]:0.0)[&!color=#00ff00]:0.0,4933-20_HA[&!color=#00ff00]:0.0)[&!color=#00ff00]:0.0,4933-9_HA[&!color=#00ff00]:0.0)[&!color=#00ff00]:0.0,4479-20_HA[&!color=#00ff00]:0.0)[&!color=#00ff00]:0.0,4933-29_HA[&!color=#00ff00]:0.0)[&!color=#00ff00]:0.0,4484-6_HA[&!color=#00ff00]:0.0)[&!color=#00ff00]:0.0,4551-17_HA[&!color=#00ff00]:0.0)[&!color=#00ff00]:0.0,5166-8_HA[&!color=#00ff00]:0.0)[&!color=#00ff00]:0.0,4933-16_HA[&!color=#00ff00]:0.0)[&!color=#00ff00]:0.0,4933-30_HA[&!color=#00ff00]:0.0)[&!color=#00ff00]:0.0,4490-2_HA[&!color=#00ff00]:0.0)[&!color=#00ff00]:0.0,4933-37_HA[&!color=#00ff00]:0.0)[&!color=#00ff00]:0.0,4479_9_HA[&!color=#00ff00]:0.0)[&!color=#00ff00]:0.0,5179-5_HA[&!color=#00ff00]:0.0)[&!color=#00ff00]:0.0,5184-20_HA[&!color=#00ff00]:0.0)[&!color=#00ff00]:0.0,4490-4_HA[&!color=#00ff00]:0.0)[&!color=#00ff00]:0.0,5179-3_HA[&!color=#00ff00]:0.0)[&!color=#00ff00]:0.0,5184-12_HA[&!color=#00ff00]:0.0)[&!color=#00ff00]:0.0,4551-13_HA[&!color=#00ff00]:0.0)[&!color=#00ff00]:0.0,4933-1_HA[&!color=#00ff00]:0.0)[&!color=#00ff00]:0.0,4479-7_HA[&!color=#00ff00]:0.0)[&!color=#00ff00]:0.0,4490-11_HA[&!color=#00ff00]:0.0)[&!color=#00ff00]:0.0,'2010-human_like_KX670532_A_swine_Minnesota_A01943862_2016_H3N2_H3_USA_Minnesota_3.2010.1_5_24_16'[&!color=#00ff00]:0.0)[&!color=#00ff00]:0.0,4933-11_HA[&!color=#00ff00]:0.0)[&!color=#00ff00]:0.0,5179-4_HA[&!color=#00ff00]:0.0)[&!color=#00ff00]:0.0,5167-3_HA[&!color=#00ff00]:0.0)[&!color=#00ff00]:0.0,4551-6_HA[&!color=#00ff00]:0.0)[&!color=#00ff00]:0.0,4484-5_HA[&!color=#00ff00]:0.0)[&!color=#00ff00]:0.0,4490-8_HA[&!color=#00ff00]:0.0)[&!color=#00ff00]:0.0,4479-14_HA[&!color=#00ff00]:0.0)[&!color=#00ff00]:0.0,5179-12_HA[&!color=#00ff00]:0.0)[&!color=#00ff00]:0.0,4484-3_HA[&!color=#00ff00]:0.0)[&!color=#00ff00]:0.0,4479-4_HA[&!color=#00ff00]:0.0)[&!color=#00ff00]:0.0,4551-16_HA[&!color=#00ff00]:0.0)[&!color=#00ff00]:0.0,5184-5_HA[&!color=#00ff00]:0.0)[&!color=#00ff00]:0.0,4551-7_HA[&!color=#00ff00]:0.0)[&!color=#00ff00]:0.0,5179-2_HA[&!color=#00ff00]:0.0)[&!color=#00ff00]:0.0,5166-4_HA[&!color=#00ff00]:0.0)[&!color=#00ff00]:0.0,4933-35_HA[&!color=#00ff00]:0.0)[&!color=#00ff00]:0.0,5179-6_HA[&!color=#00ff00]:0.0)[&!color=#00ff00]:0.0,4933-25_HA[&!color=#00ff00]:0.0)[&!color=#00ff00]:0.0,4551-11_HA[&!color=#00ff00]:0.0)[&!color=#00ff00]:0.0,4469-1_HA[&!color=#00ff00]:0.0)[&!color=#00ff00]:0.0,5179-11_HA[&!color=#00ff00]:0.0)[&!color=#00ff00]:0.0,4551-18_HA[&!color=#00ff00]:0.0)[&!color=#00ff00]:0.0,5167-12_HA[&!color=#00ff00]:0.0)[&!color=#00ff00]:0.0,5166-16_HA[&!color=#00ff00]:0.0)[&!color=#00ff00]:0.0,4471-3_HA[&!color=#00ff00]:0.0)[&!color=#00ff00]:0.0,4479-19_HA[&!color=#00ff00]:0.0)[&!color=#00ff00]:0.0,A_Swine_Minnesota_080470_2015_H3N2_CHALLENGE_HA[&!color=#00ff00]:0.0)[&!color=#00ff00]:0.0,4484-17_HA[&!color=#00ff00]:0.0)[&!color=#00ff00]:0.0,4484-12_HA[&!color=#00ff00]:0.0)[&!color=#00ff00]:0.0,4484-10_HA[&!color=#00ff00]:0.0)[&!color=#00ff00]:0.0,5184-6_HA[&!color=#00ff00]:0.0)[&!color=#00ff00]:0.0,4490-12_HA[&!color=#00ff00]:0.0)[&!color=#00ff00]:0.0,5179-14_HA[&!color=#00ff00]:0.0)[&!color=#00ff00]:0.0,5179-1_HA[&!color=#00ff00]:0.0)[&!color=#00ff00]:0.0,4484-8_HA[&!color=#00ff00]:0.0)[&!color=#00ff00]:0.0,4933-27_HA[&!color=#00ff00]:0.0)[&!color=#00ff00]:0.0,5174-2_HA[&!color=#00ff00]:0.0)[&!color=#00ff00]:0.0,4479-2_HA[&!color=#00ff00]:0.0)[&!color=#00ff00]:0.0,5167-10_HA[&!color=#00ff00]:0.0)[&!color=#00ff00]:0.0,4551-21_HA[&!color=#00ff00]:0.0)[&!color=#00ff00]:0.0,4933-38_HA[&!color=#00ff00]:0.0)[&!color=#00ff00]:0.0,'5174-7_HA.'[&!color=#00ff00]:0.0)[&!color=#00ff00]:0.0,5167-6_HA[&!color=#00ff00]:0.0)[&!color=#00ff00]:0.0,4484-9_HA[&!color=#00ff00]:0.0)[&!color=#00ff00]:0.0,4551-10_HA[&!color=#00ff00]:0.0)[&!color=#00ff00]:0.0,4479-3_HA[&!color=#00ff00]:0.0)[&!color=#00ff00]:0.0,5166-24_HA[&!color=#00ff00]:0.0)[&!color=#00ff00]:0.0,5184-4_HA[&!color=#00ff00]:0.0)[&!color=#00ff00]:0.0,4479-21_HA[&!color=#00ff00]:0.0)[&!color=#00ff00]:0.0,4933-32_HA[&!color=#00ff00]:0.0)[&!color=#00ff00]:0.0,4551-5_HA[&!color=#00ff00]:0.0)[&!color=#00ff00]:0.0,5167-13_HA[&!color=#00ff00]:0.0)[&!color=#00ff00]:0.0,4551-15_HA[&!color=#00ff00]:0.0)[&!color=#00ff00]:0.0,4933-8_HA[&!color=#00ff00]:0.0)[&!color=#00ff00]:0.0,4551-20_HA[&!color=#00ff00]:0.0)[&!color=#00ff00]:0.0,4471-2_HA[&!color=#00ff00]:0.0)[&!color=#00ff00]:0.0,5167-5_HA[&!color=#00ff00]:0.0)[&!color=#00ff00]:0.0,4945-1_HA[&!color=#00ff00]:0.0)[&!color=#00ff00]:0.0,'4490-3_HA.'[&!color=#00ff00]:0.0)[&!color=#00ff00]:0.0,4484-11_HA[&!color=#00ff00]:0.0)[&!color=#00ff00]:0.0,4933-6_HA[&!color=#00ff00]:0.0)[&!color=#00ff00]:0.0,5184-17_HA[&!color=#00ff00]:0.0)[&!color=#00ff00]:0.0,4933-5_HA[&!color=#00ff00]:0.0)[&!color=#00ff00]:0.0,5184-8_HA[&!color=#00ff00]:0.0)[&!color=#00ff00]:0.0,4490-6_HA[&!color=#00ff00]:0.0)[&!color=#00ff00]:0.0,4479-8_HA[&!color=#00ff00]:0.0)[&!color=#00ff00]:0.0,5174-12_HA[&!color=#00ff00]:0.0)[&!color=#00ff00]:0.0,5179-13_HA[&!color=#00ff00]:0.0)[&!color=#00ff00]:0.0,4933-7_HA[&!color=#00ff00]:0.0)[&!color=#00ff00]:0.0,4479-16_HA[&!color=#00ff00]:0.0)[&!color=#00ff00]:0.0,4551-12_HA[&!color=#00ff00]:0.0)[&!color=#00ff00]:0.0,4490-13_HA[&!color=#00ff00]:0.0)[&!color=#00ff00]:0.0,4933-28_HA[&!color=#00ff00]:0.0)[&!color=#00ff00]:0.0,5184-23_HA[&!color=#00ff00]:0.0)[&!color=#00ff00]:0.0,4484-16_HA[&!color=#00ff00]:0.0)[&!color=#00ff00]:0.0,5167-11_HA[&!color=#00ff00]:0.0)[&!color=#00ff00]:0.0,4479-10_HA[&!color=#00ff00]:0.0)[&!color=#00ff00]:0.0,5184-19_HA[&!color=#00ff00]:0.0)[&!color=#00ff00]:0.0,5174-13_HA[&!color=#00ff00]:0.0)[&!color=#00ff00]:0.0,5174-6_HA[&!color=#00ff00]:0.0)[&!color=#00ff00]:0.0,4933-39_HA[&!color=#00ff00]:0.0)[&!color=#00ff00]:0.0,5184-24_HA[&!color=#00ff00]:0.0)[&!color=#00ff00]:0.0,5179-10_HA[&!color=#00ff00]:0.0)[&!color=#00ff00]:0.0,5174-10_HA[&!color=#00ff00]:0.0)[&!color=#00ff00]:0.0,5174-3_HA[&!color=#00ff00]:0.0)[&!color=#00ff00]:0.0,5184-21_HA[&!color=#00ff00]:0.0)[&!color=#00ff00]:0.0,5167-4_HA[&!color=#00ff00]:0.0)[&!color=#00ff00]:0.0,5184-9_HA[&!color=#00ff00]:0.0)[&!color=#00ff00]:0.0,4479-15_HA[&!color=#00ff00]:0.0)[&!color=#00ff00]:0.0,4933-24_HA[&!color=#00ff00]:0.0)[&!color=#00ff00]:0.0,4484-15_HA[&!color=#00ff00]:0.0)[&!color=#00ff00]:0.0,4479-18_HA[&!color=#00ff00]:0.0)[&!color=#00ff00]:0.0,4551-1_HA[&!color=#00ff00]:0.0)[&!color=#00ff00]:0.0,5184-10_HA[&!color=#00ff00]:0.0)[&!color=#00ff00]:0.0,4945-2_HA[&!color=#00ff00]:0.0)[&!color=#00ff00]:0.0,4471-1_HA[&!color=#00ff00]:0.0)[&!color=#00ff00]:0.0,5167-7_HA[&!color=#00ff00]:0.0)[&!color=#00ff00]:0.0,4933-13_HA[&!color=#00ff00]:0.0)[&!color=#00ff00]:0.0,4933-21_HA[&!color=#00ff00]:0.0)[&!color=#00ff00]:0.0,4490-1_HA[&!color=#00ff00]:0.0)[&!color=#00ff00]:0.0,4551-14_HA[&!color=#00ff00]:0.0)[&!color=#00ff00]:0.0,4551-9_HA[&!color=#00ff00]:0.0)[&!color=#00ff00]:0.0,5184-7_HA[&!color=#00ff00]:0.0)[&!color=#00ff00]:2.0E-6)[&label=3,!color=#00ff00]:2.0E-6,(((5184-13_HA[&!color=#00ff00]:5.81E-4,((4490-7_HA[&!color=#00ff00]:0.0,4490-5_HA[&!color=#00ff00]:0.0)[&!color=#00ff00]:2.0E-6,5174-15_HA[&!color=#00ff00]:2.0E-6)[&label=100,!color=#00ff00]:5.81E-4)[&label=16,!color=#00ff00]:2.0E-6,(4484-2_HA[&!color=#00ff00]:5.82E-4,5184-15_HA[&!color=#00ff00]:5.83E-4)[&label=17,!color=#00ff00]:2.0E-6)[&label=6,!color=#00ff00]:2.0E-6,(4933-26_HA[&!color=#00ff00]:2.0E-6,5184-3_HA[&!color=#00ff00]:2.0E-6)[&label=31,!color=#00ff00]:2.0E-6)[&label=5,!color=#00ff00]:1.0E-6)[&label=3,!color=#00ff00]:2.0E-6,5166-7_HA[&!color=#00ff00]:2.0E-6)[&label=7,!color=#00ff00]:2.0E-6,(4933-31_HA[&!color=#00ff00]:5.81E-4,(5179-9_HA[&!color=#00ff00]:5.81E-4,5179-8_HA[&!color=#00ff00]:2.0E-6)[&label=30,!color=#00ff00]:1.0E-6)[&label=9,!color=#00ff00]:3.0E-6)[&label=69,!color=#00ff00]:2.0E-6,4933-4_HA[&!color=#00ff00]:2.0E-6)[&label=100,!color=#00ff00]:0.00233)[&label=82]:5.8E-4)[&label=68]:3.0E-6,('2010-human_like_KU229918_A_swine_Missouri_A01795668_2015_H3N2_H3_USA_Missouri_3.2010.1_10_26_15':0.002329,'2010-human_like_KR780639_A_swine_Missouri_A01847626_2015_H3N2_H3_USA_Missouri_3.2010.1_4_20_15':0.001162)[&label=27]:2.0E-6)[&label=25]:2.0E-6,'2010-human_like_KT595718_A_swine_Missouri_A01770005_2015_H3N2_H3_USA_Missouri_3.2010.1_8_3_15':0.002914)[&label=91]:0.001159,'2010-human_like_KT164893_A_swine_Iowa_A02077646_2015_H3N2_H3_USA_Iowa_3.2010.1_5_19_15':0.002926)[&label=92]:0.004716,'2010-human_like_KP137750_A_swine_Missouri_A01476458_2013_H3N1_H3_USA_Missouri_3.2010.1_9_25_13':5.68E-4)[&label=90]:0.002946,('2010-human_like_KP341405_A_swine_Iowa_A01555108_2014_H3N1_H3_USA_Iowa_3.2010.1_11_19_14':0.01063,'2010-human_like_KP137714_A_swine_Iowa_A01476471_2014_H3N1_H3_USA_Iowa_3.2010.1_1_15_14':3.0E-6)[&label=100]:0.002337)[&label=69]:3.0E-6,((('Eurasian_avian-like_KU976737_A_swine_Mexico_AVX47_2013_H1N1_H1_Mexico_NA_1C.2_1_8_13':0.350652,(((('delta-like_KU976586_A_swine_Mexico_AVX17_2012_H1N2_H1_Mexico_NA_Other-Human-1B.2_3_18_12':0.018426,'delta-like_KU976601_A_swine_Mexico_AVX16_2012_H1N2_H1_Mexico_NA_Other-Human-1B.2_4_3_12':0.020125)[&label=100]:0.026817,(((((((((((('delta1_KX150710_A_swine_Nebraska_A01894200_2016_H1N2_H1_USA_Nebraska_1B.2.2.2_3_23_16':0.003595,'delta1_MG720203_A_swine_Iowa_A02136755_2017_H1N1_H1_USA_Iowa_1B.2.2.2_11_14_17':0.01703)[&label=100]:0.03419,'delta1_CY045623_A_swine_Oklahoma_011289_9_2008_H1N2_H1_USA_Oklahoma_1B.2.2.2_2008':3.0E-6)[&label=75]:5.83E-4,'delta1_HQ896639_A_swine_Minnesota_0913_1_2009_H1N2_H1_USA_Minnesota_1B.2.2.2_9_16_09':0.007677)[&label=39]:3.0E-6,('delta1_KX356673_A_swine_Minnesota_A01943452_2016_H1N2_H1_USA_Minnesota_1B.2.2.2_5_9_16':0.028112,'delta1_KC844209_A_swine_South_Dakota_A01349341_2013_H1N2_H1_USA_South_Dakota_1B.2.2.2_3_13_13':2.28E-4)[&label=100]:0.024691)[&label=90]:5.76E-4,'delta1_CY158457_A_swine_Minnesota_3128_2010_H1N2_H1_USA_Minnesota_1B.2.2.2_9_24_10':0.010684)[&label=94]:5.92E-4,(('delta1_KC562218_A_swine_Missouri_A01444664_2013_H1N2_H1_USA_Missouri_1B.2.2.2_1_15_13':0.008287,'delta1_JQ922323_A_swine_Minnesota_A01134339_2010_H1N2_H1_USA_Minnesota_1B.2.2.2_11_18_10':0.002348)[&label=100]:0.002939,'delta1_HQ896660_A_swine_Minnesota_5470_1_2010_H1N2_H1_USA_Minnesota_1B.2.2.2_3_3_10':0.001755)[&label=100]:0.002942)[&label=85]:2.0E-6,'delta1_KY290619_A_swine_Illinois_3120_2010_H1N2_H1_USA_Illinois_1B.2.2.2_9_3_10':0.016111)[&label=100]:0.003759,((('delta1_JX092435_A_swine_Iowa_A01202786_2011_H1N2_H1_USA_Iowa_1B.2.2.1_11_1_11':0.008625,(('delta1_MF973232_A_swine_Kansas_A01785288_2017_H1N2_H1_USA_Kansas_1B.2.2.1_9_5_17':0.02126,('delta1_KT164868_A_swine_Iowa_A02077681_2015_H1N2_H1_USA_Iowa_1B.2.2.1_5_21_15':0.005345,('delta1_KY328185_A_swine_Ohio_A01668213_2016_H1N2_H1_USA_Ohio_1B.2.2.1_11_9_16':0.007776,('delta1_KX150762_A_swine_Illinois_A01894756_2016_H1N2_H1_USA_Illinois_1B.2.2.1_4_1_16':0.005347,('delta1_KU695699_A_swine_Illinois_A01729946_2016_H1N2_H1_USA_Illinois_1B.2.2.1_1_20_16':0.00173,'delta1_MG663073_A_swine_Illinois_A02135885_2017_H1N2_H1_USA_Illinois_1B.2.2.1_11_9_17':0.006)[&label=96]:0.002377)[&label=96]:5.39E-4)[&label=100]:0.00354)[&label=100]:0.004667)[&label=100]:0.002069,('delta1_KX150765_A_swine_Nebraska_A01894513_2016_H1N2_H1_USA_Nebraska_1B.2.2.1_3_30_16':0.014554,'delta1_KY941157_A_swine_Nebraska_A01933901_2017_H1N2_H1_USA_Nebraska_1B.2.2.1_3_20_17':0.010305)[&label=100]:0.002195)[&label=100]:0.010701)[&label=100]:0.008614,'delta1_JQ906866_A_swine_Minnesota_A01047913_2010_H1N2_H1_USA_Minnesota_1B.2.2.1_12_2_10':0.009847)[&label=99]:5.84E-4,'delta1_JX657805_A_swine_Minnesota_A01076183_2009_H1N2_H1_USA_Minnesota_1B.2.2.1_12_28_09':0.005582)[&label=100]:0.00771)[&label=100]:0.013527,'delta1_CY158039_A_swine_Oklahoma_01741_2007_H1N2_H1_USA_Oklahoma_1B.2.2_8_23_07':0.005595)[&label=100]:0.004489,('delta1_FJ638314_A_swine_IL_07003243_2007_H1N2_H1_USA_Illinois_1B.2.2_2007':0.001201,'delta1_HM461802_A_swine_Minnesota_02011_2008_H1N2_H1_USA_Minnesota_1B.2.2_2008':0.011341)[&label=100]:0.00848)[&label=100]:0.003529,'delta1_CY159329_A_swine_Oklahoma_01139_2006_H1N1_H1_USA_Oklahoma_1B.2.2_5_17_06':0.013943)[&label=100]:0.003655,'delta1_DQ280227_A_swine_Ontario_52156_03_H1N2_H1_Canada_Ontario_1B.2.2_2003':0.004045)[&label=100]:0.011335)[&label=69]:2.0E-6,(((('delta2_MF996848_A_swine_Iowa_A02219790_2017_H1N2_H1_USA_Iowa_1B.2.1_8_17_17':4.73E-4,'delta2_MG870280_A_swine_Iowa_A02136711_2017_H1N2_H1_USA_Iowa_1B.2.1_11_21_17':0.001888)[&label=100]:0.035263,(((('delta2_KX351171_A_swine_North_Carolina_A01774164_2016_H1N2_H1_USA_North_Carolina_1B.2.1_4_22_16':0.013214,(('delta2_CY242806_A_swine_Indiana_16TOSU4367_2016_H1N2_H1_USA_Indiana_1B.2.1_7_1_16':0.01098,'delta2_KP461657_A_swine_Iowa_A01840164_2014_H1N2_H1_USA_Iowa_1B.2.1_12_12_14':0.005423)[&label=92]:0.001118,'delta2_KM879434_A_swine_North_Carolina_A01476420_2014_H1N2_H1_USA_North_Carolina_1B.2.1_9_16_14':0.004132)[&label=93]:3.0E-6)[&label=100]:0.002347,'delta2_KM821564_A_swine_North_Carolina_A01476339_2014_H1N2_H1_USA_North_Carolina_1B.2.1_9_3_14':0.010839)[&label=100]:0.004804,'delta2_JX952152_A_swine_North_Carolina_A01270393_2011_H1N2_H1_USA_North_Carolina_1B.2.1_12_8_11':0.001791)[&label=100]:0.005945,'delta2_CY159999_A_swine_North_Carolina_SG1359_2010_H1N2_H1_USA_North_Carolina_1B.2.1_2_19_10':3.0E-6)[&label=100]:0.002806)[&label=100]:0.027668,('delta2_JQ906871_A_swine_Minnesota_A01076626_2010_H1N2_H1_USA_Minnesota_1B.2.1_10_12_10':0.025061,'delta2_FJ611898_A_swine_Minnesota_07002083_2007_H1N1_H1_USA_Minnesota_1B.2.1_2007':0.008907)[&label=99]:0.002231)[&label=100]:0.003597,'delta2_CY098509_A_swine_North_Carolina_38448_1_2005_H1N1_H1_USA_North_Carolina_1B.2.1_2005':0.008141)[&label=100]:0.013557)[&label=93]:0.006444,'delta-like_KU976748_A_swine_Mexico_AVX49_2013_H1N2_H1_Mexico_NA_Other-Human-1B.2_3_25_13':0.035855)[&label=100]:0.148869)[&label=99]:0.065275,('alpha_EU139823_A_swine_Iowa_15_1930_H1N1_H1_USA_Iowa_1A.1_1930':0.006998,'alpha_EU139824_A_swine_Iowa_1945_H1N1_H1_USA_Iowa_1A.1_1945':0.009061)[&label=92]:0.010764)[&label=94]:0.059336,((((((((('alpha_KU362711_A_swine_South_Dakota_A01747624_2015_H1N2_H1_USA_South_Dakota_1A.1.1_12_4_15':0.005866,'alpha_MG494742_A_swine_South_Dakota_A02223247_2017_H1N2_H1_USA_South_Dakota_1A.1.1_10_4_17':0.013466)[&label=100]:0.034032,((('alpha_MG669449_A_swine_Texas_A02135700_2017_H1N2_H1_USA_Texas_1A.1.1_11_1_17':0.018964,('alpha_KX928680_A_swine_Minnesota_A01781045_2016_H1N2_H1_USA_Minnesota_1A.1.1_8_30_16':0.005038,'alpha_CY246169_A_swine_Saskatchewan_D0410_2016_H1N2_H1_Canada_Saskatchewan_1A.1.1_3_11_16':0.005226)[&label=95]:0.001651)[&label=99]:0.003868,((('alpha_MF582522_A_swine_North_Carolina_A02217275_2017_H1N2_H1_USA_North_Carolina_1A.1.1_6_15_17':0.012661,'alpha_CY195215_A_swine_Manitoba_D0336_2014_H1N2_H1_Canada_Manitoba_1A.1.1_6_4_14':5.93E-4)[&label=97]:0.001777,'alpha_CY195006_A_swine_Manitoba_D0294_2013_H1N2_H1_Canada_Manitoba_1A.1.1_11_20_13':0.001774)[&label=66]:3.0E-6,'alpha_CY194966_A_swine_Manitoba_D0289_2013_H1N2_H1_Canada_Manitoba_1A.1.1_11_7_13':5.92E-4)[&label=61]:2.0E-6)[&label=100]:0.005281,('alpha_CY194765_A_swine_Manitoba_D0265_2013_H1N2_H1_Canada_Manitoba_1A.1.1_8_22_13':0.003573,'alpha_CY195102_A_swine_Manitoba_D0303_2014_H1N2_H1_Canada_Manitoba_1A.1.1_1_7_14':0.006591)[&label=99]:0.002511)[&label=100]:0.020131)[&label=100]:0.070863,(('alpha_CY159057_A_swine_Manitoba_SG1433_2009_H1N1_H1_Canada_Manitoba_1A.1.1_6_17_09':0.023047,'alpha_CY246227_A_swine_Alberta_SD0164_2016_H1N2_H1_Canada_Alberta_1A.1.1_4_13_16':0.045848)[&label=100]:0.055615,'alpha_DQ280250_A_swine_Ontario_11112_04_H1N1_H1_Canada_Ontario_1A.1.1_2004':0.015931)[&label=100]:0.012582)[&label=100]:0.01017,((((((('1A.3.1_KU976624_A_swine_Mexico_AVX9_2010_H1N1_H1_Mexico_NA_1A.3.1_3_25_10':0.008056,('1A.3.1_KU976560_A_swine_Mexico_AVX40_2012_H1N1_H1_Mexico_NA_1A.3.1_11_15_12':0.004917,'1A.3.1_KU976565_A_swine_Mexico_AVX63_2014_H1N1_H1_Mexico_NA_1A.3.1_4_25_14':0.008832)[&label=100]:0.009647)[&label=100]:0.057802,'LAIV_gamma2-beta-like_EU139827_A_swine_Minnesota_37866_1999_H1N1_H1_USA_Minnesota_1A.2-3-like_1999':0.023137)[&label=99]:0.002064,(('beta_KM078053_A_swine_Minnesota_A01475770_2014_H1N1_H1_USA_Minnesota_1A.2_6_9_14':0.066263,'beta_AF455678_A_Swine_Minnesota_55551_00_H1N2_H1_USA_Minnesota_1A.2_2000':0.015335)[&label=100]:0.001663,((((('beta_MF092751_A_swine_Texas_A02214607_2017_H1N1_H1_USA_Texas_1A.2_4_11_17':0.03762,'beta_KY855501_A_swine_Nebraska_A01785251_2017_H1N2_H1_USA_Nebraska_1A.2_3_7_17':0.035029)[&label=99]:0.004591,'beta_CY157975_A_swine_Minnesota_00991_2006_H1N1_H1_USA_Minnesota_1A.2_2_7_06':6.09E-4)[&label=82]:3.57E-4,'beta_KF712459_A_swine_Nebraska_A01399642_2013_H1N1_H1_USA_Nebraska_1A.2_9_10_13':0.03495)[&label=82]:0.002481,'beta_KR074351_A_swine_Missouri_01553_2007_H1N1_H1_USA_Missouri_1A.2_4_12_07':0.006653)[&label=100]:0.016261,'beta_AF455679_A_Swine_Iowa_930_01_H1N2_H1_USA_Iowa_1A.2_2001':0.003323)[&label=100]:0.006261)[&label=100]:0.025586)[&label=99]:0.00153,((((('pdm_KF611813_A_swine_Illinois_A01398628_2013_H1N1_H1_USA_Illinois_1A.3.3.2_8_9_13':0.030084,'pdm_GU480922_A_swine_IL_32974_2009_H1N1_H1_USA_Illinois_1A.3.3.2_11_11_09':0.001754)[&label=51]:2.0E-6,(((((('pdm_MG832871_A_swine_Missouri_A02139233_2018_H1N1_H1_USA_Missouri_1A.3.3.2_1_3_18':0.013294,'pdm_MG870266_A_swine_Utah_A02139205_2018_H1N1_H1_USA_Utah_1A.3.3.2_1_2_18':0.009263)[&label=100]:0.008987,'pdm_KT240386_A_swine_South_Dakota_A01823076_2015_H1N1_H1_USA_South_Dakota_1A.3.3.2_5_4_15':0.009526)[&label=100]:0.004849,'pdm_JX092560_A_swine_Missouri_A01203163_2012_H1N1_H1_USA_Missouri_1A.3.3.2_1_17_12':0.004129)[&label=100]:0.001847,'pdm_CY246364_A_swine_Manitoba_SD0169_2016_H1N1_H1_Canada_Manitoba_1A.3.3.2_6_3_16':0.020673)[&label=99]:0.001765,'pdm_KY290627_A_swine_Indiana_03053_2010_H1N2_H1_USA_Indiana_1A.3.3.2_7_14_10':0.004532)[&label=93]:9.4E-4,'pdm_JX092299_A_swine_Iowa_A01202554_2011_H1N1_H1_USA_Iowa_1A.3.3.2_8_30_11':0.006652)[&label=98]:4.17E-4)[&label=89]:6.04E-4,'pdm_GU984390_A_swine_IL_35572_2009_H1N1_H1_USA_Illinois_1A.3.3.2_12_16_09':0.002333)[&label=100]:0.044809,((((((('gamma_KR780630_A_swine_Ohio_A01847657_2015_H1N1_H1_USA_Ohio_1A.3.3.3_4_20_15':0.006257,'gamma_MG822906_A_swine_North_Carolina_A02138714_2017_H1N1_H1_USA_North_Carolina_1A.3.3.3_12_13_17':0.016802)[&label=100]:0.031237,'gamma_CY099295_A_swine_Illinois_01917_2007_H1N1_H1_USA_Illinois_1A.3.3.3_12_7_07':0.010762)[&label=99]:0.002348,('gamma_KY290622_A_swine_Illinois_3134_2010_H1N2_H1_USA_Illinois_1A.3.3.3_9_28_10':0.020211,(((((((((((('gamma_MF348031_A_swine_Missouri_A02216048_2017_H1N1_H1_USA_Missouri_1A.3.3.3_5_16_17':0.017646,'gamma_KR066406_A_swine_Illinois_A01489875_2014_H1N1_H1_USA_Illinois_1A.3.3.3_12_30_14':0.013938)[&label=92]:0.001605,'gamma_JX656964_A_swine_Minnesota_A01301275_2012_H1N1_H1_USA_Minnesota_1A.3.3.3_8_9_12':0.001755)[&label=92]:2.0E-6,((('gamma_MG832869_A_swine_Nebraska_A02139134_2017_H1N1_H1_USA_Nebraska_1A.3.3.3_12_19_17':0.01453,('gamma_MF765791_A_swine_Missouri_A02218334_2017_H1N1_H1_USA_Missouri_1A.3.3.3_7_17_17':0.004149,('gamma_MF582536_A_swine_Arkansas_A02218161_2017_H1N1_H1_USA_Arkansas_1A.3.3.3_7_5_17':5.67E-4,'gamma_MG870268_A_swine_Missouri_A02139358_2018_H1N1_H1_USA_Missouri_1A.3.3.3_1_4_18':0.001776)[&label=100]:0.005365)[&label=100]:0.003642)[&label=96]:0.002209,(((('gamma_MG763243_A_swine_Indiana_A02137146_2017_H1N1_H1_USA_Indiana_1A.3.3.3_11_30_17':0.008971,'gamma_MG825099_A_swine_Ilinois_A01644329_2018_H1N1_H1_USA_Unknown_1A.3.3.3_1_3_18':0.007778)[&label=100]:0.002364,'gamma_MG663071_A_swine_Indiana_A02135797_2017_H1N1_H1_USA_Indiana_1A.3.3.3_11_8_17':0.006542)[&label=100]:5.45E-4,'gamma_KX960190_A_swine_Iowa_A01778877_2016_H1N1_H1_USA_Iowa_1A.3.3.3_8_22_16':0.001217)[&label=100]:0.005718,'gamma_KJ526093_A_swine_Minnesota_A01491955_2014_H1N1_H1_USA_Minnesota_1A.3.3.3_2_6_14':7.45E-4)[&label=96]:0.001768)[&label=100]:0.008443,'gamma_JX656970_A_swine_Minnesota_A01300441_2012_H1N1_H1_USA_Minnesota_1A.3.3.3_7_5_12':5.85E-4)[&label=51]:3.0E-6)[&label=94]:5.84E-4,'gamma_MF194258_A_swine_South_Dakota_MT_12_07_2005_2012_H1N1_H1_USA_South_Dakota_1A.3.3.3_3_14_12':0.010099)[&label=50]:2.0E-6,'gamma_CY116627_A_swine_Nebraska_A01240635_2011_H1N1_H1_USA_Nebraska_1A.3.3.3_12_13_11':0.004118)[&label=100]:0.001758,('gamma_MG198965_A_swine_Nebraska_A02221502_2017_H1N1_H1_USA_Nebraska_1A.3.3.3_9_5_17':0.009039,'gamma_KF922789_A_swine_Illinois_A01290673_2013_H1N1_H1_USA_Illinois_1A.3.3.3_13-Oct':0.004723)[&label=100]:0.007719)[&label=34]:3.0E-6,'gamma_CY089407_A_swine_South_Dakota_7_2011_H1N1_H1_USA_South_Dakota_1A.3.3.3_2_28_11':2.0E-6)[&label=13]:2.0E-6,'gamma_JX080637_A_swine_Illinois_A01049981_2011_H1N1_H1_USA_Illinois_1A.3.3.3_5_17_11':0.004121)[&label=100]:0.003542,(((((((((((((((((((((((((((((('4490-7_HA.'[&!color=#ff0000]:0.0,4490-32_HA[&!color=#ff0000]:0.0)[&!color=#ff0000]:0.0,4490-25_HA[&!color=#ff0000]:0.0)[&!color=#ff0000]:0.0,4490-29_HA[&!color=#ff0000]:0.0)[&!color=#ff0000]:0.0,4490-31_HA[&!color=#ff0000]:0.0)[&!color=#ff0000]:0.0,5174-32_HA[&!color=#ff0000]:0.0)[&!color=#ff0000]:0.0,5174-36_HA[&!color=#ff0000]:0.0)[&!color=#ff0000]:0.0,4490-27_HA[&!color=#ff0000]:0.0)[&!color=#ff0000]:0.0,4490-34_HA[&!color=#ff0000]:0.0)[&!color=#ff0000]:0.0,4490-35_HA[&!color=#ff0000]:0.0)[&!color=#ff0000]:0.0,5174-29_HA[&!color=#ff0000]:0.0)[&!color=#ff0000]:0.0,5174-28_HA[&!color=#ff0000]:0.0)[&!color=#ff0000]:0.0,5174-27_HA[&!color=#ff0000]:0.0)[&!color=#ff0000]:0.0,'4490-2_HA.'[&!color=#ff0000]:0.0)[&!color=#ff0000]:0.0,5174-34_HA[&!color=#ff0000]:0.0)[&!color=#ff0000]:0.0,5174-25_HA[&!color=#ff0000]:0.0)[&!color=#ff0000]:0.0,5174-7_HA[&!color=#ff0000]:0.0)[&!color=#ff0000]:0.0,5174-30_HA[&!color=#ff0000]:0.0)[&!color=#ff0000]:0.0,4490-24_HA[&!color=#ff0000]:0.0)[&!color=#ff0000]:0.0,4490-30_HA[&!color=#ff0000]:0.0)[&!color=#ff0000]:0.0,5174-26_HA[&!color=#ff0000]:0.0)[&!color=#ff0000]:0.0,A_Sw_MN_PAH618_2011_H1N1_CHALLENGE_HA[&!color=#ff0000]:0.0)[&!color=#ff0000]:0.0,4490-26_HA[&!color=#ff0000]:0.0)[&!color=#ff0000]:0.0,4490-28_HA[&!color=#ff0000]:0.0)[&!color=#ff0000]:0.0,4490-33_HA[&!color=#ff0000]:0.0)[&!color=#ff0000]:0.0,5174-35_HA[&!color=#ff0000]:0.0)[&!color=#ff0000]:0.0,5174-33_HA[&!color=#ff0000]:0.0)[&!color=#ff0000]:0.0,'4490-1_HA.'[&!color=#ff0000]:0.0)[&!color=#ff0000]:0.0,'5174-17_HA.'[&!color=#ff0000]:0.0)[&!color=#ff0000]:2.0E-6,5174-31_HA[&!color=#ff0000]:2.0E-6)[&label=58,!color=#ff0000]:3.0E-6,'4490-12_HA.'[&!color=#ff0000]:5.84E-4)[&label=100,!color=#ff0000]:0.003547)[&label=100]:5.68E-4,'gamma_JN652425_A_swine_Iowa_A01049775_2011_H1N1_H1_USA_Iowa_1A.3.3.3_3_28_11':0.002932)[&label=100]:0.001758,'gamma_JX401340_A_swine_South_Dakota_13_2012_H1N1_H1_USA_South_Dakota_1A.3.3.3_7_3_12':0.012464)[&label=59]:3.0E-6,('gamma_JN652419_A_swine_Iowa_A01049719_2011_H1N1_H1_USA_Iowa_1A.3.3.3_3_21_11':4.39E-4,('gamma_KJ739416_A_swine_North_Carolina_A01475255_2014_H1N1_H1_USA_North_Carolina_1A.3.3.3_14-Mar':2.0E-6,'gamma_KU942618_A_swine_North_Carolina_A01732371_2016_H1N1_H1_USA_North_Carolina_1A.3.3.3_2_17_16':0.008906)[&label=100]:0.009641)[&label=100]:0.007229)[&label=100]:0.003022)[&label=100]:0.00167)[&label=95]:3.0E-6,'gamma_CY159777_A_swine_North_Carolina_SG1229_2005_H1N1_H1_USA_North_Carolina_1A.3.3.3_12_6_05':0.001172)[&label=100]:0.00117,'gamma_KR057379_A_swine_Minnesota_01082_2006_H1N2_H1_USA_Minnesota_1A.3.3.3_4_10_06':2.0E-6)[&label=100]:0.010282,'gamma_CY159674_A_swine_North_Carolina_00396_2004_H1N1_H1_USA_North_Carolina_1A.3.3.3_8_27_04':0.003425)[&label=100]:0.013852,'gamma_AF250124_A_Swine_Indiana_9K035_99_H1N2_H1_USA_Indiana_1A.3.3.3_1999':0.001868)[&label=99]:0.00302)[&label=100]:0.012547,((('gamma2_KY859939_A_swine_Missouri_A01932424_2017_H1N1_H1_USA_Missouri_1A.3.2_2_22_17':0.041575,'gamma2_JQ809750_A_swine_Oklahoma_A01134906_2011_H1N1_H1_USA_Oklahoma_1A.3.2_3_24_11':0.007013)[&label=100]:0.036528,'gamma2_CY159137_A_swine_Texas_00244_2004_H1N1_H1_USA_Texas_1A.3.2_2_4_04':0.009663)[&label=100]:0.01866,('gamma2_CY122357_A_swine_Mexico_Mex52_2010_H1N1_H1_Mexico_NA_1A.3.2_2010':0.012555,'gamma2_CY157631_A_swine_Texas_00195_2003_H1N1_H1_USA_Texas_1A.3.2_10_15_03':0.017813)[&label=100]:9.28E-4)[&label=100]:0.010107)[&label=100]:0.015162)[&label=100]:0.014615,'alpha_CY022333_A_swine_Iowa_17672_1988_H1N1_H1_USA_Iowa_1A.1_1988':0.001545)[&label=100]:0.008007,'alpha_CY022325_A_swine_Iowa_3_1985_H1N1_H1_USA_Iowa_1A.1_1985':0.001755)[&label=100]:0.002154,'alpha_CY096883_A_swine_Iowa_2_1986_H1N1_H1_USA_Iowa_1A.1_1986':0.007819)[&label=100]:0.009866)[&label=100]:0.008471,'alpha_CY022389_A_swine_Ontario_7_1981_H1N1_H1_Canada_Ontario_1A.1_1981':0.006959)[&label=100]:0.003579,'alpha_CY022461_A_swine_Wisconsin_8_1980_H1N1_H1_USA_Wisconsin_1A.1_1980':0.008701)[&label=100]:0.004994,'alpha_CY027515_A_swine_Tennessee_5_1978_H1N1_H1_USA_Tennessee_1A.1_1978':0.001708)[&label=94]:6.13E-4,'alpha_CY027307_A_swine_Tennessee_2_1978_H1N1_H1_USA_Tennessee_1A.1_1978':0.001772)[&label=98]:0.039685,'alpha_EU139825_A_swine_Wisconsin_1_1968_H1N1_H1_USA_Wisconsin_1A.1_1968':0.009971)[&label=89]:0.014623)[&label=100]:3.185668)[&label=83]:0.008228)[&label=84]:0.015139)[&label=94]:0.064008,('C_I_AF251403_A_Swine_Nebraska_209_98_H3N2_H3_USA_Nebraska_3.1990.1_1998':0.004173,'LAIV_C-I_CY095675_A_swine_Texas_4199_2_1998_H3N2_H3_USA_Texas_3.1990.1_1998':0.00224)[&label=100]:0.02457)[&label=94]:8.71E-4,humanVaccine_AY661190_A_Wuhan_359_1995_H3N2_H3_China_NA_humanVaccine_1995:0.002183)[&label=95]:0.01083,(((((((((((((((((((('C_IVC_CY246404_A_swine_Alberta_SD0172_2016_H3N2_H3_Canada_Alberta_3.1990.4.4_6_28_16':0.027921,'C_IVC_CY159073_A_swine_Saskatchewan_SD0001_2011_H3N2_H3_Canada_Saskatchewan_3.1990.4.4_12_1_11':0.011219)[&label=100]:0.026263,('C_IVC_KX264751_A_swine_Saskatchewan_G8_2014_H3N2_H3_Canada_Saskatchewan_3.1990.4.4_9_24_14':0.006538,((('C_IVC_KC534987_A_swine_Michigan_A01432375_2013_H3N2_H3_USA_Michigan_3.1990.4.4_13-Jan':0.005668,'C_IVC_KC676308_A_swine_Indiana_A01260185_2013_H3N2_H3_USA_Indiana_3.1990.4.4_1_3_13':0.006088)[&label=100]:0.002336,'C_IVC_JX092535_A_swine_Indiana_A01202866_2011_H3N2_H3_USA_Indiana_3.1990.4.4_11_16_11':0.001357)[&label=100]:0.003313,('C_IVC_JN706700_A_turkey_Ontario_FAV-10_2011_H3N2_H3_Canada_Ontario_3.1990.4.4_7_21_11':0.001743,'C_IVC_KJ413897_A_swine_Ontario_104_25_2012_H3N2_H3_Canada_Ontario_3.1990.4.4_1_13_12':0.001158)[&label=100]:0.001736)[&label=100]:0.005838)[&label=100]:0.019435)[&label=93]:0.003726,(((('C_IVB_CY194317_A_swine_Manitoba_D0098_2012_H3N2_H3_Canada_Manitoba_3.1990.4.2-3_9_26_12':0.018543,('C_IVB_CY194269_A_swine_Manitoba_D0095_2012_H3N2_H3_Canada_Manitoba_3.1990.4.2-3_4_26_12':0.01431,((('C_IVB_CY246121_A_swine_Manitoba_SD0141_2016_H3N2_H3_Canada_Manitoba_3.1990.4.2-3_2_10_16':0.018785,((('C_IVB_KY465581_A_swine_North_Carolina_A01671018_2016_H3N2_H3_USA_North_Carolina_3.1990.4.2-3_12_5_16':0.016623,'C_IVB_CY194477_A_swine_Manitoba_D0191_2013_H3N2_H3_Canada_Manitoba_3.1990.4.2-3_1_30_13':5.81E-4)[&label=98]:5.8E-4,('C_IVB_CY246332_A_swine_Manitoba_D0444_2016_H3N2_H3_Canada_Manitoba_3.1990.4.2-3_5_26_16':0.013832,'C_IVB_CY194629_A_swine_Manitoba_D0229_2013_H3N2_H3_Canada_Manitoba_3.1990.4.2-3_5_9_13':0.001138)[&label=100]:0.001771)[&label=99]:5.82E-4,'C_IVB_CY194741_A_swine_Manitoba_D0262_2013_H3N2_H3_Canada_Manitoba_3.1990.4.2-3_8_15_13':0.00116)[&label=98]:3.0E-6)[&label=100]:0.007682,'C_IVB_JQ783071_A_swine_Minnesota_A01116195_2011_H3N2_H3_USA_Minnesota_3.1990.4.2-3_8_29_11':0.001146)[&label=100]:0.002428,'C_IVB_JN162053_A_swine_Iowa_A01049317_2010_H3N2_H3_USA_Iowa_3.1990.4.2-3_12_22_10':0.005204)[&label=100]:0.002947)[&label=100]:0.001821)[&label=100]:0.004004,'C_IVB_HM217202_A_swine_Minnesota_03008_2010_H3N2_H3_USA_Minnesota_3.1990.4.2-3_4_22_10':0.007744)[&label=100]:0.002857,'C_IVB_CY158681_A_swine_Manitoba_01782_2007_H3N2_H3_Canada_Manitoba_3.1990.4.2-3_10_3_07':0.002913)[&label=100]:0.002633,((('C_IVB_JX422431_A_swine_Minnesota_A01125992_2012_H3N2_H3_USA_Minnesota_3.1990.4.2-3_3_8_12':0.015603,(((('C_IVB_KT164908_A_swine_Illinois_A01554952_2015_H3N2_H3_USA_Illinois_3.1990.4.2-3_5_14_15':0.006432,('C_IVB_KU679964_A_swine_Minnesota_A01675363_2016_H3N2_H3_USA_Minnesota_3.1990.4.2-3_1_25_16':0.003482,'C_IVB_KY327668_A_swine_Kentucky_15TOSU1895_2015_H3N2_H3_USA_Kentucky_3.1990.4.2-3_11_8_15':0.004066)[&label=100]:3.0E-6)[&label=100]:0.009374,('C_IVB_KC134399_A_swine_Iowa_A01203943_2012_H3N2_H3_USA_Iowa_3.1990.4.2-3_12-Oct':0.003505,'C_IVB_KF282731_A_swine_Illinois_A01271617_2012_H3N2_H3_USA_Illinois_3.1990.4.2-3_10_30_12':0.001755)[&label=100]:5.65E-4)[&label=20]:3.0E-6,'C_IVB_JX080531_A_swine_Iowa_A01203304_2012_H3N2_H3_USA_Iowa_3.1990.4.2-3_2_27_12':5.79E-4)[&label=17]:2.0E-6,'C_IVB_JX163264_A_swine_Iowa_A01203492_2012_H3N2_H3_USA_Iowa_3.1990.4.2-3_5_4_12':5.78E-4)[&label=100]:0.008402)[&label=99]:2.64E-4,'C_IVB_JN162054_A_swine_Minnesota_A01049346_2010_H3N2_H3_USA_Minnesota_3.1990.4.2-3_12_29_10':0.003622)[&label=100]:0.016277,'C_IVB_CY194245_A_swine_Manitoba_D0092_2012_H3N2_H3_Canada_Manitoba_3.1990.4.2-3_3_22_12':0.022303)[&label=98]:7.88E-4)[&label=100]:0.00496)[&label=77]:2.0E-6,(('C_IV_KU976725_A_swine_Mexico_AVX33_2012_H3N2_H3_Mexico_NA_3.1990.4_10_29_12':0.012044,'C_IV_MG836803_A_swine_Mexico_847061253020_2014_H3N2_H3_Mexico_NA_3.1990.4_4_10_14':0.01699)[&label=100]:0.021438,(('C_IVD_KC751551_A_swine_Kansas_12_165022_2012_H3N2_H3_USA_Kansas_3.1990.4.5_12_31_12':0.017462,(('C_IVD_KP186097_A_swine_South_Dakota_A01483717_2014_H3N2_H3_USA_South_Dakota_3.1990.4.5_11_6_14':0.0184,'C_IVD_JX658776_A_swine_Iowa_A01203751_2012_H3N2_H3_USA_Iowa_3.1990.4.5_8_15_12':0.006357)[&label=97]:0.004047,'C_IVD_JX092307_A_swine_Iowa_A01202613_2011_H3N2_H3_USA_Iowa_3.1990.4.5_9_27_11':0.006224)[&label=97]:6.7E-4)[&label=100]:0.004236,'C_IVD_CY107066_A_swine_Illinois_A01201606_2011_H3N2_H3_USA_Illinois_3.1990.4.5_6_1_11':0.005906)[&label=100]:0.012385)[&label=62]:0.001938)[&label=60]:5.85E-4,('C_IV_KX264753_A_swine_Ontario_G10_2014_H3N2_H3_Canada_Ontario_3.1990.4_9_4_14':0.025244,(('C_IV_KJ847671_A_swine_Canada_AHL_18_2012_H3N2_H3_Canada_NA_3.1990.4_11_1_12':0.010019,'C_IV_KM277924_A_swine_Canada_AHL8_2012_H3N2_H3_Canada_NA_3.1990.4_12_10_12':0.002936)[&label=100]:2.0E-6,('C_IV_JQ398784_A_swine_North_Carolina_A01202766_2011_H3N2_H3_USA_North_Carolina_3.1990.4_10_20_11':0.0053,'C_IV_JF263535_A_swine_Pennsylvania_A01076777_2010_H3N2_H3_USA_Pennsylvania_3.1990.4_10_25_10':0.001138)[&label=98]:5.73E-4)[&label=100]:0.013524)[&label=63]:0.001872)[&label=33]:5.78E-4,('C_IVE_CY245801_A_swine_Alberta_SD0101_2015_H3N2_H3_Canada_Alberta_3.1990.4.6_5_7_15':0.036759,('C_IVE_CY086920_A_swine_Minnesota_239105_2009_H3N2_H3_USA_Minnesota_3.1990.4.6_11_24_09':0.00278,(((('C_IVE_KP341372_A_swine_Illinois_A01478357_2014_H3N2_H3_USA_Illinois_3.1990.4.6_12_8_14':2.0E-6,'C_IVE_KX150756_A_swine_Illinois_A01894510_2016_H3N2_H3_USA_Illinois_3.1990.4.6_3_29_16':0.005239)[&label=100]:0.007059,'C_IVE_KJ667970_A_swine_Illinois_A01493218_2014_H3N2_H3_USA_Illinois_3.1990.4.6_3_19_14':0.002312)[&label=100]:0.004695,'C_IVE_JX422311_A_swine_Illinois_A01327868_2012_H3N2_H3_USA_Illinois_3.1990.4.6_5_3_12':5.81E-4)[&label=100]:0.001141,'C_IVE_JX657826_A_swine_Illinois_A01240774_2012_H3N2_H3_USA_Illinois_3.1990.4.6_1_9_12':0.001174)[&label=100]:0.010783)[&label=100]:0.014883)[&label=72]:1.37E-4)[&label=30]:5.77E-4,'C_IV_KF007985_A_swine_Nebraska_9330_2006_H3N2_H3_USA_Nebraska_3.1990.4_2006':0.002318)[&label=8]:2.0E-6,((((('C_IV_CY246524_A_swine_Manitoba_D0459_2016_H3N2_H3_Canada_Manitoba_3.1990.4_10_6_16':0.047723,('C_IV_JX422500_A_swine_Minnesota_A01327769_2012_H3N2_H3_USA_Minnesota_3.1990.4_4_23_12':0.006269,('C_IV_CY245881_A_swine_Manitoba_SD0112_2015_H3N2_H3_Canada_Manitoba_3.1990.4_7_15_15':0.002794,('C_IV_KU925698_A_swine_Iowa_A01731968_2016_H3N2_H3_USA_Iowa_3.1990.4_2_16_16':5.5E-4,'C_IV_KY941161_A_swine_Iowa_A01667095_2017_H3N2_H3_USA_Iowa_3.1990.4_3_13_17':0.002357)[&label=100]:0.004847)[&label=100]:0.015733)[&label=100]:0.022461)[&label=96]:0.004591,'C_IV_JX092415_A_swine_Michigan_A01202655_2011_H3N2_H3_USA_Michigan_3.1990.4_10_5_11':0.022321)[&label=59]:5.39E-4,('C_IVE_CY195086_A_swine_Saskatchewan_SD0012_2013_H3N2_H3_Canada_Saskatchewan_3.1990.4.6_11_27_13':8.5E-4,('C_IVE_CY195599_A_swine_Saskatchewan_SD0059_2014_H3N2_H3_Canada_Saskatchewan_3.1990.4.6_12_16_14':2.0E-6,'C_IVE_CY245745_A_swine_Saskatchewan_SD0083_2015_H3N2_H3_Canada_Saskatchewan_3.1990.4.6_3_25_15':0.001745)[&label=100]:0.007959)[&label=100]:0.034809)[&label=54]:0.001731,'C_IV_HQ825243_A_swine_QC_2108_2_2009_H3N2_H3_Canada_Quebec_3.1990.4_4_3_09':0.013542)[&label=19]:3.0E-6,(((('C_IV_KP270886_A_swine_Kansas_10_83533_2010_H3N2_H3_USA_Kansas_3.1990.4_4_18_10':0.007138,('C_IV_MF194234_A_swine_South_Dakota_MT_12_07_1554_2012_H3N2_H3_USA_South_Dakota_3.1990.4_10_31_12':2.0E-6,'C_IV_MF194374_A_swine_South_Dakota_MT_12_07_1566_2012_H3N2_H3_USA_South_Dakota_3.1990.4_10_31_12':5.78E-4)[&label=100]:0.0096)[&label=100]:0.011433,'C_IV_CY158097_A_swine_Nebraska_01711_2007_H3N2_H3_USA_Nebraska_3.1990.4_7_31_07':0.003455)[&label=100]:0.005962,'C_IV_CY099035_A_swine_Minnesota_01146_2006_H3N2_H3_USA_Minnesota_3.1990.4_5_25_06':0.002308)[&label=100]:0.004805,'C_IV_KU976715_A_swine_Mexico_AVX28_2012_H3N2_H3_Mexico_NA_3.1990.4_9_6_12':0.029238)[&label=33]:4.82E-4)[&label=33]:5.79E-4)[&label=47]:2.0E-6,((('C_IV_CY245993_A_swine_Saskatchewan_SD0126_2015_H3N2_H3_Canada_Saskatchewan_3.1990.4_11_12_15':0.011762,'C_IV_CY245761_A_swine_Saskatchewan_SD0096_2015_H3N2_H3_Canada_Saskatchewan_3.1990.4_4_3_15':0.003925)[&label=100]:0.022597,'C_IV_CY107020_A_swine_Indiana_A01076191_2010_H3N2_H3_USA_Indiana_3.1990.4_2_7_10':0.005854)[&label=100]:0.007182,'C_IV_CY158697_A_swine_Saskatchewan_01834_2007_H3N2_H3_Canada_Saskatchewan_3.1990.4_10_29_07':3.0E-6)[&label=100]:0.011158)[&label=74]:5.78E-4,(((((('C_IV_MG832877_A_swine_Minnesota_A02139250_2017_H3N2_H3_USA_Minnesota_3.1990.4_12_27_17':0.022498,('C_IV_CY194653_A_swine_Manitoba_D0231_2013_H3N2_H3_Canada_Manitoba_3.1990.4_5_23_13':6.27E-4,'C_IV_CY194958_A_swine_Manitoba_D0288_2013_H3N2_H3_Canada_Manitoba_3.1990.4_11_7_13':0.004629)[&label=100]:0.005737)[&label=100]:0.023854,'C_IV_CY158721_A_swine_Manitoba_SG1432_2008_H3N2_H3_Canada_Manitoba_3.1990.4_6_17_08':0.007352)[&label=100]:0.003642,('C_IV_CY245641_A_swine_Alberta_SD0194_2016_H3N2_H3_Canada_Alberta_3.1990.4_11_23_16':0.008865,'C_IV_CY245785_A_swine_Saskatchewan_SD0100_2015_H3N2_H3_Canada_Saskatchewan_3.1990.4_4_22_15':0.015235)[&label=100]:0.028073)[&label=100]:0.007666,('C_IV_HQ825218_A_swine_QC_1698_1_2009_H3N2_H3_Canada_Quebec_3.1990.4_5_15_09':0.012407,'C_IV_CY158633_A_swine_Quebec_01001_2006_H3N2_H3_Canada_Quebec_3.1990.4_2_23_06':0.00173)[&label=98]:0.001184)[&label=65]:0.001149,((((((((((('C_IVA_MG663067_A_swine_North_Carolina_A02135886_2017_H3N2_H3_USA_North_Carolina_3.1990.4.1_11_7_17':0.02431,((((((((('C_IVA_MF144700_A_swine_Nebraska_A02215046_2017_H3N2_H3_USA_Nebraska_3.1990.4.1_4_26_17':0.021868,'C_IVA_KP461633_A_swine_Iowa_A01840226_2014_H3N2_H3_USA_Iowa_3.1990.4.1_12_19_14':0.00847)[&label=94]:9.67E-4,'C_IVA_KX694530_A_swine_Iowa_A01777893_2016_H3N2_H3_USA_Iowa_3.1990.4.1_7_21_16':0.018508)[&label=84]:5.77E-4,'C_IVA_KC813155_A_swine_Iowa_321160_2012_H3N2_H3_USA_Iowa_3.1990.4.1_8_23_12':5.8E-4)[&label=11]:2.0E-6,'C_IVA_KJ640443_A_swine_Ohio_13TOSU2052_2013_H3N2_H3_USA_Ohio_3.1990.4.1_8_1_13':2.0E-6)[&label=10]:2.0E-6,('C_IVA_KC261859_A_swine_Iowa_A01244302_2012_H3N2_H3_USA_Iowa_3.1990.4.1_2012':5.8E-4,'C_IVA_JX534982_A_swine_Indiana_A00968373_2012_H3N2_H3_USA_Indiana_3.1990.4.1_7_13_12':0.00116)[&label=40]:2.0E-6)[&label=74]:2.0E-6,'C_IVA_KY800913_A_swine_South_Dakota_A01678486_2017_H3N2_H3_USA_South_Dakota_3.1990.4.1_3_8_17':0.016676)[&label=91]:0.001159,'C_IVA_KF715136_A_swine_Minnesota_A01392079_2013_H3N2_H3_USA_Minnesota_3.1990.4.1_9_18_13':0.008215)[&label=49]:3.0E-6,('C_IVA_KT767606_A_swine_Michigan_A02025547_2015_H3N2_H3_USA_Michigan_3.1990.4.1_8_13_15':0.013664,((('C_IVA_CY219553_A_swine_Iowa_16TOSU2464_2016_H3N2_H3_USA_Iowa_3.1990.4.1_6_9_16':0.011692,('C_IVA_KT995486_A_swine_North_Carolina_A01945452_2015_H3N2_H3_USA_North_Carolina_3.1990.4.1_10_6_15':0.007683,'C_IVA_KM821588_A_swine_Iowa_A01476267_2014_H3N2_H3_USA_Iowa_3.1990.4.1_8_22_14':0.002964)[&label=100]:0.001267)[&label=92]:5.79E-4,'C_IVA_KY454581_A_swine_Michigan_A01671226_2016_H3N2_H3_USA_Michigan_3.1990.4.1_12_6_16':0.011382)[&label=100]:0.002764,'C_IVA_KF179107_A_swine_Indiana_A01260254_2013_H3N2_H3_USA_Indiana_3.1990.4.1_3_20_13':5.83E-4)[&label=99]:0.002378)[&label=64]:0.001116)[&label=50]:3.0E-6,'C_IVA_KC841842_A_swine_North_Carolina_A01432566_2013_H3N2_H3_USA_North_Carolina_3.1990.4.1_2013':0.007603)[&label=96]:6.13E-4)[&label=100]:5.45E-4,'C_IVA_JX092561_A_swine_Ohio_A01203186_2012_H3N2_H3_USA_Ohio_3.1990.4.1_1_24_12':2.0E-6)[&label=100]:5.75E-4,'C_IVA_KC735170_A_swine_Ohio_A01280883_2013_H3N2_H3_USA_Ohio_3.1990.4.1_2_15_13':0.007632)[&label=100]:0.001165,'C_IVA_JN652492_A_swine_Indiana_A01049745_2011_H3N2_H3_USA_Indiana_3.1990.4.1_3_23_11':0.001739)[&label=9]:2.0E-6,'C_IVA_JX442056_A_swine_Michigan_A01259000_2012_H3N2_H3_USA_Michigan_3.1990.4.1_6_19_12':0.00642)[&label=92]:2.0E-6,'C_IVA_KR074115_A_swine_Nebraska_A01489819_2015_H3N2_H3_USA_Nebraska_3.1990.4.1_3_19_15':0.022119)[&label=99]:0.001777,'C_IVA_KF008000_A_swine_Ohio_10SW130_2010_H3N2_H3_USA_Ohio_3.1990.4.1_2010':5.43E-4)[&label=100]:0.015085,'C_IVA_FJ519977_A_swine_Minnesota_7931_2007_H3N2_H3_USA_Minnesota_3.1990.4.1_2_28_07':0.006559)[&label=100]:0.006369,((('C_IVF_KF922744_A_swine_Minnesota_A01290747_2013_H3N2_H3_USA_Minnesota_3.1990.4.7_2013':0.019149,('C_IVF_JN652493_A_swine_Iowa_A01049750_2011_H3N2_H3_USA_Iowa_3.1990.4.7_3_28_11':5.94E-4,('C_IVF_JX565710_A_swine_Minnesota_17_2012_H3N2_H3_USA_Minnesota_3.1990.4.7_8_10_12':0.004691,'C_IVF_KC222305_A_swine_Nebraska_A01271549_2012_H3N2_H3_USA_Nebraska_3.1990.4.7_10_29_12':0.00291)[&label=100]:0.004685)[&label=100]:5.23E-4)[&label=100]:0.007837,'C_IVF_JN409415_A_swine_Kansas_11_104467_2011_H3N2_H3_USA_Kansas_3.1990.4.7_2_16_11':0.001032)[&label=100]:0.021942,'C_IVF_KR859577_A_swine_Oklahoma_01033_2006_H3N2_H3_USA_Oklahoma_3.1990.4.7_2006':0.001023)[&label=100]:0.001873)[&label=94]:2.0E-6,'C_IV_CY158753_A_swine_Manitoba_02946_2010_H3N2_H3_Canada_Manitoba_3.1990.4_1_20_10':0.016075)[&label=79]:0.001178,'C_IV_FJ519972_A_swine_Minnesota_66853_2006_H3N2_H3_USA_Minnesota_3.1990.4_12_26_06':0.008205)[&label=69]:5.56E-4)[&label=51]:3.0E-6,'C_IV_CY159025_A_swine_Manitoba_00446_2005_H3N2_H3_Canada_Manitoba_3.1990.4_1_25_05':2.0E-6)[&label=43]:2.0E-6)[&label=89]:5.79E-4,'C_IV_CY099061_A_swine_Minnesota_00709_2005_H3N2_H3_USA_Minnesota_3.1990.4_8_18_05':0.010573)[&label=84]:5.77E-4,'C_IV_JF316643_A_swine_Pennsylvania_057108_1_2010_H3N2_H3_USA_Pennsylvania_3.1990.4_9_20_10':0.028429)[&label=48]:3.0E-6,(('C_IV_KU976778_A_swine_Mexico_AVX37_2012_H3N2_H3_Mexico_NA_3.1990.4_11_8_12':0.032808,(('C_IV_JF833336_A_swine_Indiana_A01049124_2010_H3N2_H3_USA_Indiana_3.1990.4_11_19_10':0.023595,(('C_IV_KF739390_A_swine_Illinois_02907_2009_H3N2_H3_USA_Illinois_3.1990.4_10_21_09':0.005884,'C_IV_CY130709_A_swine_Ohio_09SW63_2009_H3N2_H3_USA_Ohio_3.1990.4_8_8_09':0.007668)[&label=100]:0.002479,'C_IV_CY099103_A_swine_Minnesota_02782_2009_H3N2_H3_USA_Minnesota_3.1990.4_5_7_09':0.00218)[&label=100]:0.002088)[&label=100]:0.002505,'C_IV_FJ519975_A_swine_Minnesota_761_2007_H3N2_H3_USA_Minnesota_3.1990.4_2007':0.009192)[&label=97]:8.29E-4)[&label=54]:0.001182,'C_IV_CY045575_A_swine_Oklahoma_011506_2007_H3N2_H3_USA_Oklahoma_3.1990.4_2007':0.013638)[&label=94]:5.41E-4)[&label=78]:3.0E-6,'C_IV_CY159241_A_swine_Iowa_SG1469_2004_H3N2_H3_USA_Iowa_3.1990.4_10_14_04':0.001735)[&label=78]:0.001162,'C_IV_EU735818_A_turkey_Ohio_313053_2004_H3N2_H3_USA_Ohio_3.1990.4_6_26_05':0.002324)[&label=96]:0.001315,'C_IV_JX422383_A_swine_Oklahoma_A01327676_2012_H3N2_H3_USA_Oklahoma_3.1990.4_4_19_12':0.030176)[&label=100]:0.012392,'C_IV_CY159097_A_swine_Iowa_00186_2003_H3N2_H3_USA_Iowa_3.1990.4_10_2_03':0.00472)[&label=99]:0.002197,'C_IV_CY157679_A_swine_Nebraska_SG1178_2003_H3N2_H3_USA_Nebraska_3.1990.4_8_6_03':0.001807)[&label=67]:8.57E-4,'C_IV_GU289666_A_swine_Wisconsin_R7c_2001_H3N2_H3_USA_Wisconsin_3.1990.4_2001':0.002691)[&label=97]:0.010266,'C_IV_EF551053_A_swine_North_Carolina_2003_H3N2_H3_USA_North_Carolina_3.1990.4_2003':0.013862)[&label=96]:0.003903)[&label=100]:0.001039);
+end;
+
+begin figtree;
+	set appearance.backgroundColorAttribute="Default";
+	set appearance.backgroundColour=#ffffff;
+	set appearance.branchColorAttribute="User selection";
+	set appearance.branchColorGradient=false;
+	set appearance.branchLineWidth=1.0;
+	set appearance.branchMinLineWidth=0.0;
+	set appearance.branchWidthAttribute="Fixed";
+	set appearance.foregroundColour=#000000;
+	set appearance.hilightingGradient=false;
+	set appearance.selectionColour=#2d3680;
+	set branchLabels.colorAttribute="User selection";
+	set branchLabels.displayAttribute="Branch times";
+	set branchLabels.fontName="sansserif";
+	set branchLabels.fontSize=8;
+	set branchLabels.fontStyle=0;
+	set branchLabels.isShown=false;
+	set branchLabels.significantDigits=4;
+	set layout.expansion=307;
+	set layout.layoutType="RECTILINEAR";
+	set layout.zoom=178;
+	set legend.attribute="label";
+	set legend.fontSize=10.0;
+	set legend.isShown=false;
+	set legend.significantDigits=4;
+	set nodeBars.barWidth=4.0;
+	set nodeBars.displayAttribute=null;
+	set nodeBars.isShown=false;
+	set nodeLabels.colorAttribute="User selection";
+	set nodeLabels.displayAttribute="Node ages";
+	set nodeLabels.fontName="sansserif";
+	set nodeLabels.fontSize=8;
+	set nodeLabels.fontStyle=0;
+	set nodeLabels.isShown=false;
+	set nodeLabels.significantDigits=4;
+	set nodeShapeExternal.colourAttribute="User selection";
+	set nodeShapeExternal.isShown=false;
+	set nodeShapeExternal.minSize=10.0;
+	set nodeShapeExternal.scaleType=Width;
+	set nodeShapeExternal.shapeType=Circle;
+	set nodeShapeExternal.size=4.0;
+	set nodeShapeExternal.sizeAttribute="Fixed";
+	set nodeShapeInternal.colourAttribute="User selection";
+	set nodeShapeInternal.isShown=true;
+	set nodeShapeInternal.minSize=0.0;
+	set nodeShapeInternal.scaleType=Width;
+	set nodeShapeInternal.shapeType=Circle;
+	set nodeShapeInternal.size=5.0;
+	set nodeShapeInternal.sizeAttribute="label";
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=0;
+	set polarLayout.rootLength=100;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=false;
+	set rectilinearLayout.curvature=0;
+	set rectilinearLayout.rootLength=100;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=8.0;
+	set scaleAxis.isShown=false;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=1.0;
+	set scaleAxis.minorTicks=0.5;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=false;
+	set scaleAxis.showGrid=true;
+	set scaleBar.automaticScale=true;
+	set scaleBar.fontSize=10.0;
+	set scaleBar.isShown=true;
+	set scaleBar.lineWidth=1.0;
+	set scaleBar.scaleRange=0.0;
+	set tipLabels.colorAttribute="User selection";
+	set tipLabels.displayAttribute="Names";
+	set tipLabels.fontName="sansserif";
+	set tipLabels.fontSize=8;
+	set tipLabels.fontStyle=0;
+	set tipLabels.isShown=true;
+	set tipLabels.significantDigits=4;
+	set trees.order=false;
+	set trees.orderType="increasing";
+	set trees.rooting=false;
+	set trees.rootingType="User Selection";
+	set trees.transform=false;
+	set trees.transformType="cladogram";
+end;
+
