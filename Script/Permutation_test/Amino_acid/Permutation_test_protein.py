@@ -20,6 +20,7 @@ with open("SNP_H1_protein.csv", "r") as SNP_H1_protein:
 
     Sample_H1=[]
     Group_H1=[]
+    Room_H1=[]
     PB2_H1=[]
     PB1_H1=[]
     PB1_F2_H1=[]
@@ -39,6 +40,7 @@ with open("SNP_H1_protein.csv", "r") as SNP_H1_protein:
         split_file_H1=line_H1.split(sep=',')
         Sample_H1.append(split_file_H1[0])
         Group_H1.append(split_file_H1[2])
+        Room_H1.append(split_file_H1[4])
         PB2_H1.append(split_file_H1[5])
         PB1_H1.append(split_file_H1[6])
         PB1_F2_H1.append(split_file_H1[7])
@@ -58,15 +60,24 @@ NO_VAC_H1={}
 
 for index_H1, words_H1 in enumerate (Group_H1):
     if words_H1 == "1":
-       Prime_boost_H1[Sample_H1[int(index_H1)]]= {"PB2":[PB2_H1[int(index_H1)]], "PB1":[PB1_H1[int(index_H1)]], "PB1-F2":[PB1_F2_H1[int(index_H1)]], "PA":[PA_H1[int(index_H1)]], "PA-X":[PA_X_H1[int(index_H1)]], "HA":[HA_H1[int(index_H1)]], "NP":[NP_H1[int(index_H1)]],"NA":[NA_H1[int(index_H1)]], "M1":[M1_H1[int(index_H1)]], "M2":[M2_H1[int(index_H1)]], "NS1":[NS1_H1[int(index_H1)]], "NS2":[NS2_H1[int(index_H1)]]} 
-    if words_H1 == "2":
-       Prime_boost_H1[Sample_H1[int(index_H1)]]= {"PB2":[PB2_H1[int(index_H1)]], "PB1":[PB1_H1[int(index_H1)]], "PB1-F2":[PB1_F2_H1[int(index_H1)]], "PA":[PA_H1[int(index_H1)]], "PA-X":[PA_X_H1[int(index_H1)]], "HA":[HA_H1[int(index_H1)]], "NP":[NP_H1[int(index_H1)]],"NA":[NA_H1[int(index_H1)]], "M1":[M1_H1[int(index_H1)]], "M2":[M2_H1[int(index_H1)]], "NS1":[NS1_H1[int(index_H1)]], "NS2":[NS2_H1[int(index_H1)]]}
+       if Room_H1[int(index_H1)] not in Prime_boost_H1.keys():
+          Prime_boost_H1[Room_H1[int(index_H1)]]= {Sample_H1[int(index_H1)]:{"PB2":[PB2_H1[int(index_H1)]], "PB1":[PB1_H1[int(index_H1)]], "PB1-F2":[PB1_F2_H1[int(index_H1)]], "PA":[PA_H1[int(index_H1)]], "PA-X":[PA_X_H1[int(index_H1)]], "HA":[HA_H1[int(index_H1)]], "NP":[NP_H1[int(index_H1)]],"NA":[NA_H1[int(index_H1)]], "M1":[M1_H1[int(index_H1)]], "M2":[M2_H1[int(index_H1)]], "NS1":[NS1_H1[int(index_H1)]], "NS2":[NS2_H1[int(index_H1)]]}} 
+       else:
+          Prime_boost_H1[Room_H1[int(index_H1)]][Sample_H1[int(index_H1)]]= {"PB2":[PB2_H1[int(index_H1)]], "PB1":[PB1_H1[int(index_H1)]], "PB1-F2":[PB1_F2_H1[int(index_H1)]], "PA":[PA_H1[int(index_H1)]], "PA-X":[PA_X_H1[int(index_H1)]], "HA":[HA_H1[int(index_H1)]], "NP":[NP_H1[int(index_H1)]],"NA":[NA_H1[int(index_H1)]], "M1":[M1_H1[int(index_H1)]], "M2":[M2_H1[int(index_H1)]], "NS1":[NS1_H1[int(index_H1)]], "NS2":[NS2_H1[int(index_H1)]]}         
+    
+    
     if words_H1 == "5":
-       LAIV_NONE_H1[Sample_H1[int(index_H1)]]= {"PB2":[PB2_H1[int(index_H1)]], "PB1":[PB1_H1[int(index_H1)]], "PB1-F2":[PB1_F2_H1[int(index_H1)]], "PA":[PA_H1[int(index_H1)]], "PA-X":[PA_X_H1[int(index_H1)]], "HA":[HA_H1[int(index_H1)]], "NP":[NP_H1[int(index_H1)]],"NA":[NA_H1[int(index_H1)]], "M1":[M1_H1[int(index_H1)]], "M2":[M2_H1[int(index_H1)]], "NS1":[NS1_H1[int(index_H1)]], "NS2":[NS2_H1[int(index_H1)]]}
-    if words_H1 == "6":
-       Prime_boost_H1[Sample_H1[int(index_H1)]]= {"PB2":[PB2_H1[int(index_H1)]], "PB1":[PB1_H1[int(index_H1)]], "PB1-F2":[PB1_F2_H1[int(index_H1)]], "PA":[PA_H1[int(index_H1)]], "PA-X":[PA_X_H1[int(index_H1)]], "HA":[HA_H1[int(index_H1)]], "NP":[NP_H1[int(index_H1)]],"NA":[NA_H1[int(index_H1)]], "M1":[M1_H1[int(index_H1)]], "M2":[M2_H1[int(index_H1)]], "NS1":[NS1_H1[int(index_H1)]], "NS2":[NS2_H1[int(index_H1)]]} 
+       if Room_H1[int(index_H1)] not in LAIV_NONE_H1.keys():
+          LAIV_NONE_H1[Room_H1[int(index_H1)]]= {Sample_H1[int(index_H1)]:{"PB2":[PB2_H1[int(index_H1)]], "PB1":[PB1_H1[int(index_H1)]], "PB1-F2":[PB1_F2_H1[int(index_H1)]], "PA":[PA_H1[int(index_H1)]], "PA-X":[PA_X_H1[int(index_H1)]], "HA":[HA_H1[int(index_H1)]], "NP":[NP_H1[int(index_H1)]],"NA":[NA_H1[int(index_H1)]], "M1":[M1_H1[int(index_H1)]], "M2":[M2_H1[int(index_H1)]], "NS1":[NS1_H1[int(index_H1)]], "NS2":[NS2_H1[int(index_H1)]]}} 
+       else:
+          LAIV_NONE_H1[Room_H1[int(index_H1)]][Sample_H1[int(index_H1)]]= {"PB2":[PB2_H1[int(index_H1)]], "PB1":[PB1_H1[int(index_H1)]], "PB1-F2":[PB1_F2_H1[int(index_H1)]], "PA":[PA_H1[int(index_H1)]], "PA-X":[PA_X_H1[int(index_H1)]], "HA":[HA_H1[int(index_H1)]], "NP":[NP_H1[int(index_H1)]],"NA":[NA_H1[int(index_H1)]], "M1":[M1_H1[int(index_H1)]], "M2":[M2_H1[int(index_H1)]], "NS1":[NS1_H1[int(index_H1)]], "NS2":[NS2_H1[int(index_H1)]]}         
+    
+      
     if words_H1 == "7":
-       NO_VAC_H1[Sample_H1[int(index_H1)]]= {"PB2":[PB2_H1[int(index_H1)]], "PB1":[PB1_H1[int(index_H1)]], "PB1-F2":[PB1_F2_H1[int(index_H1)]], "PA":[PA_H1[int(index_H1)]], "PA-X":[PA_X_H1[int(index_H1)]], "HA":[HA_H1[int(index_H1)]], "NP":[NP_H1[int(index_H1)]],"NA":[NA_H1[int(index_H1)]], "M1":[M1_H1[int(index_H1)]], "M2":[M2_H1[int(index_H1)]], "NS1":[NS1_H1[int(index_H1)]], "NS2":[NS2_H1[int(index_H1)]]}  
+       if Room_H1[int(index_H1)] not in NO_VAC_H1.keys():
+          NO_VAC_H1[Room_H1[int(index_H1)]]= {Sample_H1[int(index_H1)]:{"PB2":[PB2_H1[int(index_H1)]], "PB1":[PB1_H1[int(index_H1)]], "PB1-F2":[PB1_F2_H1[int(index_H1)]], "PA":[PA_H1[int(index_H1)]], "PA-X":[PA_X_H1[int(index_H1)]], "HA":[HA_H1[int(index_H1)]], "NP":[NP_H1[int(index_H1)]],"NA":[NA_H1[int(index_H1)]], "M1":[M1_H1[int(index_H1)]], "M2":[M2_H1[int(index_H1)]], "NS1":[NS1_H1[int(index_H1)]], "NS2":[NS2_H1[int(index_H1)]]}} 
+       else:
+          NO_VAC_H1[Room_H1[int(index_H1)]][Sample_H1[int(index_H1)]]= {"PB2":[PB2_H1[int(index_H1)]], "PB1":[PB1_H1[int(index_H1)]], "PB1-F2":[PB1_F2_H1[int(index_H1)]], "PA":[PA_H1[int(index_H1)]], "PA-X":[PA_X_H1[int(index_H1)]], "HA":[HA_H1[int(index_H1)]], "NP":[NP_H1[int(index_H1)]],"NA":[NA_H1[int(index_H1)]], "M1":[M1_H1[int(index_H1)]], "M2":[M2_H1[int(index_H1)]], "NS1":[NS1_H1[int(index_H1)]], "NS2":[NS2_H1[int(index_H1)]]}         
     
 # Generate the snp files for H3 virus.
 with open("SNP_H3_protein.csv", "r") as SNP_H3_protein:
@@ -74,6 +85,7 @@ with open("SNP_H3_protein.csv", "r") as SNP_H3_protein:
 
     Sample_H3=[]
     Group_H3=[]
+    Room_H3=[]
     PB2_H3=[]
     PB1_H3=[]
     PB1_F2_H3=[]
@@ -93,6 +105,7 @@ with open("SNP_H3_protein.csv", "r") as SNP_H3_protein:
         split_file_H3=line_H3.split(sep=',')
         Sample_H3.append(split_file_H3[0])
         Group_H3.append(split_file_H3[2])
+        Room_H3.append(split_file_H3[4])
         PB2_H3.append(split_file_H3[5])
         PB1_H3.append(split_file_H3[6])
         PB1_F2_H3.append(split_file_H3[7])
@@ -113,17 +126,25 @@ NO_VAC_H3={}
 
 for index_H3, words_H3 in enumerate (Group_H3):
     if words_H3 == "1":
-       Prime_boost_H3[Sample_H3[int(index_H3)]]= {"PB2":[PB2_H3[int(index_H3)]], "PB1":[PB1_H3[int(index_H3)]], "PB1-F2":[PB1_F2_H3[int(index_H3)]], "PA":[PA_H3[int(index_H3)]], "PA-X":[PA_X_H3[int(index_H3)]], "HA":[HA_H3[int(index_H3)]], "NP":[NP_H3[int(index_H3)]],"NA":[NA_H3[int(index_H3)]], "M1":[M1_H3[int(index_H3)]], "M2":[M2_H3[int(index_H3)]], "NS1":[NS1_H3[int(index_H3)]], "NS2":[NS2_H3[int(index_H3)]]} 
-    if words_H3 == "2":
-       Prime_boost_H3[Sample_H3[int(index_H3)]]= {"PB2":[PB2_H3[int(index_H3)]], "PB1":[PB1_H3[int(index_H3)]], "PB1-F2":[PB1_F2_H3[int(index_H3)]], "PA":[PA_H3[int(index_H3)]], "PA-X":[PA_X_H3[int(index_H3)]], "HA":[HA_H3[int(index_H3)]], "NP":[NP_H3[int(index_H3)]],"NA":[NA_H3[int(index_H3)]], "M1":[M1_H3[int(index_H3)]], "M2":[M2_H3[int(index_H3)]], "NS1":[NS1_H3[int(index_H3)]], "NS2":[NS2_H3[int(index_H3)]]} 
+       if Room_H3[int(index_H3)] not in Prime_boost_H3.keys():
+          Prime_boost_H3[Room_H3[int(index_H3)]]= {Sample_H3[int(index_H3)]:{"PB2":[PB2_H3[int(index_H3)]], "PB1":[PB1_H3[int(index_H3)]], "PB1-F2":[PB1_F2_H3[int(index_H3)]], "PA":[PA_H3[int(index_H3)]], "PA-X":[PA_X_H3[int(index_H3)]], "HA":[HA_H3[int(index_H3)]], "NP":[NP_H3[int(index_H3)]],"NA":[NA_H3[int(index_H3)]], "M1":[M1_H3[int(index_H3)]], "M2":[M2_H3[int(index_H3)]], "NS1":[NS1_H3[int(index_H3)]], "NS2":[NS2_H3[int(index_H3)]]}} 
+       else:
+          Prime_boost_H3[Room_H3[int(index_H3)]][Sample_H3[int(index_H3)]]= {"PB2":[PB2_H3[int(index_H3)]], "PB1":[PB1_H3[int(index_H3)]], "PB1-F2":[PB1_F2_H3[int(index_H3)]], "PA":[PA_H3[int(index_H3)]], "PA-X":[PA_X_H3[int(index_H3)]], "HA":[HA_H3[int(index_H3)]], "NP":[NP_H3[int(index_H3)]],"NA":[NA_H3[int(index_H3)]], "M1":[M1_H3[int(index_H3)]], "M2":[M2_H3[int(index_H3)]], "NS1":[NS1_H3[int(index_H3)]], "NS2":[NS2_H3[int(index_H3)]]}         
+    
+    
     if words_H3 == "5":
-       LAIV_NONE_H3[Sample_H3[int(index_H3)]]= {"PB2":[PB2_H3[int(index_H3)]], "PB1":[PB1_H3[int(index_H3)]], "PB1-F2":[PB1_F2_H3[int(index_H3)]], "PA":[PA_H3[int(index_H3)]], "PA-X":[PA_X_H3[int(index_H3)]], "HA":[HA_H3[int(index_H3)]], "NP":[NP_H3[int(index_H3)]],"NA":[NA_H3[int(index_H3)]], "M1":[M1_H3[int(index_H3)]], "M2":[M2_H3[int(index_H3)]], "NS1":[NS1_H3[int(index_H3)]], "NS2":[NS2_H3[int(index_H3)]]} 
-    if words_H3 == "6":
-       Prime_boost_H3[Sample_H3[int(index_H3)]]= {"PB2":[PB2_H3[int(index_H3)]], "PB1":[PB1_H3[int(index_H3)]], "PB1-F2":[PB1_F2_H3[int(index_H3)]], "PA":[PA_H3[int(index_H3)]], "PA-X":[PA_X_H3[int(index_H3)]], "HA":[HA_H3[int(index_H3)]], "NP":[NP_H3[int(index_H3)]],"NA":[NA_H3[int(index_H3)]], "M1":[M1_H3[int(index_H3)]], "M2":[M2_H3[int(index_H3)]], "NS1":[NS1_H3[int(index_H3)]], "NS2":[NS2_H3[int(index_H3)]]} 
+       if Room_H3[int(index_H3)] not in LAIV_NONE_H3.keys():
+          LAIV_NONE_H3[Room_H3[int(index_H3)]]= {Sample_H3[int(index_H3)]:{"PB2":[PB2_H3[int(index_H3)]], "PB1":[PB1_H3[int(index_H3)]], "PB1-F2":[PB1_F2_H3[int(index_H3)]], "PA":[PA_H3[int(index_H3)]], "PA-X":[PA_X_H3[int(index_H3)]], "HA":[HA_H3[int(index_H3)]], "NP":[NP_H3[int(index_H3)]],"NA":[NA_H3[int(index_H3)]], "M1":[M1_H3[int(index_H3)]], "M2":[M2_H3[int(index_H3)]], "NS1":[NS1_H3[int(index_H3)]], "NS2":[NS2_H3[int(index_H3)]]}} 
+       else:
+          LAIV_NONE_H3[Room_H3[int(index_H3)]][Sample_H3[int(index_H3)]]= {"PB2":[PB2_H3[int(index_H3)]], "PB1":[PB1_H3[int(index_H3)]], "PB1-F2":[PB1_F2_H3[int(index_H3)]], "PA":[PA_H3[int(index_H3)]], "PA-X":[PA_X_H3[int(index_H3)]], "HA":[HA_H3[int(index_H3)]], "NP":[NP_H3[int(index_H3)]],"NA":[NA_H3[int(index_H3)]], "M1":[M1_H3[int(index_H3)]], "M2":[M2_H3[int(index_H3)]], "NS1":[NS1_H3[int(index_H3)]], "NS2":[NS2_H3[int(index_H3)]]}         
+    
+      
     if words_H3 == "7":
-       NO_VAC_H3[Sample_H3[int(index_H3)]]= {"PB2":[PB2_H3[int(index_H3)]], "PB1":[PB1_H3[int(index_H3)]], "PB1-F2":[PB1_F2_H3[int(index_H3)]], "PA":[PA_H3[int(index_H3)]], "PA-X":[PA_X_H3[int(index_H3)]], "HA":[HA_H3[int(index_H3)]], "NP":[NP_H3[int(index_H3)]],"NA":[NA_H3[int(index_H3)]], "M1":[M1_H3[int(index_H3)]], "M2":[M2_H3[int(index_H3)]], "NS1":[NS1_H3[int(index_H3)]], "NS2":[NS2_H3[int(index_H3)]]} 
-    if words_H3 == "4":
-       Prime_boost_H3[Sample_H3[int(index_H3)]]= {"PB2":[PB2_H3[int(index_H3)]], "PB1":[PB1_H3[int(index_H3)]], "PB1-F2":[PB1_F2_H3[int(index_H3)]], "PA":[PA_H3[int(index_H3)]], "PA-X":[PA_X_H3[int(index_H3)]], "HA":[HA_H3[int(index_H3)]], "NP":[NP_H3[int(index_H3)]],"NA":[NA_H3[int(index_H3)]], "M1":[M1_H3[int(index_H3)]], "M2":[M2_H3[int(index_H3)]], "NS1":[NS1_H3[int(index_H3)]], "NS2":[NS2_H3[int(index_H3)]]}  
+       if Room_H3[int(index_H3)] not in NO_VAC_H3.keys():
+          NO_VAC_H3[Room_H3[int(index_H3)]]= {Sample_H3[int(index_H3)]:{"PB2":[PB2_H3[int(index_H3)]], "PB1":[PB1_H3[int(index_H3)]], "PB1-F2":[PB1_F2_H3[int(index_H3)]], "PA":[PA_H3[int(index_H3)]], "PA-X":[PA_X_H3[int(index_H3)]], "HA":[HA_H3[int(index_H3)]], "NP":[NP_H3[int(index_H3)]],"NA":[NA_H3[int(index_H3)]], "M1":[M1_H3[int(index_H3)]], "M2":[M2_H3[int(index_H3)]], "NS1":[NS1_H3[int(index_H3)]], "NS2":[NS2_H3[int(index_H3)]]}} 
+       else:
+          NO_VAC_H3[Room_H3[int(index_H3)]][Sample_H3[int(index_H3)]]= {"PB2":[PB2_H3[int(index_H3)]], "PB1":[PB1_H3[int(index_H3)]], "PB1-F2":[PB1_F2_H3[int(index_H3)]], "PA":[PA_H3[int(index_H3)]], "PA-X":[PA_X_H3[int(index_H3)]], "HA":[HA_H3[int(index_H3)]], "NP":[NP_H3[int(index_H3)]],"NA":[NA_H3[int(index_H3)]], "M1":[M1_H3[int(index_H3)]], "M2":[M2_H3[int(index_H3)]], "NS1":[NS1_H3[int(index_H3)]], "NS2":[NS2_H3[int(index_H3)]]}         
+ 
     
 #Generate the set of the numbers of nucleotides in each gene segment.
 Nucleotide_region_H1={}
@@ -150,20 +171,27 @@ def permutation_test(SNP_array, Nucleotide_region, stimulation):
     iteration_results = {"PB2":[], "PB1":[], "PB1-F2":[], "PA":[], "PA-X":[], "HA":[], "NP":[], "NA":[], "M1":[], "M2":[], "NS1":[], "NS2":[]}
     for a in range(0, stimulation, 1):
         temporary_results = {"PB2":[], "PB1":[], "PB1-F2":[], "PA":[], "PA-X":[], "HA":[], "NP":[],"NA":[], "M1":[], "M2":[], "NS1":[], "NS2":[]}
-        for samples in SNP_array:
-            for gene in SNP_array[samples]:
-                Nucleotides_range = range(0,Nucleotide_region[samples][gene])
+        for rooms in SNP_array:
+            temporary_results_rooms = {"PB2":[], "PB1":[], "PB1-F2":[], "PA":[], "PA-X":[], "HA":[], "NP":[],"NA":[], "M1":[], "M2":[], "NS1":[], "NS2":[]}
+            for samples in SNP_array[rooms]:
+                for gene in SNP_array[rooms][samples]:
+                    Nucleotides_range = range(0,Nucleotide_region[samples][gene])
                 
                 
-                Num_draw_list = SNP_array[samples][gene]
-                Num_draw = int(Num_draw_list[0])
+                    Num_draw_list = SNP_array[rooms][samples][gene]
+                    Num_draw = int(Num_draw_list[0])
                 
             
-                random_draw = (random.sample(Nucleotides_range, Num_draw))
+                    random_draw = (random.sample(Nucleotides_range, Num_draw))
                     
-                for r in random_draw:
-                    temporary_results[gene].append(r)
-                    
+                    for r in random_draw:
+                        if r not in temporary_results_rooms[gene]:
+                           temporary_results_rooms[gene].append(r)
+                           
+            for gene in temporary_results_rooms:
+                for h in temporary_results_rooms[gene]:
+                    temporary_results[gene].append(h)
+           
         for gene in temporary_results:
             count=collections.Counter(temporary_results[gene]).values()
             
