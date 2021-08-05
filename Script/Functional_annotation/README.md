@@ -5,3 +5,4 @@ python Functional_annotation.py input_file.csv output_file.csv
 
 The input files used for this script should be the identifed variant files which exported from the script "SNV_annotation.py". 
 
+Each input file should only contain the variants from the same coding region.
