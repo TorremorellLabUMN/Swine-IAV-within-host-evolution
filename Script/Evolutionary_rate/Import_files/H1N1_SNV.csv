@@ -246,8 +246,6 @@
 4486,531,G,A,71,423,0.856,2,2,34,35,0.98,1,1,9,62,208,215,A,7,PRIME BOOST,PB1_H1,PB1,Synonymous,E177E,No,NA,NA,NA,Not known function (Synonymous)
 4486,818,T,Y,563,10,0.018,2,2,37,34,0.98,1,1,287,276,5,5,C,7,PRIME BOOST,PB1_H1,PB1,Non_Synonymous,V273A,No,NA,NA,NA,Not known function (Non_Synonymous)
 4486,1977,C,M,519,8,0.015,2,2,38,32,0.98,1,1,221,298,7,1,A,7,PRIME BOOST,PB1_H1,PB1,Synonymous,A659A,No,NA,NA,NA,Not known function (Synonymous)
-4486,2028,C,S,556,15,0.026,2,2,39,34,0.98,1,1,262,294,1,14,G,7,PRIME BOOST,PB1_H1,PB1,Non_Synonymous,N676K,No,NA,NA,NA,Not known function (Non_Synonymous)
-4486,2030,C,Y,548,16,0.028,2,2,40,34,0.98,1,1,259,289,2,14,T,7,PRIME BOOST,PB1_H1,PB1,Non_Synonymous,T677I,No,NA,NA,NA,Not known function (Non_Synonymous)
 4490,531,G,R,466,82,0.15,2,2,37,34,0.98,1,1,219,247,39,43,A,7,NO VAC,PB1_H1,PB1,Synonymous,E177E,No,NA,NA,NA,Not known function (Synonymous)
 4490,792,A,R,578,15,0.025,2,2,38,35,0.98,1,1,300,278,1,14,G,7,NO VAC,PB1_H1,PB1,Synonymous,E264E,No,NA,NA,NA,Not known function (Synonymous)
 4490,2220,C,M,2198,40,0.018,2,2,39,34,0.98,1,1,383,1815,2,38,A,7,NO VAC,PB1_H1,PB1,Non_Synonymous,F740L,Yes,Influenza A_PB1_PB2-binding-region_685,The C-terminal three helix bundle of PB1 binds to 1_37 and 1_86 fragments on the N-terminus of PB2. This interface is crucial for the regulation of overall enzyme activity,19461581/17967456/8811014,Viral genome/protein interaction
@@ -311,17 +309,13 @@
 4473,1791,G,R,4946,588,0.106,2,2,38,37,0.98,1,1,2411,2535,342,246,A,7,SINGLE LAIV,PB2_H1,PB2,Synonymous,R597R,No,NA,NA,NA,Not known function (Synonymous)
 4479,837,T,W,3606,227,0.059,2,2,38,39,0.98,1,1,1498,2108,107,120,A,7,SINGLE LAIV,PB2_H1,PB2,Synonymous,S279S,No,NA,NA,NA,Not known function (Synonymous)
 4479,1268,G,R,3508,40,0.011,2,2,39,38,0.98,1,1,2130,1378,27,13,A,7,SINGLE LAIV,PB2_H1,PB2,Non_Synonymous,R423K,Yes,Influenza A_PB2_cap-binding-site_320,This fragment is a domain co-crystalized with m7GTP.,The Structural Basis for Cap Binding by Influenza Virus Polymerase Subunit PB2,"Viral genome transportation, transcription and replication"
-4481,1413,G,K,3238,107,0.032,2,2,37,33,0.98,1,1,1662,1576,71,36,T,7,SINGLE LAIV,PB2_H1,PB2,Synonymous,T471T,No,NA,NA,NA,Not known function (Synonymous)
 4481,2245,A,R,385,4,0.01,2,2,39,44,0.98,1,1,50,335,1,3,G,7,SINGLE LAIV,PB2_H1,PB2,Non_Synonymous,T749A,No,NA,NA,NA,Not known function (Non_Synonymous)
 4486,388,T,Y,678,12,0.017,2,2,37,38,0.98,1,1,421,257,8,4,C,7,PRIME BOOST,PB2_H1,PB2,Non_Synonymous,F130L,No,NA,NA,NA,Not known function (Non_Synonymous)
 4486,930,A,R,870,378,0.303,2,2,37,37,0.98,1,1,614,256,226,152,G,7,PRIME BOOST,PB2_H1,PB2,Non_Synonymous,I310M,No,NA,NA,NA,Not known function (Non_Synonymous)
 4486,1267,A,R,1387,20,0.014,2,2,40,39,0.98,1,1,861,526,14,6,G,7,PRIME BOOST,PB2_H1,PB2,Non_Synonymous,R423G,Yes,Influenza A_PB2_cap-binding-site_320,This fragment is a domain co-crystalized with m7GTP.,The Structural Basis for Cap Binding by Influenza Virus Polymerase Subunit PB2,"Viral genome transportation, transcription and replication"
 4486,1291,A,R,1354,66,0.047,2,2,41,41,0.98,1,1,793,561,35,31,G,7,PRIME BOOST,PB2_H1,PB2,Non_Synonymous,M431V,Yes,Influenza A_PB2_cap-binding-site_320,This fragment is a domain co-crystalized with m7GTP.,The Structural Basis for Cap Binding by Influenza Virus Polymerase Subunit PB2,"Viral genome transportation, transcription and replication"
-4486,1413,G,K,1157,140,0.108,2,2,37,33,0.98,1,1,586,571,83,57,T,7,PRIME BOOST,PB2_H1,PB2,Synonymous,T471T,No,NA,NA,NA,Not known function (Synonymous)
 4486,1903,T,Y,927,26,0.027,2,2,37,35,0.98,1,1,351,576,13,13,C,7,PRIME BOOST,PB2_H1,PB2,Non_Synonymous,S635P,No,NA,NA,NA,Not known function (Non_Synonymous)
 4486,2031,A,W,568,194,0.234,2,2,39,41,0.98,1,1,191,377,68,126,T,7,PRIME BOOST,PB2_H1,PB2,Non_Synonymous,E677D,No,NA,NA,NA,Not known function (Non_Synonymous)
-4486,2111,A,R,569,8,0.014,2,2,39,37,0.98,1,1,161,408,1,7,G,7,PRIME BOOST,PB2_H1,PB2,Non_Synonymous,Y704C,No,NA,NA,NA,Not known function (Non_Synonymous)
-4490,1413,G,K,2330,132,0.054,2,2,37,33,0.98,1,1,1194,1136,80,52,T,7,NO VAC,PB2_H1,PB2,Synonymous,T471T,No,NA,NA,NA,Not known function (Synonymous)
 4492,880,A,R,4534,73,0.016,2,2,37,35,0.98,1,1,2332,2202,26,47,G,7,SINGLE LAIV,PB2_H1,PB2,Non_Synonymous,M294V,No,NA,NA,NA,Not known function (Non_Synonymous)
 4492,1076,G,R,5296,77,0.014,2,2,37,35,0.98,1,1,2701,2595,45,32,A,7,SINGLE LAIV,PB2_H1,PB2,Non_Synonymous,G359E,Yes,Influenza A_PB2_cap-binding-site_320,This fragment is a domain co-crystalized with m7GTP.,The Structural Basis for Cap Binding by Influenza Virus Polymerase Subunit PB2,"Viral genome transportation, transcription and replication"
 4492,1189,G,R,5255,89,0.017,2,2,38,38,0.98,1,1,3002,2253,52,37,A,7,SINGLE LAIV,PB2_H1,PB2,Non_Synonymous,A397T,Yes,Influenza A_PB2_cap-binding-site_320,This fragment is a domain co-crystalized with m7GTP.,The Structural Basis for Cap Binding by Influenza Virus Polymerase Subunit PB2,"Viral genome transportation, transcription and replication"
@@ -347,7 +341,6 @@
 4493,2187,G,R,629,7,0.011,2,2,38,40,0.98,1,1,100,529,1,6,A,7,NO VAC,PB2_H1,PB2,Synonymous,G729G,No,NA,NA,NA,Not known function (Synonymous)
 4495,1685,A,T,0,3130,1,0,2,0,38,0.98,0,1,0,0,1873,1257,T,7,NO VAC,PB2_H1,PB2,Non_Synonymous,N562I,No,NA,NA,NA,Not known function (Non_Synonymous)
 4934,758,A,R,477,11,0.023,2,2,42,42,0.98,1,1,278,199,9,2,G,7,SINGLE LAIV,PB2_H1,PB2,Non_Synonymous,D253G,No,NA,NA,NA,Not known function (Non_Synonymous)
-4934,1485,A,M,463,56,0.108,2,2,38,34,0.98,1,1,306,157,49,7,C,7,SINGLE LAIV,PB2_H1,PB2,Synonymous,V495V,No,NA,NA,NA,Not known function (Synonymous)
 4934,1635,G,R,489,5,0.01,2,2,39,33,0.98,1,1,245,244,2,3,A,7,SINGLE LAIV,PB2_H1,PB2,Synonymous,V545V,No,NA,NA,NA,Not known function (Synonymous)
 4934,1791,G,R,162,341,0.678,2,2,38,39,0.98,1,1,75,87,182,159,A,7,SINGLE LAIV,PB2_H1,PB2,Synonymous,R597R,No,NA,NA,NA,Not known function (Synonymous)
 4934,1984,A,R,297,5,0.017,2,2,38,34,0.98,1,1,123,174,2,3,G,7,SINGLE LAIV,PB2_H1,PB2,Non_Synonymous,T662A,No,NA,NA,NA,Not known function (Non_Synonymous)
@@ -363,17 +356,13 @@
 4938,2061,G,R,2214,29,0.013,2,2,41,40,0.98,1,1,668,1546,5,24,A,7,NO VAC,PB2_H1,PB2,Synonymous,E687E,No,NA,NA,NA,Not known function (Synonymous)
 5166,279,C,Y,512,40,0.072,2,2,39,37,0.98,1,1,255,257,13,27,T,7,SINGLE LAIV,PB2_H1,PB2,Synonymous,P93P,No,NA,NA,NA,Not known function (Synonymous)
 5166,516,G,R,634,19,0.029,2,2,38,40,0.98,1,1,445,189,17,2,A,7,SINGLE LAIV,PB2_H1,PB2,Synonymous,V172V,No,NA,NA,NA,Not known function (Synonymous)
-5166,1413,G,K,708,9,0.013,2,2,37,32,0.98,1,1,334,374,6,3,T,7,SINGLE LAIV,PB2_H1,PB2,Synonymous,T471T,No,NA,NA,NA,Not known function (Synonymous)
 5166,2102,A,R,504,6,0.012,2,2,39,33,0.98,1,1,137,367,2,4,G,7,SINGLE LAIV,PB2_H1,PB2,Non_Synonymous,D701G,Yes,Influenza A_PB2_replication-efficiency_701/Influenza A_PB2_tissue-tropism_701/Influenza A_PB2_Transmissibility_627/Influenza A_PB2_determinants-of-host-range_701,Introduction of Asp701Asn substitution in the A/duck/Guangxi/22/2001 backbone conferred efficient replication in the nose; trachea and lung of guinea pigs at titer levels comparable to A/duck/Guangxi/35/2001./ Introduction Lys627Glu and Asp701Asn substitutions in the A/Vietnam/1203/2004 backbone conferred increased contact transmission amongst guinea pigs./The 701N and 714R; together with PA 615N; and NP 319K; PB1 13P and 678N cause increase in polymerase activity and confers adaptation of avian influenza virus to the mammalian host.,20041223/19264775/19119420/16140781/16339318,Cross-species transmission and adaption
 5167,525,A,R,423,6,0.014,2,2,40,41,0.98,1,1,299,124,4,2,G,7,NO VAC,PB2_H1,PB2,Synonymous,R175R,No,NA,NA,NA,Not known function (Synonymous)
 5167,1071,T,Y,462,25,0.051,2,2,40,42,0.98,1,1,207,255,13,12,C,7,NO VAC,PB2_H1,PB2,Synonymous,H357H,No,NA,NA,NA,Not known function (Synonymous)
 5167,1341,G,R,423,44,0.094,2,2,41,39,0.98,1,1,179,244,21,23,A,7,NO VAC,PB2_H1,PB2,Synonymous,Q447Q,No,NA,NA,NA,Not known function (Synonymous)
 5167,1396,G,R,248,221,0.471,2,2,37,36,0.98,1,1,106,142,117,104,A,7,NO VAC,PB2_H1,PB2,Non_Synonymous,D466N,Yes,Influenza A_PB2_cap-binding-site_320/Influenza A_PB2_nuclear-localization-motif_448,This fragment is a domain co-crystalized with m7GTP./This region is required for nuclear localization of PB2 and deletion at this site exhibits a phenotype that remains bound to perinuclear membrane.,The Structural Basis for Cap Binding by Influenza Virus Polymerase Subunit PB2/Two Signals Mediate Nuclear Localization of Influenza Virus (A/WSN/33) Polymerase Basic Protein 2 ,"Viral genome transportation, transcription and replication"
-5167,1413,G,K,399,23,0.055,2,2,38,32,0.98,1,1,215,184,15,8,T,7,NO VAC,PB2_H1,PB2,Synonymous,T471T,No,NA,NA,NA,Not known function (Synonymous)
-5174,195,C,Y,508,40,0.073,2,2,45,38,0.98,1,1,439,69,38,2,T,7,NO VAC,PB2_H1,PB2,Synonymous,D65D,No,NA,NA,NA,Not known function (Synonymous)
 5174,451,C,M,499,7,0.014,2,2,38,36,0.98,1,1,345,154,2,5,A,7,NO VAC,PB2_H1,PB2,Non_Synonymous,H151N,No,NA,NA,NA,Not known function (Non_Synonymous)
 5174,1395,T,Y,643,11,0.017,2,2,38,35,0.98,1,1,300,343,7,4,C,7,NO VAC,PB2_H1,PB2,Synonymous,P465P,No,NA,NA,NA,Not known function (Synonymous)
-5174,1413,G,K,624,74,0.106,2,2,36,33,0.98,1,1,294,330,51,23,T,7,NO VAC,PB2_H1,PB2,Synonymous,T471T,No,NA,NA,NA,Not known function (Synonymous)
 5175,541,T,Y,2787,98,0.034,2,2,36,36,0.98,1,1,2010,777,72,26,C,7,PRIME BOOST,PB2_H1,PB2,Non_Synonymous,S181P,No,NA,NA,NA,Not known function (Non_Synonymous)
 5175,793,A,R,4147,252,0.057,2,2,39,37,0.98,1,1,2232,1915,99,153,G,7,PRIME BOOST,PB2_H1,PB2,Non_Synonymous,N265D,No,NA,NA,NA,Not known function (Non_Synonymous)
 5175,941,C,Y,3632,74,0.02,2,2,38,34,0.98,1,1,2366,1266,46,28,T,7,PRIME BOOST,PB2_H1,PB2,Non_Synonymous,A314V,No,NA,NA,NA,Not known function (Non_Synonymous)
@@ -389,5 +378,4 @@
 5179,1926,A,R,827,9,0.011,2,2,39,42,0.98,1,1,368,459,5,4,G,7,NO VAC,PB2_H1,PB2,Synonymous,G642G,No,NA,NA,NA,Not known function (Synonymous)
 5185,285,C,Y,266,4,0.015,2,2,40,44,0.98,1,1,132,134,2,2,T,7,PRIME BOOST,PB2_H1,PB2,Synonymous,A95A,No,NA,NA,NA,Not known function (Synonymous)
 5185,775,T,Y,488,23,0.045,2,2,43,49,0.98,1,1,273,215,16,7,C,7,PRIME BOOST,PB2_H1,PB2,Synonymous,L259L,No,NA,NA,NA,Not known function (Synonymous)
-5185,1413,G,K,345,86,0.2,2,2,37,33,0.98,1,1,164,181,51,35,T,7,PRIME BOOST,PB2_H1,PB2,Synonymous,T471T,No,NA,NA,NA,Not known function (Synonymous)
 5185,1563,A,R,460,9,0.019,2,2,41,34,0.98,1,1,274,186,7,2,G,7,PRIME BOOST,PB2_H1,PB2,Synonymous,T521T,No,NA,NA,NA,Not known function (Synonymous)
