@@ -6,7 +6,7 @@
 4481,1087,G,K,403,12,0.029,2,2,37,33,0.98,1,1,197,206,10,2,T,7,SINGLE LAIV,HA_H3,HA,Non_Synonymous,V363L,No,NA,NA,NA,Not known function (Non_Synonymous)
 4484,1413,G,R,7060,100,0.014,2,2,38,35,0.98,1,1,4191,2869,70,30,A,7,SINGLE LAIV,HA_H3,HA,Synonymous,L471L,No,NA,NA,NA,Not known function (Synonymous)
 4490,830,G,R,260,7,0.026,2,2,40,41,0.98,1,1,142,118,5,2,A,7,NO VAC,HA_H3,HA,Non_Synonymous,R277Q,No,NA,NA,NA,Not known function (Non_Synonymous)
-4499,14,T,Y,368,9,0.024,2,2,35,35,0.98,1,1,366,2,8,1,C,7,PRIME BOOST,HA_H3,HA,Non_Synonymous,I5T,Yes,Influenza A_H3_signal-peptide_1,NA,Uniprot:P03437,Not known function (Stop_Codon)
+4499,14,T,Y,368,9,0.024,2,2,35,35,0.98,1,1,366,2,8,1,C,7,PRIME BOOST,HA_H3,HA,Non_Synonymous,I5T,Yes,Influenza A_H3_signal-peptide_1,NA,Uniprot:P03437,"Viral genome transportation, transcription and replication"
 4499,1188,G,R,3844,42,0.011,2,2,38,34,0.98,1,1,2148,1696,35,7,A,7,PRIME BOOST,HA_H3,HA,Synonymous,K396K,No,NA,NA,NA,Not known function (Synonymous)
 4499,1239,A,R,3752,67,0.018,2,2,38,36,0.98,1,1,1725,2027,23,44,G,7,PRIME BOOST,HA_H3,HA,Synonymous,K413K,No,NA,NA,NA,Not known function (Synonymous)
 4551,1656,G,R,1330,27,0.02,2,2,38,35,0.98,1,1,143,1187,1,26,A,7,PRIME BOOST,HA_H3,HA,Non_Synonymous,M552I,No,NA,NA,NA,Not known function (Non_Synonymous)
@@ -155,7 +155,6 @@
 4486,447,T,Y,1163,56,0.046,2,2,38,38,0.98,1,1,670,493,30,26,C,7,PRIME BOOST,NS_H3,NS1,Synonymous,A149A,No,NA,NA,NA,Not known function (Synonymous)
 4490,572,C,Y,363,5,0.014,2,2,37,43,0.98,1,1,194,169,3,2,T,7,NO VAC,NS_H3,NS2,Non_Synonymous,R34W,No,NA,NA,NA,Not known function (Non_Synonymous)
 4490,572,C,Y,363,5,0.014,2,2,37,43,0.98,1,1,194,169,3,2,T,7,NO VAC,NS_H3,NS1,Non_Synonymous,T191M,Yes,Influenza A_NS1_effector-domain_87,The NS1 effector domain mediates interactions with several host proteins and may stabilize the N-terminal RNA-binding domain.,18725644/18796704/16715094/18585749,Host-virus interaction machinery
-4490,703,G,R,270,38,0.123,2,2,39,33,0.98,1,1,45,225,4,34,A,7,NO VAC,NS_H3,NS2,Synonymous,R77R,No,NA,NA,NA,Not known function (Synonymous)
 4490,736,A,M,241,19,0.073,2,2,38,37,0.98,1,1,22,219,1,18,C,7,NO VAC,NS_H3,NS2,Non_Synonymous,K88N,Yes,Influenza A_NS2_nuclear-export-signal motif_85,NA,Uniprot:P03508,"Viral genome transportation, transcription and replication"
 4552,41,T,Y,314,30,0.087,2,2,36,36,0.98,1,1,313,1,29,1,C,7,PRIME BOOST,NS_H3,NS1,Non_Synonymous,F14S,Yes,Influenza A_NS1_RNA-binding-domain_1,The N-terminal domain of NS1 binds several RNA species; including dsRNA. This domain also mediates interactions with RIG-I; possibly via dsRNA intermediates; PABPI; and importin-alpha.,18796704/17475623/18813227,Host-virus interaction machinery
 4552,256,A,R,671,9,0.013,2,2,35,42,0.98,1,1,297,374,4,5,G,7,PRIME BOOST,NS_H3,NS1,Non_Synonymous,T86A,Yes,Influenza A_NS1_eIF4GI-interaction-site_81/Influenza A_NS1_inter-domain-linker_74,Interaction of NS1 with eIF4GI may lead to preferential translation of viral mRNAs./Flexible linker between the RNA binding and effector domains. Can be variable in length; with a 5aa deletion commonly reported in recent H5N1 isolates.,10938102/18987632/Uniprot:P03496,Host-virus interaction machinery
@@ -174,8 +173,6 @@
 4479,283,T,K,524,8,0.015,2,2,41,32,0.98,1,1,366,158,4,4,G,7,SINGLE LAIV,PA_H3,PA,Non_Synonymous,C95G,No,NA,NA,NA,Not known function (Non_Synonymous)
 4479,285,C,M,466,6,0.011,2,2,41,34,0.98,1,1,334,132,2,4,A,7,SINGLE LAIV,PA_H3,PA-X,stop_gained,C95*,Yes,NA,NA,NA,Not known function (Stop_Codon)
 4479,285,C,M,466,6,0.011,2,2,41,34,0.98,1,1,334,132,2,4,A,7,SINGLE LAIV,PA_H3,PA,stop_gained,C95*,Yes,NA,NA,NA,Not known function (Stop_Codon)
-4479,633,G,R,710,72,0.092,2,2,42,32,0.98,1,1,499,211,62,10,A,7,SINGLE LAIV,PA_H3,PA-X,Non_Synonymous,C211Y,No,NA,NA,NA,Not known function (Non_Synonymous)
-4479,633,G,R,710,72,0.092,2,2,42,32,0.98,1,1,499,211,62,10,A,7,SINGLE LAIV,PA_H3,PA,Non_Synonymous,M211I,No,NA,NA,NA,Not known function (Non_Synonymous)
 4479,684,C,M,762,15,0.019,2,2,42,40,0.98,1,1,406,356,6,9,A,7,SINGLE LAIV,PA_H3,PA-X,Non_Synonymous,T228N,No,NA,NA,NA,Not known function (Non_Synonymous)
 4479,684,C,M,762,15,0.019,2,2,42,40,0.98,1,1,406,356,6,9,A,7,SINGLE LAIV,PA_H3,PA,Non_Synonymous,N228K,No,NA,NA,NA,Not known function (Non_Synonymous)
 4479,1783,A,R,992,12,0.012,2,2,41,35,0.98,1,1,476,516,1,11,G,7,SINGLE LAIV,PA_H3,PA,Non_Synonymous,M595V,Yes,Influenza A_PA_PB1-binding-region_257,The C-terminus of PA interacts with the N-terminal region of PB1 (residues 1-25). This subunit interface complex is essential for initiation of transcription.,18615018,Viral genome/protein interaction
@@ -209,8 +206,6 @@
 4934,2129,T,Y,486,10,0.02,2,2,38,39,0.98,1,1,30,456,1,9,C,7,SINGLE LAIV,PA_H3,PA,Non_Synonymous,F710S,Yes,Influenza A_PA_PB1-binding-region_257,The C-terminus of PA interacts with the N-terminal region of PB1 (residues 1-25). This subunit interface complex is essential for initiation of transcription.,18615018,Viral genome/protein interaction
 4945,1461,C,Y,1801,21,0.012,2,2,38,34,0.98,1,1,1209,592,11,10,T,7,SINGLE LAIV,PA_H3,PA,Synonymous,S487S,No,NA,NA,NA,Not known function (Synonymous)
 4945,2001,C,Y,1435,65,0.043,2,2,41,35,0.98,1,1,438,997,12,53,T,7,SINGLE LAIV,PA_H3,PA,Synonymous,L667L,No,NA,NA,NA,Not known function (Synonymous)
-5166,633,G,R,335,36,0.097,2,2,41,33,0.98,1,1,246,89,28,8,A,7,SINGLE LAIV,PA_H3,PA-X,Non_Synonymous,C211Y,No,NA,NA,NA,Not known function (Non_Synonymous)
-5166,633,G,R,335,36,0.097,2,2,41,33,0.98,1,1,246,89,28,8,A,7,SINGLE LAIV,PA_H3,PA,Non_Synonymous,M211I,No,NA,NA,NA,Not known function (Non_Synonymous)
 5166,1506,C,M,248,177,0.4,2,2,42,38,0.98,1,1,166,82,122,55,A,7,SINGLE LAIV,PA_H3,PA,Synonymous,G502G,No,NA,NA,NA,Not known function (Synonymous)
 5166,1574,T,Y,494,5,0.01,2,2,38,49,0.98,1,1,236,258,3,2,C,7,SINGLE LAIV,PA_H3,PA,Non_Synonymous,F525S,Yes,Influenza A_PA_PB1-binding-region_257,The C-terminus of PA interacts with the N-terminal region of PB1 (residues 1-25). This subunit interface complex is essential for initiation of transcription.,18615018,Viral genome/protein interaction
 5166,1977,G,R,1272,42,0.032,2,2,39,44,0.98,1,1,565,707,17,25,A,7,SINGLE LAIV,PA_H3,PA,Synonymous,S659S,No,NA,NA,NA,Not known function (Synonymous)
@@ -233,7 +228,6 @@
 4467,1661,A,R,524,6,0.011,2,2,37,40,0.98,1,1,226,298,1,5,G,7,PRIME BOOST,PB1_H3,PB1,Non_Synonymous,D554G,No,NA,NA,NA,Not known function (Non_Synonymous)
 4467,1848,G,R,379,50,0.117,2,2,37,35,0.98,1,1,140,239,16,34,A,7,PRIME BOOST,PB1_H3,PB1,Non_Synonymous,M616I,No,NA,NA,NA,Not known function (Non_Synonymous)
 4479,590,A,R,929,134,0.126,2,2,37,33,0.98,1,1,426,503,50,84,G,7,SINGLE LAIV,PB1_H3,PB1,Non_Synonymous,K197R,No,NA,NA,NA,Not known function (Non_Synonymous)
-4479,690,T,Y,1229,20,0.016,2,2,38,35,0.98,1,1,952,277,18,2,C,7,SINGLE LAIV,PB1_H3,PB1,Synonymous,D230D,No,NA,NA,NA,Not known function (Synonymous)
 4479,768,G,R,1194,28,0.023,2,2,39,40,0.98,1,1,806,388,19,9,A,7,SINGLE LAIV,PB1_H3,PB1,Synonymous,E256E,No,NA,NA,NA,Not known function (Synonymous)
 4481,531,G,R,226,36,0.137,2,2,37,35,0.98,1,1,88,138,7,29,A,7,SINGLE LAIV,PB1_H3,PB1,Synonymous,E177E,No,NA,NA,NA,Not known function (Synonymous)
 4481,1440,G,R,448,7,0.015,2,2,37,40,0.98,1,1,305,143,4,3,A,7,SINGLE LAIV,PB1_H3,PB1,Synonymous,K480K,No,NA,NA,NA,Not known function (Synonymous)
@@ -307,7 +301,6 @@
 4486,187,A,R,3512,59,0.017,2,2,40,39,0.98,1,1,2966,546,44,15,G,7,PRIME BOOST,PB2_H3,PB2,Non_Synonymous,I63V,No,NA,NA,NA,Not known function (Non_Synonymous)
 4486,547,C,Y,3913,204,0.05,2,2,37,35,0.98,1,1,2670,1243,113,91,T,7,PRIME BOOST,PB2_H3,PB2,Synonymous,L183L,No,NA,NA,NA,Not known function (Synonymous)
 4486,908,C,M,4623,196,0.041,2,2,37,36,0.98,1,1,2381,2242,110,86,A,7,PRIME BOOST,PB2_H3,PB2,Non_Synonymous,T303K,No,NA,NA,NA,Not known function (Non_Synonymous)
-4486,930,A,R,4794,63,0.013,2,2,38,35,0.98,1,1,2862,1932,35,28,G,7,PRIME BOOST,PB2_H3,PB2,Non_Synonymous,I310M,No,NA,NA,NA,Not known function (Non_Synonymous)
 4486,1205,T,Y,4788,65,0.013,2,2,38,39,0.98,1,1,2920,1868,43,22,C,7,PRIME BOOST,PB2_H3,PB2,Non_Synonymous,M402T,Yes,Influenza A_PB2_cap-binding-site_320,This fragment is a domain co-crystalized with m7GTP.,The Structural Basis for Cap Binding by Influenza Virus Polymerase Subunit PB2,"Viral genome transportation, transcription and replication"
 4486,1413,G,K,2548,2532,0.498,2,2,36,37,0.98,1,1,1251,1297,1331,1201,T,7,PRIME BOOST,PB2_H3,PB2,Synonymous,T471T,No,NA,NA,NA,Not known function (Synonymous)
 4486,1483,G,R,5307,274,0.049,2,2,39,37,0.98,1,1,3555,1752,179,95,A,7,PRIME BOOST,PB2_H3,PB2,Non_Synonymous,V495I,Yes,Influenza A_PB2_nuclear-localization-motif_448,This region is required for nuclear localization of PB2 and deletion at this site exhibits a phenotype that remains bound to perinuclear membrane,Two Signals Mediate Nuclear Localization of Influenza Virus (A/WSN/33) Polymerase Basic Protein 2,"Viral genome transportation, transcription and replication"
@@ -342,7 +335,6 @@
 4934,480,G,R,1196,31,0.025,2,2,36,33,0.98,1,1,724,472,22,9,A,7,SINGLE LAIV,PB2_H3,PB2,Synonymous,Q160Q,No,NA,NA,NA,Not known function (Synonymous)
 4934,1485,A,C,63,1684,0.963,2,2,36,38,0.98,1,1,28,35,1253,431,C,7,SINGLE LAIV,PB2_H3,PB2,Synonymous,V495V,No,NA,NA,NA,Not known function (Synonymous)
 4934,1727,A,R,1971,68,0.033,2,2,39,39,0.98,1,1,1175,796,36,32,G,7,SINGLE LAIV,PB2_H3,PB2,Non_Synonymous,E576G,No,NA,NA,NA,Not known function (Non_Synonymous)
-4934,1791,G,R,1964,48,0.024,2,2,39,35,0.98,1,1,960,1004,23,25,A,7,SINGLE LAIV,PB2_H3,PB2,Synonymous,R597R,No,NA,NA,NA,Not known function (Synonymous)
 4934,1940,T,Y,1643,18,0.011,2,2,39,35,0.98,1,1,737,906,7,11,C,7,SINGLE LAIV,PB2_H3,PB2,Non_Synonymous,I647T,No,NA,NA,NA,Not known function (Non_Synonymous)
 4934,2015,C,Y,3120,54,0.017,2,2,39,35,0.98,1,1,1292,1828,17,37,T,7,SINGLE LAIV,PB2_H3,PB2,Non_Synonymous,A672V,No,NA,NA,NA,Not known function (Non_Synonymous)
 4934,2072,T,Y,3313,227,0.064,2,2,40,38,0.98,1,1,998,2315,53,174,C,7,SINGLE LAIV,PB2_H3,PB2,Non_Synonymous,L691P,No,NA,NA,NA,Not known function (Non_Synonymous)
@@ -352,7 +344,6 @@
 5166,1413,G,K,1352,104,0.071,2,2,36,35,0.98,1,1,677,675,59,45,T,7,SINGLE LAIV,PB2_H3,PB2,Synonymous,T471T,No,NA,NA,NA,Not known function (Synonymous)
 5167,350,C,M,4994,61,0.012,2,2,38,36,0.98,1,1,3415,1579,28,33,A,7,NO VAC,PB2_H3,PB2,Non_Synonymous,T117N,No,NA,NA,NA,Not known function (Non_Synonymous)
 5167,547,C,Y,5208,456,0.081,2,2,37,35,0.98,1,1,3474,1734,244,212,T,7,NO VAC,PB2_H3,PB2,Synonymous,L183L,No,NA,NA,NA,Not known function (Synonymous)
-5167,1396,G,R,4904,56,0.011,2,2,37,33,0.98,1,1,2388,2516,31,25,A,7,NO VAC,PB2_H3,PB2,Non_Synonymous,D466N,Yes,Influenza A_PB2_cap-binding-site_320/Influenza A_PB2_nuclear-localization-motif_448,This fragment is a domain co-crystalized with m7GTP./This region is required for nuclear localization of PB2 and deletion at this site exhibits a phenotype that remains bound to perinuclear membrane.,The Structural Basis for Cap Binding by Influenza Virus Polymerase Subunit PB2/Two Signals Mediate Nuclear Localization of Influenza Virus (A/WSN/33) Polymerase Basic Protein 2 ,"Viral genome transportation, transcription and replication"
 5167,1413,G,K,4228,632,0.13,2,2,37,35,0.98,1,1,2242,1986,352,280,T,7,NO VAC,PB2_H3,PB2,Synonymous,T471T,No,NA,NA,NA,Not known function (Synonymous)
 5174,195,C,Y,1666,1470,0.469,2,2,39,40,0.98,1,1,1342,324,1064,406,T,7,NO VAC,PB2_H3,PB2,Synonymous,D65D,No,NA,NA,NA,Not known function (Synonymous)
 5174,1413,G,K,2113,1208,0.364,2,2,36,36,0.98,1,1,1034,1079,670,538,T,7,NO VAC,PB2_H3,PB2,Synonymous,T471T,No,NA,NA,NA,Not known function (Synonymous)

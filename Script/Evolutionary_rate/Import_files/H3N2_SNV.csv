@@ -6,7 +6,7 @@
 4481,1087,G,K,403,12,0.029,2,2,37,33,0.98,1,1,197,206,10,2,T,7,SINGLE LAIV,HA_H3,HA,Non_Synonymous,V363L,No,NA,NA,NA,Not known function (Non_Synonymous)
 4484,1413,G,R,7060,100,0.014,2,2,38,35,0.98,1,1,4191,2869,70,30,A,7,SINGLE LAIV,HA_H3,HA,Synonymous,L471L,No,NA,NA,NA,Not known function (Synonymous)
 4490,830,G,R,260,7,0.026,2,2,40,41,0.98,1,1,142,118,5,2,A,7,NO VAC,HA_H3,HA,Non_Synonymous,R277Q,No,NA,NA,NA,Not known function (Non_Synonymous)
-4499,14,T,Y,368,9,0.024,2,2,35,35,0.98,1,1,366,2,8,1,C,7,PRIME BOOST,HA_H3,HA,Non_Synonymous,I5T,Yes,Influenza A_H3_signal-peptide_1,NA,Uniprot:P03437,Not known function (Stop_Codon)
+4499,14,T,Y,368,9,0.024,2,2,35,35,0.98,1,1,366,2,8,1,C,7,PRIME BOOST,HA_H3,HA,Non_Synonymous,I5T,Yes,Influenza A_H3_signal-peptide_1,NA,Uniprot:P03437,"Viral genome transportation, transcription and replication"
 4499,1188,G,R,3844,42,0.011,2,2,38,34,0.98,1,1,2148,1696,35,7,A,7,PRIME BOOST,HA_H3,HA,Synonymous,K396K,No,NA,NA,NA,Not known function (Synonymous)
 4499,1239,A,R,3752,67,0.018,2,2,38,36,0.98,1,1,1725,2027,23,44,G,7,PRIME BOOST,HA_H3,HA,Synonymous,K413K,No,NA,NA,NA,Not known function (Synonymous)
 4551,1656,G,R,1330,27,0.02,2,2,38,35,0.98,1,1,143,1187,1,26,A,7,PRIME BOOST,HA_H3,HA,Non_Synonymous,M552I,No,NA,NA,NA,Not known function (Non_Synonymous)
