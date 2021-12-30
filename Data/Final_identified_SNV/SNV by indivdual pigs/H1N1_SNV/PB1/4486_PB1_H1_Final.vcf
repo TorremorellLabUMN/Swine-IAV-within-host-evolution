@@ -3,5 +3,3 @@ Chrom	Position	Ref	Cons	Reads1	Reads2	VarFreq	Strands1	Strands2	Qual1	Qual2	Pval
 452_PB1_length_2341_cov_283.595280_pilon	531	G	A	71	423	85.63%	2	2	34	35	0.98	1	1	9	62	208	215	A
 452_PB1_length_2341_cov_283.595280_pilon	818	T	Y	563	10	1.75%	2	2	37	34	0.98	1	1	287	276	5	5	C
 452_PB1_length_2341_cov_283.595280_pilon	1977	C	M	519	8	1.52%	2	2	38	32	0.98	1	1	221	298	7	1	A
-452_PB1_length_2341_cov_283.595280_pilon	2028	C	S	556	15	2.63%	2	2	39	34	0.98	1	1	262	294	1	14	G
-452_PB1_length_2341_cov_283.595280_pilon	2030	C	Y	548	16	2.84%	2	2	40	34	0.98	1	1	259	289	2	14	T
