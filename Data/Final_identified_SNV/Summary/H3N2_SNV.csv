@@ -43,7 +43,7 @@
 4933,6,T,Y,570,40,0.066,2,2,32,31,0.98,1,1,561,9,39,1,C,7,PRIME BOOST,M_H3,M2,Synonymous,S2S,No,NA,NA,NA,Not known function (Synonymous)
 4933,6,T,Y,570,40,0.066,2,2,32,31,0.98,1,1,561,9,39,1,C,7,PRIME BOOST,M_H3,M1,Synonymous,S2S,No,NA,NA,NA,Not known function (Synonymous)
 4933,198,C,M,7081,77,0.011,2,2,36,39,0.98,1,1,5502,1579,60,17,A,7,PRIME BOOST,M_H3,M1,Synonymous,L66L,No,NA,NA,NA,Not known function (Synonymous)
-4933,211,G,K,7505,78,0.01,2,2,37,38,0.98,1,1,5919,1586,63,15,T,7,PRIME BOOST,M_H3,M1,stop_gained,E71*,Yes,NA,NA,NA,Not known function (Stop_Codon)
+4933,211,G,K,7505,78,0.01,2,2,37,38,0.98,1,1,5919,1586,63,15,T,7,PRIME BOOST,M_H3,M1,stop_gained,E71*,No,NA,NA,NA,Not known function (Stop_Codon)
 4933,940,G,R,3077,60,0.019,2,2,35,34,0.98,1,1,215,2862,4,56,A,7,PRIME BOOST,M_H3,M2,Synonymous,V84V,No,NA,NA,NA,Not known function (Synonymous)
 4934,378,T,Y,7161,246,0.033,2,2,37,37,0.98,1,1,4517,2644,163,83,C,7,SINGLE LAIV,M_H3,M1,Synonymous,S126S,No,NA,NA,NA,Not known function (Synonymous)
 4934,476,A,W,7069,80,0.011,2,2,38,37,0.98,1,1,4408,2661,39,41,T,7,SINGLE LAIV,M_H3,M1,Non_Synonymous,H159L,Yes,Influenza A_M1_determinants-of-virulence_148/Influenza A_M1_RNA-binding-domain_135/Influenza A_M1_membrane-binding-region_1/Influenza A_M1_lipid-binding-site_1,The putative zinc finger motif CCHH in the helix 9 of M1 plays a critical role in virulence in vivo in mice although it does not play an important role in virus growth in MDCK cells in cultures . The CCHH motif may be a contributory factor in virus virulence in a species-specific manner along with the remaining residues in the H9 region.,16731908/10438836/11222100/Uniprot:P03485,"Determinant of pathogenicity, virulence and disease progresson"
@@ -56,7 +56,7 @@
 4469,976,C,Y,3799,48,0.013,2,2,36,35,0.98,1,1,2341,1458,23,25,T,7,PRIME BOOST,NA_H3,NA,Non_Synonymous,P326S,No,NA,NA,NA,Not known function (Non_Synonymous)
 4469,1052,G,R,4536,50,0.011,2,2,38,34,0.98,1,1,2569,1967,27,23,A,7,PRIME BOOST,NA_H3,NA,Non_Synonymous,G351D,No,NA,NA,NA,Not known function (Non_Synonymous)
 4479,1246,A,R,703,10,0.014,2,2,39,33,0.98,1,1,187,516,2,8,G,7,SINGLE LAIV,NA_H3,NA,Non_Synonymous,S416G,No,NA,NA,NA,Not known function (Non_Synonymous)
-4481,260,G,R,405,5,0.012,2,2,38,35,0.98,1,1,286,119,2,3,A,7,SINGLE LAIV,NA_H3,NA,stop_gained,W87*,Yes,NA,NA,NA,Not known function (Stop_Codon)
+4481,260,G,R,405,5,0.012,2,2,38,35,0.98,1,1,286,119,2,3,A,7,SINGLE LAIV,NA_H3,NA,stop_gained,W87*,No,NA,NA,NA,Not known function (Stop_Codon)
 4481,303,T,Y,417,31,0.069,2,2,37,33,0.98,1,1,297,120,23,8,C,7,SINGLE LAIV,NA_H3,NA,Synonymous,S101S,No,NA,NA,NA,Not known function (Synonymous)
 4481,366,G,R,482,23,0.046,2,2,39,42,0.98,1,1,262,220,14,9,A,7,SINGLE LAIV,NA_H3,NA,Synonymous,V122V,No,NA,NA,NA,Not known function (Synonymous)
 4481,577,T,Y,554,18,0.031,2,2,40,33,0.98,1,1,349,205,14,4,C,7,SINGLE LAIV,NA_H3,NA,Non_Synonymous,C193R,No,NA,NA,NA,Not known function (Non_Synonymous)
@@ -98,7 +98,7 @@
 4467,448,A,R,1452,27,0.018,2,2,37,35,0.98,1,1,783,669,10,17,G,7,PRIME BOOST,NP_H3,NP,Non_Synonymous,R150G,Yes,Influenza A_NP_RNA-binding-domain_1/Influenza A_NP_PB2-interaction-domain_1,NA,7745727/10438825/9621005,Viral genome/protein interaction
 4467,831,T,Y,1929,49,0.025,2,2,37,35,0.98,1,1,1105,824,27,22,C,7,PRIME BOOST,NP_H3,NP,Synonymous,P277P,No,NA,NA,NA,Not known function (Synonymous)
 4467,878,G,R,2174,25,0.011,2,2,38,40,0.98,1,1,1190,984,19,6,A,7,PRIME BOOST,NP_H3,NP,Non_Synonymous,R293K,Yes,Influenza A_NP_PB2-interaction-domain_255/Influenza A_NP-NP-association-region_189,NA,9621005/10405371,Viral genome/protein interaction
-4467,1100,C,M,1519,75,0.047,2,2,38,37,0.98,1,1,688,831,25,50,A,7,PRIME BOOST,NP_H3,NP,stop_gained,S367*,Yes,NA,NA,NA,Not known function (Stop_Codon)
+4467,1100,C,M,1519,75,0.047,2,2,38,37,0.98,1,1,688,831,25,50,A,7,PRIME BOOST,NP_H3,NP,stop_gained,S367*,No,NA,NA,NA,Not known function (Stop_Codon)
 4467,1244,A,R,1049,15,0.014,2,2,38,33,0.98,1,1,288,761,3,12,G,7,PRIME BOOST,NP_H3,NP,Non_Synonymous,Q415R,Yes,Influenza A_NP-dimerization-domain_402/Influenza A_NP-NP-association-region_371/Influenza A_NP_PB2-interaction-domain_255/Influenza A_NP_PB2-binding-site_340,This region of the tail loop is required for NP dimerization.,17151603/9621005/10405371,Viral genome/protein interaction
 4467,1257,T,Y,921,14,0.015,2,2,38,35,0.98,1,1,246,675,2,12,C,7,PRIME BOOST,NP_H3,NP,Synonymous,P419P,No,NA,NA,NA,Not known function (Synonymous)
 4469,115,T,Y,2652,71,0.026,2,2,40,42,0.98,1,1,2590,62,64,7,C,7,PRIME BOOST,NP_H3,NP,Non_Synonymous,F39L,Yes,Influenza A_NP_RNA-binding-domain_1/Influenza A_NP_PB2-interaction-domain_1,NA,7745727/10438825/9621005,Viral genome/protein interaction
@@ -171,8 +171,8 @@
 5185,676,A,R,1602,24,0.015,2,2,41,43,0.98,1,1,482,1120,13,11,G,7,PRIME BOOST,NS_H3,NS2,Synonymous,Q68Q,No,NA,NA,NA,Not known function (Synonymous)
 4479,283,T,K,524,8,0.015,2,2,41,32,0.98,1,1,366,158,4,4,G,7,SINGLE LAIV,PA_H3,PA-X,Non_Synonymous,C95G,No,NA,NA,NA,Not known function (Non_Synonymous)
 4479,283,T,K,524,8,0.015,2,2,41,32,0.98,1,1,366,158,4,4,G,7,SINGLE LAIV,PA_H3,PA,Non_Synonymous,C95G,No,NA,NA,NA,Not known function (Non_Synonymous)
-4479,285,C,M,466,6,0.011,2,2,41,34,0.98,1,1,334,132,2,4,A,7,SINGLE LAIV,PA_H3,PA-X,stop_gained,C95*,Yes,NA,NA,NA,Not known function (Stop_Codon)
-4479,285,C,M,466,6,0.011,2,2,41,34,0.98,1,1,334,132,2,4,A,7,SINGLE LAIV,PA_H3,PA,stop_gained,C95*,Yes,NA,NA,NA,Not known function (Stop_Codon)
+4479,285,C,M,466,6,0.011,2,2,41,34,0.98,1,1,334,132,2,4,A,7,SINGLE LAIV,PA_H3,PA-X,stop_gained,C95*,No,NA,NA,NA,Not known function (Stop_Codon)
+4479,285,C,M,466,6,0.011,2,2,41,34,0.98,1,1,334,132,2,4,A,7,SINGLE LAIV,PA_H3,PA,stop_gained,C95*,No,NA,NA,NA,Not known function (Stop_Codon)
 4479,684,C,M,762,15,0.019,2,2,42,40,0.98,1,1,406,356,6,9,A,7,SINGLE LAIV,PA_H3,PA-X,Non_Synonymous,T228N,No,NA,NA,NA,Not known function (Non_Synonymous)
 4479,684,C,M,762,15,0.019,2,2,42,40,0.98,1,1,406,356,6,9,A,7,SINGLE LAIV,PA_H3,PA,Non_Synonymous,N228K,No,NA,NA,NA,Not known function (Non_Synonymous)
 4479,1783,A,R,992,12,0.012,2,2,41,35,0.98,1,1,476,516,1,11,G,7,SINGLE LAIV,PA_H3,PA,Non_Synonymous,M595V,Yes,Influenza A_PA_PB1-binding-region_257,The C-terminus of PA interacts with the N-terminal region of PB1 (residues 1-25). This subunit interface complex is essential for initiation of transcription.,18615018,Viral genome/protein interaction
@@ -253,7 +253,7 @@
 4931,673,A,R,3689,74,0.02,2,2,37,37,0.98,1,1,2131,1558,42,32,G,7,PRIME BOOST,PB1_H3,PB1,Non_Synonymous,N225D,No,NA,NA,NA,Not known function (Non_Synonymous)
 4931,1497,T,Y,4695,66,0.014,2,2,39,37,0.98,1,1,2652,2043,36,30,C,7,PRIME BOOST,PB1_H3,PB1,Synonymous,Y499Y,No,NA,NA,NA,Not known function (Synonymous)
 4931,1814,A,R,3128,696,0.182,2,2,39,38,0.98,1,1,1508,1620,313,383,G,7,PRIME BOOST,PB1_H3,PB1,Non_Synonymous,H605R,No,NA,NA,NA,Not known function (Non_Synonymous)
-4934,479,C,M,402,42,0.095,2,2,37,34,0.98,1,1,240,162,12,30,A,7,SINGLE LAIV,PB1_H3,PB1,stop_gained,S160*,Yes,NA,NA,NA,Not known function (Stop_Codon)
+4934,479,C,M,402,42,0.095,2,2,37,34,0.98,1,1,240,162,12,30,A,7,SINGLE LAIV,PB1_H3,PB1,stop_gained,S160*,No,NA,NA,NA,Not known function (Stop_Codon)
 4934,799,G,R,522,29,0.053,2,2,38,35,0.98,1,1,275,247,20,9,A,7,SINGLE LAIV,PB1_H3,PB1,Non_Synonymous,E267K,No,NA,NA,NA,Not known function (Non_Synonymous)
 4934,1180,C,M,800,26,0.032,2,2,37,36,0.98,1,1,297,503,8,18,A,7,SINGLE LAIV,PB1_H3,PB1,Non_Synonymous,P394T,No,NA,NA,NA,Not known function (Non_Synonymous)
 4934,1344,C,Y,835,25,0.029,2,2,37,36,0.98,1,1,427,408,15,10,T,7,SINGLE LAIV,PB1_H3,PB1,Synonymous,A448A,No,NA,NA,NA,Not known function (Synonymous)

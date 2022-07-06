@@ -12,7 +12,7 @@
 4490,645,T,Y,2021,22,0.011,2,2,37,37,0.98,1,1,1082,939,16,6,C,7,NO VAC,HA_H1,HA,Synonymous,Y215Y,No,NA,NA,NA,Not known function (Synonymous)
 4490,725,C,S,1959,137,0.065,2,2,38,34,0.98,1,1,1234,725,44,93,G,7,NO VAC,HA_H1,HA,Non_Synonymous,A242G,No,NA,NA,NA,Not known function (Non_Synonymous)
 4490,1524,G,R,1293,28,0.021,2,2,37,37,0.98,1,1,353,940,10,18,A,7,NO VAC,HA_H1,HA,Synonymous,E508E,No,NA,NA,NA,Not known function (Synonymous)
-4492,253,G,K,2990,101,0.033,2,2,38,34,0.98,1,1,2002,988,71,30,T,7,SINGLE LAIV,HA_H1,HA,stop_gained,E85*,Yes,NA,NA,NA,Not known function (Stop_Codon)
+4492,253,G,K,2990,101,0.033,2,2,38,34,0.98,1,1,2002,988,71,30,T,7,SINGLE LAIV,HA_H1,HA,stop_gained,E85*,No,NA,NA,NA,Not known function (Stop_Codon)
 4492,622,C,A,0,3280,1,0,2,0,37,0.98,0,1,0,0,1723,1557,A,7,SINGLE LAIV,HA_H1,HA,Non_Synonymous,L208I,No,NA,NA,NA,Not known function (Non_Synonymous)
 4492,725,C,G,0,3514,0.997,0,2,0,37,0.98,0,1,0,0,2235,1279,G,7,SINGLE LAIV,HA_H1,HA,Non_Synonymous,A242G,No,NA,NA,NA,Not known function (Non_Synonymous)
 4492,747,A,T,0,3666,1,0,2,0,38,0.98,0,1,0,0,2362,1304,T,7,SINGLE LAIV,HA_H1,HA,Synonymous,T249T,No,NA,NA,NA,Not known function (Synonymous)
@@ -114,7 +114,7 @@
 5175,626,A,R,5357,83,0.015,2,2,38,36,0.98,1,1,2898,2459,47,36,G,7,PRIME BOOST,NA_H1,NA,Non_Synonymous,N209S,Yes,Influenza A_N1_framework-region-of-active-site_149,The active site of Influenza NA is made of the catalytic site residues which interact with the sialic acid substrate and the framework site residues that are indirectly involved in suporting the catalytic site. (PMID: 16912325). Framework residues stabilize the active-site structure,16912325/8497041,"Virus assembly, budding and release"
 5175,681,A,R,5084,101,0.02,2,2,38,35,0.98,1,1,2789,2295,47,54,G,7,PRIME BOOST,NA_H1,NA,Synonymous,Q227Q,No,NA,NA,NA,Not known function (Synonymous)
 5175,1086,T,Y,5034,124,0.024,2,2,39,37,0.98,1,1,2537,2497,71,53,C,7,PRIME BOOST,NA_H1,NA,Synonymous,T362T,No,NA,NA,NA,Not known function (Synonymous)
-5175,1140,G,R,4655,433,0.085,2,2,39,39,0.98,1,1,1753,2902,177,256,A,7,PRIME BOOST,NA_H1,NA,stop_gained,W380*,Yes,NA,NA,NA,Not known function (Stop_Codon)
+5175,1140,G,R,4655,433,0.085,2,2,39,39,0.98,1,1,1753,2902,177,256,A,7,PRIME BOOST,NA_H1,NA,stop_gained,W380*,No,NA,NA,NA,Not known function (Stop_Codon)
 5175,1336,T,Y,2090,75,0.035,2,2,39,36,0.98,1,1,210,1880,6,69,C,7,PRIME BOOST,NA_H1,NA,Non_Synonymous,C446R,No,NA,NA,NA,Not known function (Non_Synonymous)
 5179,423,T,Y,1553,166,0.097,2,2,40,38,0.98,1,1,823,730,85,81,C,7,NO VAC,NA_H1,NA,Synonymous,N141N,No,NA,NA,NA,Not known function (Synonymous)
 4473,12,A,R,257,4,0.015,2,2,35,34,0.98,1,1,256,1,3,1,G,7,SINGLE LAIV,NP_H1,NP,Synonymous,Q4Q,No,NA,NA,NA,Not known function (Synonymous)
@@ -203,8 +203,8 @@
 4495,394,C,M,4250,44,0.01,2,2,38,35,0.98,1,1,2810,1440,26,18,A,7,NO VAC,PA_H1,PA,Non_Synonymous,L132I,No,NA,NA,NA,Not known function (Non_Synonymous)
 4495,1051,G,R,4130,2009,0.327,2,2,38,36,0.98,1,1,2695,1435,1362,647,A,7,NO VAC,PA_H1,PA,Non_Synonymous,E351K,Yes,Influenza A_PA_PB1-binding-region_257,The C-terminus of PA interacts with the N-terminal region of PB1 (residues 1-25). This subunit interface complex is essential for initiation of transcription.,18615018,Viral genome/protein interaction
 4495,1853,C,Y,6487,98,0.015,2,2,37,35,0.98,1,1,2281,4206,64,34,T,7,NO VAC,PA_H1,PA,Non_Synonymous,T618I,Yes,Influenza A_PA_PB1-binding-region_257,The C-terminus of PA interacts with the N-terminal region of PB1 (residues 1-25). This subunit interface complex is essential for initiation of transcription.,18615018,Viral genome/protein interaction
-4499,457,G,K,3162,47,0.015,2,2,38,32,0.98,1,1,1733,1429,43,4,T,7,PRIME BOOST,PA_H1,PA-X,stop_gained,E153*,Yes,NA,NA,NA,Not known function (Stop_Codon)
-4499,457,G,K,3162,47,0.015,2,2,38,32,0.98,1,1,1733,1429,43,4,T,7,PRIME BOOST,PA_H1,PA,stop_gained,E153*,Yes,NA,NA,NA,Not known function (Stop_Codon)
+4499,457,G,K,3162,47,0.015,2,2,38,32,0.98,1,1,1733,1429,43,4,T,7,PRIME BOOST,PA_H1,PA-X,stop_gained,E153*,No,NA,NA,NA,Not known function (Stop_Codon)
+4499,457,G,K,3162,47,0.015,2,2,38,32,0.98,1,1,1733,1429,43,4,T,7,PRIME BOOST,PA_H1,PA,stop_gained,E153*,No,NA,NA,NA,Not known function (Stop_Codon)
 4499,1025,T,Y,4760,50,0.01,2,2,37,36,0.98,1,1,3209,1551,40,10,C,7,PRIME BOOST,PA_H1,PA,Non_Synonymous,L342P,Yes,Influenza A_PA_PB1-binding-region_257,The C-terminus of PA interacts with the N-terminal region of PB1 (residues 1-25). This subunit interface complex is essential for initiation of transcription.,18615018,Viral genome/protein interaction
 4499,1773,G,R,4236,139,0.032,2,2,39,36,0.98,1,1,2025,2211,77,62,A,7,PRIME BOOST,PA_H1,PA,Synonymous,Q591Q,No,NA,NA,NA,Not known function (Synonymous)
 4938,298,G,R,4068,95,0.023,2,2,39,37,0.98,1,1,2986,1082,67,28,A,7,NO VAC,PA_H1,PA-X,Non_Synonymous,V100I,No,NA,NA,NA,Not known function (Non_Synonymous)
@@ -215,7 +215,7 @@
 5166,633,G,A,74,588,0.888,2,2,37,37,0.98,1,1,43,31,361,227,A,7,SINGLE LAIV,PA_H1,PA,Non_Synonymous,M211I,No,NA,NA,NA,Not known function (Non_Synonymous)
 5166,720,C,M,568,8,0.014,2,2,39,36,0.98,1,1,281,287,4,4,A,7,SINGLE LAIV,PA_H1,PA,Synonymous,G240G,No,NA,NA,NA,Not known function (Synonymous)
 5166,2109,T,Y,477,30,0.059,2,2,39,36,0.98,1,1,47,430,1,29,C,7,SINGLE LAIV,PA_H1,PA,Synonymous,N703N,No,NA,NA,NA,Not known function (Synonymous)
-5167,362,G,K,222,4,0.018,2,2,42,53,0.98,1,1,145,77,3,1,T,7,NO VAC,PA_H1,PA-X,Non_Synonymous,G121V,,No,NA,NA,Not known function (Non_Synonymous)
+5167,362,G,K,222,4,0.018,2,2,42,53,0.98,1,1,145,77,3,1,T,7,NO VAC,PA_H1,PA-X,Non_Synonymous,G121V,No,No,NA,NA,Not known function (Non_Synonymous)
 5167,362,G,K,222,4,0.018,2,2,42,53,0.98,1,1,145,77,3,1,T,7,NO VAC,PA_H1,PA,Non_Synonymous,G121V,No,NA,NA,NA,Not known function (Non_Synonymous)
 5167,1847,C,Y,478,15,0.03,2,2,38,38,0.98,1,1,126,352,5,10,T,7,NO VAC,PA_H1,PA,Non_Synonymous,S616L,Yes,Influenza A_PA_PB1-binding-region_257,The C-terminus of PA interacts with the N-terminal region of PB1 (residues 1-25). This subunit interface complex is essential for initiation of transcription.,18615018,Viral genome/protein interaction
 5167,2070,C,Y,219,19,0.08,2,2,44,38,0.98,1,1,53,166,2,17,T,7,NO VAC,PA_H1,PA,Synonymous,I690I,No,NA,NA,NA,Not known function (Synonymous)
@@ -266,7 +266,7 @@
 4493,993,G,K,3119,148,0.045,2,2,38,38,0.98,1,1,1747,1372,102,46,T,7,NO VAC,PB1_H1,PB1,Non_Synonymous,E331D,No,NA,NA,NA,Not known function (Non_Synonymous)
 4493,1207,T,Y,3353,39,0.012,2,2,37,34,0.98,1,1,1786,1567,18,21,C,7,NO VAC,PB1_H1,PB1,Synonymous,L403L,No,NA,NA,NA,Not known function (Synonymous)
 4493,1559,C,Y,3786,40,0.01,2,2,39,40,0.98,1,1,1470,2316,16,24,T,7,NO VAC,PB1_H1,PB1,Non_Synonymous,S520L,No,NA,NA,NA,Not known function (Non_Synonymous)
-4493,1997,G,R,2575,42,0.016,2,2,38,37,0.98,1,1,1193,1382,24,18,A,7,NO VAC,PB1_H1,PB1,stop_gained,W666*,Yes,NA,NA,NA,Not known function (Stop_Codon)
+4493,1997,G,R,2575,42,0.016,2,2,38,37,0.98,1,1,1193,1382,24,18,A,7,NO VAC,PB1_H1,PB1,stop_gained,W666*,No,NA,NA,NA,Not known function (Stop_Codon)
 4493,2009,G,R,2530,28,0.011,2,2,39,34,0.98,1,1,1164,1366,21,7,A,7,NO VAC,PB1_H1,PB1,Non_Synonymous,R670K,No,NA,NA,NA,Not known function (Non_Synonymous)
 4493,2168,G,R,1255,559,0.308,2,2,39,39,0.98,1,1,230,1025,82,477,A,7,NO VAC,PB1_H1,PB1,Non_Synonymous,R723Q,Yes,Influenza A_PB1_PB2-binding-region_685,The C-terminal three helix bundle of PB1 binds to 1_37 and 1_86 fragments on the N-terminus of PB2. This interface is crucial for the regulation of overall enzyme activity,19461581/17967456/8811014,Viral genome/protein interaction
 4493,2241,T,Y,800,23,0.028,2,2,38,41,0.98,1,1,70,730,4,19,C,7,NO VAC,PB1_H1,PB1,Synonymous,C747C,No,NA,NA,NA,Not known function (Synonymous)
@@ -282,7 +282,7 @@
 4938,531,G,A,18,2522,0.993,2,2,35,37,0.98,1,1,7,11,1395,1127,A,7,NO VAC,PB1_H1,PB1,Synonymous,E177E,No,NA,NA,NA,Not known function (Synonymous)
 4938,941,A,W,2970,31,0.01,2,2,38,36,0.98,1,1,1726,1244,18,13,T,7,NO VAC,PB1_H1,PB1,Non_Synonymous,N314I,No,NA,NA,NA,Not known function (Non_Synonymous)
 4938,1107,A,M,3392,41,0.012,2,2,40,33,0.98,1,1,1921,1471,27,14,C,7,NO VAC,PB1_H1,PB1,Synonymous,P369P,No,NA,NA,NA,Not known function (Synonymous)
-4938,1410,C,M,3723,52,0.014,2,2,38,36,0.98,1,1,2432,1291,30,22,A,7,NO VAC,PB1_H1,PB1,stop_gained,C470*,Yes,NA,NA,NA,Not known function (Stop_Codon)
+4938,1410,C,M,3723,52,0.014,2,2,38,36,0.98,1,1,2432,1291,30,22,A,7,NO VAC,PB1_H1,PB1,stop_gained,C470*,No,NA,NA,NA,Not known function (Stop_Codon)
 4938,1497,T,Y,3808,53,0.014,2,2,39,35,0.98,1,1,2285,1523,34,19,C,7,NO VAC,PB1_H1,PB1,Synonymous,Y499Y,No,NA,NA,NA,Not known function (Synonymous)
 4938,1562,C,M,3896,42,0.011,2,2,38,40,0.98,1,1,1496,2400,17,25,A,7,NO VAC,PB1_H1,PB1,Non_Synonymous,A521D,No,NA,NA,NA,Not known function (Non_Synonymous)
 4938,2006,A,R,2198,28,0.013,2,2,40,40,0.98,1,1,965,1233,11,17,G,7,NO VAC,PB1_H1,PB1,Non_Synonymous,K669R,No,NA,NA,NA,Not known function (Non_Synonymous)
@@ -293,7 +293,7 @@
 5167,531,G,R,181,62,0.254,2,2,37,37,0.98,1,1,54,127,20,42,A,7,NO VAC,PB1_H1,PB1,Synonymous,E177E,No,NA,NA,NA,Not known function (Synonymous)
 5167,1236,C,M,280,4,0.014,2,2,36,36,0.98,1,1,156,124,2,2,A,7,NO VAC,PB1_H1,PB1,Non_Synonymous,F412L,No,NA,NA,NA,Not known function (Non_Synonymous)
 5174,782,G,K,642,21,0.032,2,2,40,36,0.98,1,1,443,199,14,7,T,7,NO VAC,PB1_H1,PB1,Non_Synonymous,S261I,No,NA,NA,NA,Not known function (Non_Synonymous)
-5174,799,G,K,633,8,0.013,2,2,40,33,0.98,1,1,375,258,5,3,T,7,NO VAC,PB1_H1,PB1,stop_gained,E267*,Yes,NA,NA,NA,Not known function (Stop_Codon)
+5174,799,G,K,633,8,0.013,2,2,40,33,0.98,1,1,375,258,5,3,T,7,NO VAC,PB1_H1,PB1,stop_gained,E267*,No,NA,NA,NA,Not known function (Stop_Codon)
 5174,1172,A,R,693,34,0.047,2,2,37,40,0.98,1,1,208,485,10,24,G,7,NO VAC,PB1_H1,PB1,Non_Synonymous,K391R,No,NA,NA,NA,Not known function (Non_Synonymous)
 5174,1914,T,Y,744,37,0.047,2,2,38,38,0.98,1,1,323,421,19,18,C,7,NO VAC,PB1_H1,PB1,Synonymous,D638D,No,NA,NA,NA,Not known function (Synonymous)
 5174,2199,A,R,749,10,0.013,2,2,42,37,0.98,1,1,181,568,3,7,G,7,NO VAC,PB1_H1,PB1,Synonymous,G733G,No,NA,NA,NA,Not known function (Synonymous)
@@ -347,7 +347,7 @@
 4937,972,C,T,156,5226,0.971,2,2,39,38,0.98,1,1,96,60,3275,1951,T,7,SINGLE LAIV,PB2_H1,PB2,Synonymous,S324S,No,NA,NA,NA,Not known function (Synonymous)
 4937,1390,T,Y,5299,126,0.023,2,2,38,36,0.98,1,1,2458,2841,70,56,C,7,SINGLE LAIV,PB2_H1,PB2,Synonymous,L464L,No,NA,NA,NA,Not known function (Synonymous)
 4937,1791,G,R,6288,126,0.02,2,2,39,36,0.98,1,1,3286,3002,77,49,A,7,SINGLE LAIV,PB2_H1,PB2,Synonymous,R597R,No,NA,NA,NA,Not known function (Synonymous)
-4938,296,G,R,2423,25,0.01,2,2,39,36,0.98,1,1,1371,1052,16,9,A,7,NO VAC,PB2_H1,PB2,stop_gained,W99*,Yes,NA,NA,NA,Not known function (Stop_Codon)
+4938,296,G,R,2423,25,0.01,2,2,39,36,0.98,1,1,1371,1052,16,9,A,7,NO VAC,PB2_H1,PB2,stop_gained,W99*,No,NA,NA,NA,Not known function (Stop_Codon)
 4938,486,G,K,2915,33,0.011,2,2,37,32,0.98,1,1,1935,980,28,5,T,7,NO VAC,PB2_H1,PB2,Synonymous,V162V,No,NA,NA,NA,Not known function (Synonymous)
 4938,621,A,R,3195,33,0.01,2,2,38,40,0.98,1,1,1976,1219,17,16,G,7,NO VAC,PB2_H1,PB2,Synonymous,L207L,No,NA,NA,NA,Not known function (Synonymous)
 4938,1014,T,Y,3555,36,0.01,2,2,38,36,0.98,1,1,1906,1649,29,7,C,7,NO VAC,PB2_H1,PB2,Synonymous,V338V,No,NA,NA,NA,Not known function (Synonymous)
