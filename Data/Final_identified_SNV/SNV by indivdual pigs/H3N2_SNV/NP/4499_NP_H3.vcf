@@ -1,2 +1,0 @@
-Chrom	Position	Ref	Cons	Reads1	Reads2	VarFreq	Strands1	Strands2	Qual1	Qual2	Pvalue	MapQual1	MapQual2	Reads1Plus	Reads1Minus	Reads2Plus	Reads2Minus	VarAllele
-NP_H3	644	C	M	7368	91	1.22%	2	2	37	34	0.98	1	1	4415	2953	61	30	A

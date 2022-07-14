@@ -1,6 +1,0 @@
-Chrom	Position	Ref	Cons	Reads1	Reads2	VarFreq	Strands1	Strands2	Qual1	Qual2	Pvalue	MapQual1	MapQual2	Reads1Plus	Reads1Minus	Reads2Plus	Reads2Minus	VarAllele
-458_PB1_length_2341_cov_327.896021_pilon	1201	G	R	262	7	2.60%	2	2	37	35	0.98	1	1	137	125	4	3	A
-458_PB1_length_2341_cov_327.896021_pilon	1442	A	R	492	7	1.40%	2	2	39	35	0.98	1	1	353	139	6	1	G
-458_PB1_length_2341_cov_327.896021_pilon	1543	T	Y	466	5	1.06%	2	2	37	48	0.98	1	1	252	214	3	2	C
-458_PB1_length_2341_cov_327.896021_pilon	1661	A	R	524	6	1.13%	2	2	37	40	0.98	1	1	226	298	1	5	G
-458_PB1_length_2341_cov_327.896021_pilon	1848	G	R	379	50	11.66%	2	2	37	35	0.98	1	1	140	239	16	34	A
