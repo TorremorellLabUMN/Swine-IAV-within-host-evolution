@@ -125,8 +125,8 @@ Pig_ID,Group,Mutation_type,Protein,Evolution_rate
 5175,PRIME BOOST,Synonymous,M1,1.58E-05
 5175,PRIME BOOST,Synonymous,M2,0
 5175,PRIME BOOST,Synonymous,NS1,8.31E-05
-5175,PRIME BOOST,Synonymous,NS2,7.65E-05
-5175,PRIME BOOST,Synonymous,Whole_genome,0.00011344
+5175,PRIME BOOST,Synonymous,NS2,0.00E+00
+5175,PRIME BOOST,Synonymous,Whole_genome,0.00011149
 4934,SINGLE LAIV,Synonymous,PB2,0.000172431
 4934,SINGLE LAIV,Synonymous,PB1,4.02E-06
 4934,SINGLE LAIV,Synonymous,PB1-F2,0
@@ -342,8 +342,8 @@ Pig_ID,Group,Mutation_type,Protein,Evolution_rate
 5175,PRIME BOOST,Non-Synonymous,M1,2.56E-05
 5175,PRIME BOOST,Non-Synonymous,M2,1.42E-05
 5175,PRIME BOOST,Non-Synonymous,NS1,0
-5175,PRIME BOOST,Non-Synonymous,NS2,0
-5175,PRIME BOOST,Non-Synonymous,Whole_genome,2.72E-05
+5175,PRIME BOOST,Non-Synonymous,NS2,0.00002656
+5175,PRIME BOOST,Non-Synonymous,Whole_genome,2.79E-05
 5167,NO VAC,Non-Synonymous,PB2,4.10E-05
 5167,NO VAC,Non-Synonymous,PB1,1.22E-06
 5167,NO VAC,Non-Synonymous,PB1-F2,0
