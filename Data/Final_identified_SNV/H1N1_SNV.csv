@@ -156,7 +156,7 @@
 4938,558,A,R,6740,79,0.012,39,35,3184,3556,29,50,G,7,NO VAC,NS_H1,NS1,Synonymous,E186E,No,NA,NA,NA,Not known function (Synonymous)
 5167,703,G,R,570,589,0.508,38,39,82,488,107,482,A,7,NO VAC,NS_H1,NS2,Synonymous,R77R,No,NA,NA,NA,Not known function (Synonymous)
 5175,261,G,R,6927,338,0.047,38,36,4944,1983,235,103,A,7,PRIME BOOST,NS_H1,NS1,Synonymous,S87S,No,NA,NA,NA,Not known function (Synonymous)
-5175,549,A,R,6724,348,0.049,37,38,3405,3319,158,190,G,7,PRIME BOOST,NS_H1,NS2,Synonymous,E26G,No,NA,NA,NA,Not known function (Synonymous)
+5175,549,A,R,6724,348,0.049,37,38,3405,3319,158,190,G,7,PRIME BOOST,NS_H1,NS2,Non_Synonymous,E26G,No,NA,NA,NA,Not known function (Non_Synonymous)
 5175,549,A,R,6724,348,0.049,37,38,3405,3319,158,190,G,7,PRIME BOOST,NS_H1,NS1,Synonymous,G183G,No,NA,NA,NA,Not known function (Synonymous)
 5179,196,G,R,3447,40,0.012,40,33,2707,740,27,13,A,7,NO VAC,NS_H1,NS1,Non_Synonymous,E66K,Yes,Influenza A_NS1_RNA-binding-domain_1,The N-terminal domain of NS1 binds several RNA species; including dsRNA. This domain also mediates interactions with RIG-I; possibly via dsRNA intermediates; PABPI; and importin-alpha.,18796704/17475623/18813227,Host-virus interaction machinery
 5179,566,G,R,4033,50,0.012,38,33,1990,2043,22,28,A,7,NO VAC,NS_H1,NS2,Non_Synonymous,V32I,No,NA,NA,NA,Not known function (Non_Synonymous)
