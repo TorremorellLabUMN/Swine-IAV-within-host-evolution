@@ -125,8 +125,8 @@ Pig_ID,Group,Mutation_type,Protein,Evolution_rate
 5175,PRIME BOOST,Synonymous,M1,1.58E-05
 5175,PRIME BOOST,Synonymous,M2,0
 5175,PRIME BOOST,Synonymous,NS1,8.31E-05
-5175,PRIME BOOST,Synonymous,NS2,0.00E+00
-5175,PRIME BOOST,Synonymous,Whole_genome,0.00011149
+5175,PRIME BOOST,Synonymous,NS2,0
+5175,PRIME BOOST,Synonymous,Whole_genome,0.000111487
 4934,SINGLE LAIV,Synonymous,PB2,0.000172431
 4934,SINGLE LAIV,Synonymous,PB1,4.02E-06
 4934,SINGLE LAIV,Synonymous,PB1-F2,0
@@ -342,7 +342,7 @@ Pig_ID,Group,Mutation_type,Protein,Evolution_rate
 5175,PRIME BOOST,Non-Synonymous,M1,2.56E-05
 5175,PRIME BOOST,Non-Synonymous,M2,1.42E-05
 5175,PRIME BOOST,Non-Synonymous,NS1,0
-5175,PRIME BOOST,Non-Synonymous,NS2,0.00002656
+5175,PRIME BOOST,Non-Synonymous,NS2,2.66E-05
 5175,PRIME BOOST,Non-Synonymous,Whole_genome,2.79E-05
 5167,NO VAC,Non-Synonymous,PB2,4.10E-05
 5167,NO VAC,Non-Synonymous,PB1,1.22E-06
@@ -453,7 +453,7 @@ Pig_ID,Group,Mutation_type,Protein,Evolution_rate
 5175,PRIME BOOST,Stop-gained,PA-X,0
 5175,PRIME BOOST,Stop-gained,HA,0
 5175,PRIME BOOST,Stop-gained,NP,0
-5175,PRIME BOOST,Stop-gained,NA,0.000285714
+5175,PRIME BOOST,Stop-gained,NA,0.000287065
 5175,PRIME BOOST,Stop-gained,M1,0
 5175,PRIME BOOST,Stop-gained,M2,0
 5175,PRIME BOOST,Stop-gained,NS1,0
@@ -474,7 +474,7 @@ Pig_ID,Group,Mutation_type,Protein,Evolution_rate
 4493,NO VAC,Stop-gained,M2,0
 4493,NO VAC,Stop-gained,NS1,0
 4493,NO VAC,Stop-gained,NS2,0
-4493,NO VAC,Stop-gained,Whole_genome,5.31E-06
+4493,NO VAC,Stop-gained,Whole_genome,5.32E-06
 4938,NO VAC,Stop-gained,PB2,2.09E-05
 4938,NO VAC,Stop-gained,PB1,2.93E-05
 4938,NO VAC,Stop-gained,PB1-F2,0

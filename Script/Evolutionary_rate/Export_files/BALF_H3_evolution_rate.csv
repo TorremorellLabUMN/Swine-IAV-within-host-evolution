@@ -525,7 +525,7 @@ Pig_ID,Group,Mutation_type,Protein,Evolution_rate
 4933,PRIME BOOST,Stop-gained,M2,0.0
 4933,PRIME BOOST,Stop-gained,NS1,0.0
 4933,PRIME BOOST,Stop-gained,NS2,0.0
-4933,PRIME BOOST,Stop-gained,Whole_genome,3.321255035852948e-06
+4933,PRIME BOOST,Stop-gained,Whole_genome,3.322800057152161e-06
 4481,SINGLE LAIV,Stop-gained,PB2,0.0
 4481,SINGLE LAIV,Stop-gained,PB1,0.0
 4481,SINGLE LAIV,Stop-gained,PB1-F2,0.0
@@ -533,12 +533,12 @@ Pig_ID,Group,Mutation_type,Protein,Evolution_rate
 4481,SINGLE LAIV,Stop-gained,PA-X,0.0
 4481,SINGLE LAIV,Stop-gained,HA,0.0
 4481,SINGLE LAIV,Stop-gained,NP,0.0
-4481,SINGLE LAIV,Stop-gained,NA,4.033613445378152e-05
+4481,SINGLE LAIV,Stop-gained,NA,4.052684903748734e-05
 4481,SINGLE LAIV,Stop-gained,M1,0.0
 4481,SINGLE LAIV,Stop-gained,M2,0.0
 4481,SINGLE LAIV,Stop-gained,NS1,0.0
 4481,SINGLE LAIV,Stop-gained,NS2,0.0
-4481,SINGLE LAIV,Stop-gained,Whole_genome,3.9855060430235376e-06
+4481,SINGLE LAIV,Stop-gained,Whole_genome,3.987360068582593e-06
 4467,PRIME BOOST,Stop-gained,PB2,0.0
 4467,PRIME BOOST,Stop-gained,PB1,0.0
 4467,PRIME BOOST,Stop-gained,PB1-F2,0.0
@@ -551,7 +551,7 @@ Pig_ID,Group,Mutation_type,Protein,Evolution_rate
 4467,PRIME BOOST,Stop-gained,M2,0.0
 4467,PRIME BOOST,Stop-gained,NS1,0.0
 4467,PRIME BOOST,Stop-gained,NS2,0.0
-4467,PRIME BOOST,Stop-gained,Whole_genome,1.5609898668508857e-05
+4467,PRIME BOOST,Stop-gained,Whole_genome,1.5617160268615155e-05
 4479,SINGLE LAIV,Stop-gained,PB2,0.0
 4479,SINGLE LAIV,Stop-gained,PB1,0.0
 4479,SINGLE LAIV,Stop-gained,PB1-F2,0.0
@@ -564,7 +564,7 @@ Pig_ID,Group,Mutation_type,Protein,Evolution_rate
 4479,SINGLE LAIV,Stop-gained,M2,0.0
 4479,SINGLE LAIV,Stop-gained,NS1,0.0
 4479,SINGLE LAIV,Stop-gained,NS2,0.0
-4479,SINGLE LAIV,Stop-gained,Whole_genome,7.306761078876485e-06
+4479,SINGLE LAIV,Stop-gained,Whole_genome,7.310160125734753e-06
 4934,SINGLE LAIV,Stop-gained,PB2,0.0
 4934,SINGLE LAIV,Stop-gained,PB1,0.00019893621476734934
 4934,SINGLE LAIV,Stop-gained,PB1-F2,0.0
@@ -577,7 +577,7 @@ Pig_ID,Group,Mutation_type,Protein,Evolution_rate
 4934,SINGLE LAIV,Stop-gained,M2,0.0
 4934,SINGLE LAIV,Stop-gained,NS1,0.0
 4934,SINGLE LAIV,Stop-gained,NS2,0.0
-4934,SINGLE LAIV,Stop-gained,Whole_genome,3.155192284060301e-05
+4934,SINGLE LAIV,Stop-gained,Whole_genome,3.156660054294553e-05
 4469,PRIME BOOST,Stop-gained,NP,0.0
 4469,PRIME BOOST,Stop-gained,NA,0.0
 4469,PRIME BOOST,Stop-gained,M1,0.0
