@@ -88,7 +88,7 @@ for gene in Total_H3:
 
 for gene in LAIV_NONE_H3:
     print(gene+":"+str(Counter(LAIV_NONE_H3[gene])))
-#Results:4 shared mutations in LAIV_NONE pigs.
+#Results:2 shared mutations in LAIV_NONE pigs.
 
 for gene in Prime_boost_H3:
     print(gene+":"+str(Counter(Prime_boost_H3[gene])))
