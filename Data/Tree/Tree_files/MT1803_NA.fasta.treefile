@@ -478,7 +478,7 @@ begin figtree;
 	set nodeShapeExternal.sizeAttribute="Fixed";
 	set nodeShapeInternal.colourAttribute="User selection";
 	set nodeShapeInternal.isShown=true;
-	set nodeShapeInternal.minSize=10.0;
+	set nodeShapeInternal.minSize=0.0;
 	set nodeShapeInternal.scaleType=Width;
 	set nodeShapeInternal.shapeType=Circle;
 	set nodeShapeInternal.size=5.0;
